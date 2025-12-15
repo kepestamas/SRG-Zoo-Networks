@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Global_50_125_pmst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Global"
   node [
@@ -382,11 +382,6 @@ graph [
 ]
   edge [
     source "Yam"
-    target "Cankaya"
-    id "E5"
-]
-  edge [
-    source "Yam"
     target "Novosibirsk"
     id "E6"
 ]
@@ -404,21 +399,6 @@ graph [
     source "Shanghai"
     target "Nanjing"
     id "E9"
-]
-  edge [
-    source "Shanghai"
-    target "Tai'an"
-    id "E10"
-]
-  edge [
-    source "Shanghai"
-    target "Wuhan"
-    id "E11"
-]
-  edge [
-    source "Shanghai"
-    target "Beijing"
-    id "E12"
 ]
   edge [
     source "Shanghai"
@@ -461,16 +441,6 @@ graph [
     id "E20"
 ]
   edge [
-    source "Shenzhen"
-    target "Wuhan"
-    id "E21"
-]
-  edge [
-    source "Shenzhen"
-    target "Hanoi"
-    id "E22"
-]
-  edge [
     source "Dhaka"
     target "Jabalpur"
     id "E23"
@@ -487,28 +457,13 @@ graph [
 ]
   edge [
     source "Dhaka"
-    target "Hansi"
-    id "E26"
-]
-  edge [
-    source "Dhaka"
     target "Hanoi"
     id "E27"
 ]
   edge [
     source "Dhaka"
-    target "Sasvad"
-    id "E28"
-]
-  edge [
-    source "Dhaka"
     target "Malacca"
     id "E29"
-]
-  edge [
-    source "Dhaka"
-    target "Cikupa"
-    id "E30"
 ]
   edge [
     source "Beijing"
@@ -524,11 +479,6 @@ graph [
     source "Beijing"
     target "Zhengzhou"
     id "E33"
-]
-  edge [
-    source "Beijing"
-    target "Chengdu"
-    id "E34"
 ]
   edge [
     source "Beijing"
@@ -549,11 +499,6 @@ graph [
     source "Venlo"
     target "Lagny-sur-Marne"
     id "E38"
-]
-  edge [
-    source "Venlo"
-    target "Erandio"
-    id "E39"
 ]
   edge [
     source "Jabalpur"
@@ -579,11 +524,6 @@ graph [
     source "Houston"
     target "Evergreen Park"
     id "E44"
-]
-  edge [
-    source "Houston"
-    target "Bountiful"
-    id "E45"
 ]
   edge [
     source "Houston"
@@ -614,11 +554,6 @@ graph [
     source "Calumpit"
     target "Hanoi"
     id "E51"
-]
-  edge [
-    source "Calumpit"
-    target "Wuhan"
-    id "E52"
 ]
   edge [
     source "Calumpit"
@@ -661,11 +596,6 @@ graph [
     id "E60"
 ]
   edge [
-    source "Guangzhou"
-    target "Liuzhi"
-    id "E61"
-]
-  edge [
     source "Novosibirsk"
     target "Business Bay"
     id "E62"
@@ -697,11 +627,6 @@ graph [
 ]
   edge [
     source "Erandio"
-    target "Dortmund"
-    id "E68"
-]
-  edge [
-    source "Erandio"
     target "Ibadan"
     id "E69"
 ]
@@ -722,18 +647,8 @@ graph [
 ]
   edge [
     source "Mumbai"
-    target "Nilithi"
-    id "E73"
-]
-  edge [
-    source "Mumbai"
     target "Hansi"
     id "E74"
-]
-  edge [
-    source "Mumbai"
-    target "Wad Rawah"
-    id "E75"
 ]
   edge [
     source "Nanjing"
@@ -749,11 +664,6 @@ graph [
     source "Cikupa"
     target "Malacca"
     id "E78"
-]
-  edge [
-    source "Cikupa"
-    target "Sasvad"
-    id "E79"
 ]
   edge [
     source "Wuhan"
@@ -816,21 +726,6 @@ graph [
     id "E91"
 ]
   edge [
-    source "Kyiv"
-    target "Oxford"
-    id "E92"
-]
-  edge [
-    source "Idaho Falls"
-    target "Los Angeles"
-    id "E93"
-]
-  edge [
-    source "Idaho Falls"
-    target "Burleson"
-    id "E94"
-]
-  edge [
     source "Idaho Falls"
     target "Evergreen Park"
     id "E95"
@@ -844,11 +739,6 @@ graph [
     source "Anshun"
     target "Liuzhi"
     id "E97"
-]
-  edge [
-    source "Anshun"
-    target "Chengdu"
-    id "E98"
 ]
   edge [
     source "Ujjain"
@@ -891,24 +781,9 @@ graph [
     id "E106"
 ]
   edge [
-    source "Sant'Antioco"
-    target "Wad Rawah"
-    id "E107"
-]
-  edge [
     source "Middelburg"
     target "Lagny-sur-Marne"
     id "E108"
-]
-  edge [
-    source "Middelburg"
-    target "Dortmund"
-    id "E109"
-]
-  edge [
-    source "Middelburg"
-    target "Oxford"
-    id "E110"
 ]
   edge [
     source "Business Bay"
@@ -924,11 +799,6 @@ graph [
     source "Chengdu"
     target "Zhengzhou"
     id "E113"
-]
-  edge [
-    source "Chengdu"
-    target "Hanoi"
-    id "E114"
 ]
   edge [
     source "Chengdu"
@@ -974,10 +844,5 @@ graph [
     source "Tai'an"
     target "Zhengzhou"
     id "E123"
-]
-  edge [
-    source "Oxford"
-    target "Lagny-sur-Marne"
-    id "E124"
 ]
 ]

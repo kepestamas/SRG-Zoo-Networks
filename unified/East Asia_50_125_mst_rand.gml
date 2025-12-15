@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "East Asia_50_125_mst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "East Asia"
   node [
@@ -362,13 +362,8 @@ graph [
 ]
   edge [
     source "Mito"
-    target "Toki"
-    id "E68"
-]
-  edge [
-    source "Mito"
-    target "Okayama"
-    id "E103"
+    target "Kosan"
+    id "Non_labeled_0"
 ]
   edge [
     source "Xichang"
@@ -382,18 +377,8 @@ graph [
 ]
   edge [
     source "Xichang"
-    target "Baitao"
-    id "E96"
-]
-  edge [
-    source "Xichang"
     target "Pingwu County"
     id "E97"
-]
-  edge [
-    source "Xichang"
-    target "Yinchuan"
-    id "E123"
 ]
   edge [
     source "Kwangyang"
@@ -411,16 +396,6 @@ graph [
     id "E64"
 ]
   edge [
-    source "Kwangyang"
-    target "Kosan"
-    id "E113"
-]
-  edge [
-    source "Kwangyang"
-    target "Shanghai"
-    id "E119"
-]
-  edge [
     source "Weifang"
     target "Linyi"
     id "E5"
@@ -432,23 +407,8 @@ graph [
 ]
   edge [
     source "Weifang"
-    target "Gaoyou"
-    id "E66"
-]
-  edge [
-    source "Weifang"
-    target "Beijing"
-    id "E83"
-]
-  edge [
-    source "Weifang"
     target "Bailuquan"
     id "E84"
-]
-  edge [
-    source "Weifang"
-    target "Shanghai"
-    id "E85"
 ]
   edge [
     source "Weinan"
@@ -472,18 +432,8 @@ graph [
 ]
   edge [
     source "Weinan"
-    target "Gangu Chengguanzhen"
-    id "E80"
-]
-  edge [
-    source "Weinan"
     target "Yinchuan"
     id "E92"
-]
-  edge [
-    source "Weinan"
-    target "Bailuquan"
-    id "E98"
 ]
   edge [
     source "Pucheng"
@@ -532,28 +482,13 @@ graph [
 ]
   edge [
     source "Taipei"
-    target "Jieyang"
-    id "E110"
-]
-  edge [
-    source "Taipei"
     target "Cixi"
     id "E111"
-]
-  edge [
-    source "Taipei"
-    target "Shanghai"
-    id "E117"
 ]
   edge [
     source "Foshan"
     target "Zhongshan"
     id "E14"
-]
-  edge [
-    source "Foshan"
-    target "Kowloon City"
-    id "E51"
 ]
   edge [
     source "Foshan"
@@ -564,11 +499,6 @@ graph [
     source "Foshan"
     target "Xiangtan"
     id "E94"
-]
-  edge [
-    source "Foshan"
-    target "Changde"
-    id "E106"
 ]
   edge [
     source "Foshan"
@@ -611,16 +541,6 @@ graph [
     id "E81"
 ]
   edge [
-    source "Beijing"
-    target "Yinchuan"
-    id "E114"
-]
-  edge [
-    source "Beijing"
-    target "Bayan"
-    id "E121"
-]
-  edge [
     source "Shanghai"
     target "Zhangjiagang"
     id "E18"
@@ -629,11 +549,6 @@ graph [
     source "Shanghai"
     target "Cixi"
     id "E19"
-]
-  edge [
-    source "Shanghai"
-    target "Gaoyou"
-    id "E59"
 ]
   edge [
     source "Shanghai"
@@ -654,11 +569,6 @@ graph [
     source "Cixi"
     target "Nanjing"
     id "E55"
-]
-  edge [
-    source "Cixi"
-    target "Huainan"
-    id "E73"
 ]
   edge [
     source "Cixi"
@@ -702,11 +612,6 @@ graph [
 ]
   edge [
     source "Zhongshan"
-    target "Baitao"
-    id "E118"
-]
-  edge [
-    source "Zhongshan"
     target "Haikou"
     id "E122"
 ]
@@ -727,11 +632,6 @@ graph [
 ]
   edge [
     source "Yunyang"
-    target "Xi'an"
-    id "E79"
-]
-  edge [
-    source "Yunyang"
     target "Changde"
     id "E89"
 ]
@@ -744,6 +644,16 @@ graph [
     source "Bayan"
     target "Chaoyang"
     id "E25"
+]
+  edge [
+    source "Bayan"
+    target "Javhlant"
+    id "Non_labeled_1"
+]
+  edge [
+    source "Bayan"
+    target "Kosan"
+    id "Non_labeled_2"
 ]
   edge [
     source "Haikou"
@@ -916,11 +826,6 @@ graph [
     id "E43"
 ]
   edge [
-    source "Okayama"
-    target "Toki"
-    id "E67"
-]
-  edge [
     source "Nanjing"
     target "Gaoyou"
     id "E44"
@@ -929,11 +834,6 @@ graph [
     source "Pyongyang"
     target "Chaoyang"
     id "E45"
-]
-  edge [
-    source "Pyongyang"
-    target "Masan"
-    id "E104"
 ]
   edge [
     source "Masan"
@@ -956,11 +856,6 @@ graph [
     id "E46"
 ]
   edge [
-    source "Tokyo"
-    target "Osaka"
-    id "E63"
-]
-  edge [
     source "Osaka"
     target "Toki"
     id "E47"
@@ -969,15 +864,5 @@ graph [
     source "Chaoyang"
     target "Tianjin"
     id "E48"
-]
-  edge [
-    source "Gaoyou"
-    target "Linyi"
-    id "E62"
-]
-  edge [
-    source "Pingwu County"
-    target "Yinchuan"
-    id "E107"
 ]
 ]

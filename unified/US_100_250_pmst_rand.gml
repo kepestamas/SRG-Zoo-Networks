@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "US_100_250_pmst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "US"
   node [
@@ -711,11 +711,6 @@ graph [
     id "E0"
 ]
   edge [
-    source "The Hammocks"
-    target "East Pensacola Heights"
-    id "E1"
-]
-  edge [
     source "Borger"
     target "Oklahoma City"
     id "E2"
@@ -777,11 +772,6 @@ graph [
 ]
   edge [
     source "Providence"
-    target "Brooklyn"
-    id "E14"
-]
-  edge [
-    source "Providence"
     target "Philadelphia"
     id "E15"
 ]
@@ -799,11 +789,6 @@ graph [
     source "Brooklyn"
     target "Waterbury"
     id "E18"
-]
-  edge [
-    source "Brooklyn"
-    target "Concord"
-    id "E19"
 ]
   edge [
     source "Topeka"
@@ -824,11 +809,6 @@ graph [
     source "Topeka"
     target "Wichita"
     id "E23"
-]
-  edge [
-    source "Topeka"
-    target "Hardin"
-    id "E24"
 ]
   edge [
     source "Westminster"
@@ -869,16 +849,6 @@ graph [
     source "West Raleigh"
     target "Harrisonburg"
     id "E32"
-]
-  edge [
-    source "West Raleigh"
-    target "Philadelphia"
-    id "E33"
-]
-  edge [
-    source "West Raleigh"
-    target "Jacksonville"
-    id "E34"
 ]
   edge [
     source "West Raleigh"
@@ -937,11 +907,6 @@ graph [
 ]
   edge [
     source "Chicago"
-    target "Milwaukee"
-    id "E46"
-]
-  edge [
-    source "Chicago"
     target "Decatur"
     id "E47"
 ]
@@ -984,11 +949,6 @@ graph [
     source "Philadelphia"
     target "Glen Burnie"
     id "E55"
-]
-  edge [
-    source "Philadelphia"
-    target "North Stamford"
-    id "E56"
 ]
   edge [
     source "Philadelphia"
@@ -1087,11 +1047,6 @@ graph [
 ]
   edge [
     source "Houston"
-    target "Terrell Hills"
-    id "E76"
-]
-  edge [
-    source "Houston"
     target "Houma"
     id "E77"
 ]
@@ -1114,16 +1069,6 @@ graph [
     source "Chandler"
     target "Paradise Hills"
     id "E81"
-]
-  edge [
-    source "Chandler"
-    target "San Luis"
-    id "E82"
-]
-  edge [
-    source "Chandler"
-    target "Sunrise Manor"
-    id "E83"
 ]
   edge [
     source "Chandler"
@@ -1156,11 +1101,6 @@ graph [
     id "E89"
 ]
   edge [
-    source "Chattanooga"
-    target "Wadesboro"
-    id "E90"
-]
-  edge [
     source "Southlake"
     target "Waxahachie"
     id "E91"
@@ -1169,11 +1109,6 @@ graph [
     source "Southlake"
     target "Wilburton"
     id "E92"
-]
-  edge [
-    source "Southlake"
-    target "Hewitt"
-    id "E93"
 ]
   edge [
     source "Southlake"
@@ -1207,23 +1142,8 @@ graph [
 ]
   edge [
     source "East Pensacola Heights"
-    target "Houma"
-    id "E100"
-]
-  edge [
-    source "East Pensacola Heights"
     target "Jacksonville"
     id "E101"
-]
-  edge [
-    source "East Pensacola Heights"
-    target "Temple Terrace"
-    id "E102"
-]
-  edge [
-    source "East Pensacola Heights"
-    target "Coral Springs"
-    id "E103"
 ]
   edge [
     source "Fayetteville"
@@ -1239,11 +1159,6 @@ graph [
     source "Fayetteville"
     target "Cushing"
     id "E106"
-]
-  edge [
-    source "Fayetteville"
-    target "Independence"
-    id "E107"
 ]
   edge [
     source "Fayetteville"
@@ -1277,11 +1192,6 @@ graph [
 ]
   edge [
     source "Ironville"
-    target "Winston-Salem"
-    id "E114"
-]
-  edge [
-    source "Ironville"
     target "Mount Pleasant"
     id "E115"
 ]
@@ -1307,18 +1217,8 @@ graph [
 ]
   edge [
     source "Richmond"
-    target "Bucyrus"
-    id "E120"
-]
-  edge [
-    source "Richmond"
     target "Toledo"
     id "E121"
-]
-  edge [
-    source "Richmond"
-    target "Detroit"
-    id "E122"
 ]
   edge [
     source "Cushing"
@@ -1411,9 +1311,19 @@ graph [
     id "E140"
 ]
   edge [
+    source "El Paso"
+    target "Terrell Hills"
+    id "Non_labeled_0"
+]
+  edge [
     source "Paradise Hills"
     target "Lubbock"
     id "E141"
+]
+  edge [
+    source "Paradise Hills"
+    target "Cheyenne"
+    id "Non_labeled_1"
 ]
   edge [
     source "Riverside"
@@ -1466,19 +1376,9 @@ graph [
     id "E151"
 ]
   edge [
-    source "Reed City"
-    target "Winona"
-    id "E152"
-]
-  edge [
     source "Wadesboro"
     target "Mount Pleasant"
     id "E153"
-]
-  edge [
-    source "Wadesboro"
-    target "Winston-Salem"
-    id "E154"
 ]
   edge [
     source "Wadesboro"
@@ -1492,18 +1392,8 @@ graph [
 ]
   edge [
     source "Burbank"
-    target "Indio"
-    id "E157"
-]
-  edge [
-    source "Burbank"
     target "Sunrise Manor"
     id "E158"
-]
-  edge [
-    source "Burbank"
-    target "Los Altos"
-    id "E159"
 ]
   edge [
     source "New Orleans"
@@ -1552,18 +1442,8 @@ graph [
 ]
   edge [
     source "Los Altos"
-    target "Ione"
-    id "E169"
-]
-  edge [
-    source "Los Altos"
     target "Fresno"
     id "E170"
-]
-  edge [
-    source "Los Altos"
-    target "San Diego"
-    id "E171"
 ]
   edge [
     source "Sacramento"
@@ -1581,19 +1461,9 @@ graph [
     id "E174"
 ]
   edge [
-    source "Wilburton"
-    target "Waxahachie"
-    id "E175"
-]
-  edge [
     source "Winona"
     target "Milwaukee"
     id "E176"
-]
-  edge [
-    source "Winona"
-    target "Omaha"
-    id "E177"
 ]
   edge [
     source "Surprise"
@@ -1631,6 +1501,11 @@ graph [
     id "E184"
 ]
   edge [
+    source "Fort Covington Hamlet"
+    target "Cleveland"
+    id "Non_labeled_2"
+]
+  edge [
     source "Lubbock"
     target "Terrell Hills"
     id "E185"
@@ -1644,11 +1519,6 @@ graph [
     source "Richland"
     target "Quitman"
     id "E187"
-]
-  edge [
-    source "Richland"
-    target "Houma"
-    id "E188"
 ]
   edge [
     source "Richland"
@@ -1682,18 +1552,8 @@ graph [
 ]
   edge [
     source "Ione"
-    target "Santa Rosa"
-    id "E195"
-]
-  edge [
-    source "Ione"
     target "Fresno"
     id "E196"
-]
-  edge [
-    source "Reno"
-    target "Santa Rosa"
-    id "E197"
 ]
   edge [
     source "Reno"
@@ -1734,11 +1594,6 @@ graph [
     source "Decatur"
     target "St. Louis"
     id "E205"
-]
-  edge [
-    source "Decatur"
-    target "Milwaukee"
-    id "E206"
 ]
   edge [
     source "Sunrise Manor"
@@ -1791,11 +1646,6 @@ graph [
     id "E216"
 ]
   edge [
-    source "North Stamford"
-    target "Pittsburgh"
-    id "E217"
-]
-  edge [
     source "Cleveland"
     target "Bucyrus"
     id "E218"
@@ -1804,16 +1654,6 @@ graph [
     source "Cleveland"
     target "Pittsburgh"
     id "E219"
-]
-  edge [
-    source "Cleveland"
-    target "Waterford"
-    id "E220"
-]
-  edge [
-    source "St. Louis"
-    target "Independence"
-    id "E221"
 ]
   edge [
     source "Chambersburg"
@@ -1862,18 +1702,13 @@ graph [
 ]
   edge [
     source "Omaha"
-    target "Wichita"
-    id "E231"
+    target "Cheyenne"
+    id "Non_labeled_3"
 ]
   edge [
     source "Coral Springs"
     target "Temple Terrace"
     id "E232"
-]
-  edge [
-    source "Coral Springs"
-    target "Jacksonville"
-    id "E233"
 ]
   edge [
     source "Wichita"
@@ -1926,14 +1761,14 @@ graph [
     id "E243"
 ]
   edge [
-    source "Waterford"
-    target "Toledo"
-    id "E244"
+    source "Tri-Cities"
+    target "Salt Lake City"
+    id "Non_labeled_4"
 ]
   edge [
     source "Waterford"
-    target "Pittsburgh"
-    id "E245"
+    target "Toledo"
+    id "E244"
 ]
   edge [
     source "Toledo"

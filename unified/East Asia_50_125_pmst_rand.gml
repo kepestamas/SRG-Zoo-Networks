@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "East Asia_50_125_pmst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "East Asia"
   node [
@@ -367,11 +367,6 @@ graph [
 ]
   edge [
     source "Foshan"
-    target "Basuo"
-    id "E2"
-]
-  edge [
-    source "Foshan"
     target "Longyan"
     id "E3"
 ]
@@ -421,29 +416,9 @@ graph [
     id "E12"
 ]
   edge [
-    source "Duoba"
-    target "Chengdu"
-    id "E13"
-]
-  edge [
-    source "Duoba"
-    target "Xi'an"
-    id "E14"
-]
-  edge [
     source "Shanghai"
     target "Suzhou"
     id "E15"
-]
-  edge [
-    source "Shanghai"
-    target "Nanjing"
-    id "E16"
-]
-  edge [
-    source "Shanghai"
-    target "Tongling"
-    id "E17"
 ]
   edge [
     source "Shanghai"
@@ -459,11 +434,6 @@ graph [
     source "Shanghai"
     target "Longyan"
     id "E20"
-]
-  edge [
-    source "Shanghai"
-    target "Dalian"
-    id "E21"
 ]
   edge [
     source "Shanghai"
@@ -484,11 +454,6 @@ graph [
     source "Nagoya"
     target "Shizuoka"
     id "E25"
-]
-  edge [
-    source "Nagoya"
-    target "Futaba"
-    id "E26"
 ]
   edge [
     source "Nagoya"
@@ -541,11 +506,6 @@ graph [
     id "E36"
 ]
   edge [
-    source "Dalian"
-    target "Jixi"
-    id "E37"
-]
-  edge [
     source "Luojiang"
     target "Tongchuan"
     id "E38"
@@ -559,11 +519,6 @@ graph [
     source "Luojiang"
     target "Chengdu"
     id "E40"
-]
-  edge [
-    source "Luojiang"
-    target "Dunhao"
-    id "E41"
 ]
   edge [
     source "Luojiang"
@@ -596,16 +551,6 @@ graph [
     id "E47"
 ]
   edge [
-    source "Shenzhen"
-    target "Longyan"
-    id "E48"
-]
-  edge [
-    source "Shenzhen"
-    target "Sanya"
-    id "E49"
-]
-  edge [
     source "Jixi"
     target "Jilin"
     id "E50"
@@ -619,11 +564,6 @@ graph [
     source "Jixi"
     target "Hirosaki"
     id "E52"
-]
-  edge [
-    source "Jixi"
-    target "Beijing"
-    id "E53"
 ]
   edge [
     source "Xi'an"
@@ -666,11 +606,6 @@ graph [
     id "E61"
 ]
   edge [
-    source "Longyan"
-    target "Huainan"
-    id "E62"
-]
-  edge [
     source "Yaxing"
     target "Basuo"
     id "E63"
@@ -679,11 +614,6 @@ graph [
     source "Yaxing"
     target "Sanya"
     id "E64"
-]
-  edge [
-    source "Yaxing"
-    target "Changsha"
-    id "E65"
 ]
   edge [
     source "Tongling"
@@ -707,18 +637,8 @@ graph [
 ]
   edge [
     source "Taiyuan"
-    target "Baotou"
-    id "E70"
-]
-  edge [
-    source "Taiyuan"
     target "Beijing"
     id "E71"
-]
-  edge [
-    source "Osaka"
-    target "Shizuoka"
-    id "E72"
 ]
   edge [
     source "Osaka"
@@ -736,16 +656,6 @@ graph [
     id "E75"
 ]
   edge [
-    source "Fukuoka"
-    target "Shizuoka"
-    id "E76"
-]
-  edge [
-    source "Fukuoka"
-    target "Hirosaki"
-    id "E77"
-]
-  edge [
     source "Sanya"
     target "Basuo"
     id "E78"
@@ -754,11 +664,6 @@ graph [
     source "Sanya"
     target "Changsha"
     id "E79"
-]
-  edge [
-    source "Sanya"
-    target "Meizhou"
-    id "E80"
 ]
   edge [
     source "Beijing"
@@ -776,11 +681,6 @@ graph [
     id "E83"
 ]
   edge [
-    source "Azitan"
-    target "Chengdu"
-    id "E84"
-]
-  edge [
     source "Liji"
     target "Tai'an"
     id "E85"
@@ -796,16 +696,6 @@ graph [
     id "E87"
 ]
   edge [
-    source "Liji"
-    target "Jinan"
-    id "E88"
-]
-  edge [
-    source "Liji"
-    target "Botou"
-    id "E89"
-]
-  edge [
     source "Qingdao"
     target "Tai'an"
     id "E90"
@@ -814,11 +704,6 @@ graph [
     source "Qingdao"
     target "Botou"
     id "E91"
-]
-  edge [
-    source "Qingdao"
-    target "Huainan"
-    id "E92"
 ]
   edge [
     source "Luolong"
@@ -834,16 +719,6 @@ graph [
     source "Luolong"
     target "Tongchuan"
     id "E95"
-]
-  edge [
-    source "Luolong"
-    target "Dunhao"
-    id "E96"
-]
-  edge [
-    source "Luolong"
-    target "Yueyang"
-    id "E97"
 ]
   edge [
     source "Chengdu"
@@ -866,16 +741,6 @@ graph [
     id "E101"
 ]
   edge [
-    source "Xinle"
-    target "Changning"
-    id "E102"
-]
-  edge [
-    source "Meizhou"
-    target "Quanzhou"
-    id "E103"
-]
-  edge [
     source "Meizhou"
     target "Danshui"
     id "E104"
@@ -896,11 +761,6 @@ graph [
     id "E107"
 ]
   edge [
-    source "Botou"
-    target "Tai'an"
-    id "E108"
-]
-  edge [
     source "Yueyang"
     target "Tangfang"
     id "E109"
@@ -917,11 +777,6 @@ graph [
 ]
   edge [
     source "Huainan"
-    target "Tai'an"
-    id "E112"
-]
-  edge [
-    source "Huainan"
     target "Tangfang"
     id "E113"
 ]
@@ -932,11 +787,6 @@ graph [
 ]
   edge [
     source "Changning"
-    target "Tangfang"
-    id "E115"
-]
-  edge [
-    source "Changning"
     target "Tai'an"
     id "E116"
 ]
@@ -944,11 +794,6 @@ graph [
     source "Tangfang"
     target "Dunhao"
     id "E117"
-]
-  edge [
-    source "Tangfang"
-    target "Chongqing"
-    id "E118"
 ]
   edge [
     source "Tangfang"
@@ -968,7 +813,7 @@ graph [
   edge [
     source "Hirosaki"
     target "Yonago"
-    id "E122"
+    id "Non_labeled_1"
 ]
   edge [
     source "Dunhao"

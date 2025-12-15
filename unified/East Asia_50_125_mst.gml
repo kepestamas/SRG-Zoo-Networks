@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "East Asia_50_125_mst"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "East Asia"
   node [
@@ -367,11 +367,6 @@ graph [
 ]
   edge [
     source "Shanghai"
-    target "Wuxi"
-    id "E58"
-]
-  edge [
-    source "Shanghai"
     target "Changzhou"
     id "E60"
 ]
@@ -402,16 +397,6 @@ graph [
 ]
   edge [
     source "Beijing"
-    target "Taiyuan"
-    id "E83"
-]
-  edge [
-    source "Beijing"
-    target "Shenyang"
-    id "E107"
-]
-  edge [
-    source "Beijing"
     target "Harbin"
     id "E120"
 ]
@@ -432,18 +417,8 @@ graph [
 ]
   edge [
     source "Shenzhen"
-    target "Zhongshan"
-    id "E49"
-]
-  edge [
-    source "Shenzhen"
     target "Dongguan"
     id "E51"
-]
-  edge [
-    source "Shenzhen"
-    target "Hong Kong"
-    id "E53"
 ]
   edge [
     source "Guangzhou"
@@ -454,16 +429,6 @@ graph [
     source "Guangzhou"
     target "Dongguan"
     id "E6"
-]
-  edge [
-    source "Guangzhou"
-    target "Shantou"
-    id "E70"
-]
-  edge [
-    source "Guangzhou"
-    target "Nanning"
-    id "E93"
 ]
   edge [
     source "Guangzhou"
@@ -494,11 +459,6 @@ graph [
     source "Chengdu"
     target "Shiyan"
     id "E110"
-]
-  edge [
-    source "Chengdu"
-    target "Taiyuan"
-    id "E122"
 ]
   edge [
     source "Tianjin"
@@ -556,24 +516,19 @@ graph [
     id "E111"
 ]
   edge [
+    source "Seoul"
+    target "Tokyo"
+    id "Non_labeled_0"
+]
+  edge [
     source "Tokyo"
     target "Yokohama"
     id "E16"
 ]
   edge [
-    source "Tokyo"
-    target "Busan"
-    id "E124"
-]
-  edge [
     source "Dongguan"
     target "Bao'an"
     id "E17"
-]
-  edge [
-    source "Dongguan"
-    target "Foshan"
-    id "E52"
 ]
   edge [
     source "Dongguan"
@@ -609,11 +564,6 @@ graph [
     source "Nanjing"
     target "Hangzhou"
     id "E68"
-]
-  edge [
-    source "Nanjing"
-    target "Puyang"
-    id "E74"
 ]
   edge [
     source "Hangzhou"
@@ -657,33 +607,13 @@ graph [
 ]
   edge [
     source "Taipei"
-    target "Fuzhou"
-    id "E76"
-]
-  edge [
-    source "Taipei"
-    target "Xiamen"
-    id "E91"
-]
-  edge [
-    source "Taipei"
     target "Shantou"
     id "E113"
-]
-  edge [
-    source "Taipei"
-    target "Ningbo"
-    id "E115"
 ]
   edge [
     source "Hong Kong"
     target "New Territories"
     id "E26"
-]
-  edge [
-    source "Hong Kong"
-    target "Zhongshan"
-    id "E59"
 ]
   edge [
     source "Hong Kong"
@@ -709,11 +639,6 @@ graph [
     source "Chongqing"
     target "Changsha"
     id "E109"
-]
-  edge [
-    source "Chongqing"
-    target "Nanning"
-    id "E117"
 ]
   edge [
     source "Qingdao"
@@ -751,19 +676,9 @@ graph [
     id "E92"
 ]
   edge [
-    source "Shenyang"
-    target "Harbin"
-    id "E94"
-]
-  edge [
     source "Suzhou"
     target "Wuxi"
     id "E31"
-]
-  edge [
-    source "Suzhou"
-    target "Changzhou"
-    id "E55"
 ]
   edge [
     source "Harbin"
@@ -799,11 +714,6 @@ graph [
     source "Dalian"
     target "Zibo"
     id "E72"
-]
-  edge [
-    source "Dalian"
-    target "Changchun"
-    id "E108"
 ]
   edge [
     source "Dalian"
@@ -871,6 +781,11 @@ graph [
     id "E42"
 ]
   edge [
+    source "Taiyuan"
+    target "UEruemqi"
+    id "Non_labeled_1"
+]
+  edge [
     source "Zhengzhou"
     target "Shiyan"
     id "E43"
@@ -879,11 +794,6 @@ graph [
     source "Zhengzhou"
     target "Shijiazhuang"
     id "E79"
-]
-  edge [
-    source "Zhengzhou"
-    target "Zibo"
-    id "E86"
 ]
   edge [
     source "New Taipei City"
@@ -911,11 +821,6 @@ graph [
     id "E106"
 ]
   edge [
-    source "Zhongshan"
-    target "Nanning"
-    id "E96"
-]
-  edge [
     source "Nanning"
     target "Guiyang"
     id "E46"
@@ -924,11 +829,6 @@ graph [
     source "Nanning"
     target "Changsha"
     id "E116"
-]
-  edge [
-    source "Shantou"
-    target "Fuzhou"
-    id "E73"
 ]
   edge [
     source "Shantou"
@@ -964,11 +864,6 @@ graph [
     source "Ningbo"
     target "Busan"
     id "E123"
-]
-  edge [
-    source "Busan"
-    target "Pyongyang"
-    id "E119"
 ]
   edge [
     source "Shiyan"

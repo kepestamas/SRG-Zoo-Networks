@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Global_500_1250_mst"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Global"
   node [
@@ -3408,16 +3408,6 @@ graph [
 ]
   edge [
     source "Shanghai"
-    target "Ningbo"
-    id "E578"
-]
-  edge [
-    source "Shanghai"
-    target "Yancheng"
-    id "E704"
-]
-  edge [
-    source "Shanghai"
     target "Yantai"
     id "E939"
 ]
@@ -3442,21 +3432,6 @@ graph [
     id "E785"
 ]
   edge [
-    source "Beijing"
-    target "Anshan"
-    id "E895"
-]
-  edge [
-    source "Beijing"
-    target "Hohhot"
-    id "E899"
-]
-  edge [
-    source "Beijing"
-    target "Shenyang"
-    id "E998"
-]
-  edge [
     source "Shenzhen"
     target "New Territories"
     id "E3"
@@ -3465,11 +3440,6 @@ graph [
     source "Shenzhen"
     target "Bao'an"
     id "E4"
-]
-  edge [
-    source "Shenzhen"
-    target "Kowloon"
-    id "E533"
 ]
   edge [
     source "Shenzhen"
@@ -3497,11 +3467,6 @@ graph [
     id "E7"
 ]
   edge [
-    source "Guangzhou"
-    target "Huizhou"
-    id "E559"
-]
-  edge [
     source "Kinshasa"
     target "Brazzaville"
     id "E8"
@@ -3517,16 +3482,6 @@ graph [
     id "E10"
 ]
   edge [
-    source "Kinshasa"
-    target "Mbuji-Mayi"
-    id "E1092"
-]
-  edge [
-    source "Kinshasa"
-    target "Lubumbashi"
-    id "E1236"
-]
-  edge [
     source "Istanbul"
     target "Bursa"
     id "E11"
@@ -3538,18 +3493,8 @@ graph [
 ]
   edge [
     source "Istanbul"
-    target "Izmir"
-    id "E746"
-]
-  edge [
-    source "Istanbul"
     target "Ankara"
     id "E855"
-]
-  edge [
-    source "Istanbul"
-    target "Diyarbakir"
-    id "E1114"
 ]
   edge [
     source "Istanbul"
@@ -3570,31 +3515,6 @@ graph [
     source "Lagos"
     target "Benin City"
     id "E683"
-]
-  edge [
-    source "Lagos"
-    target "Ilorin"
-    id "E694"
-]
-  edge [
-    source "Lagos"
-    target "Port Harcourt"
-    id "E829"
-]
-  edge [
-    source "Lagos"
-    target "Sokoto"
-    id "E960"
-]
-  edge [
-    source "Lagos"
-    target "Accra"
-    id "E983"
-]
-  edge [
-    source "Lagos"
-    target "Kumasi"
-    id "E1052"
 ]
   edge [
     source "Lagos"
@@ -3628,11 +3548,6 @@ graph [
 ]
   edge [
     source "Chengdu"
-    target "Tianshui"
-    id "E926"
-]
-  edge [
-    source "Chengdu"
     target "Xining"
     id "E1024"
 ]
@@ -3652,11 +3567,6 @@ graph [
     id "E19"
 ]
   edge [
-    source "Lahore"
-    target "Multan"
-    id "E834"
-]
-  edge [
     source "Mumbai"
     target "Navi Mumbai"
     id "E20"
@@ -3668,28 +3578,8 @@ graph [
 ]
   edge [
     source "Mumbai"
-    target "Pune"
-    id "E591"
-]
-  edge [
-    source "Mumbai"
-    target "Surat"
-    id "E666"
-]
-  edge [
-    source "Mumbai"
     target "Rajkot"
     id "E814"
-]
-  edge [
-    source "Mumbai"
-    target "Bengaluru"
-    id "E1071"
-]
-  edge [
-    source "Mumbai"
-    target "Coimbatore"
-    id "E1108"
 ]
   edge [
     source "Sao Paulo"
@@ -3700,11 +3590,6 @@ graph [
     source "Sao Paulo"
     target "Curitiba"
     id "E23"
-]
-  edge [
-    source "Sao Paulo"
-    target "Goiania"
-    id "E1063"
 ]
   edge [
     source "Mexico City"
@@ -3727,16 +3612,6 @@ graph [
     id "E698"
 ]
   edge [
-    source "Mexico City"
-    target "Guadalajara"
-    id "E928"
-]
-  edge [
-    source "Karachi"
-    target "Hyderabad"
-    id "E26"
-]
-  edge [
     source "Karachi"
     target "Quetta"
     id "E987"
@@ -3747,6 +3622,11 @@ graph [
     id "E1012"
 ]
   edge [
+    source "Karachi"
+    target "Dubai"
+    id "Non_labeled_0"
+]
+  edge [
     source "Tianjin"
     target "Tangshan"
     id "E27"
@@ -3755,11 +3635,6 @@ graph [
     source "Tianjin"
     target "Baoding"
     id "E642"
-]
-  edge [
-    source "Tianjin"
-    target "Shijiazhuang"
-    id "E783"
 ]
   edge [
     source "Tianjin"
@@ -3780,11 +3655,6 @@ graph [
     source "Delhi"
     target "Faridabad"
     id "E30"
-]
-  edge [
-    source "Delhi"
-    target "Meerut"
-    id "E534"
 ]
   edge [
     source "Wuhan"
@@ -3873,28 +3743,8 @@ graph [
 ]
   edge [
     source "Seoul"
-    target "Daejeon"
-    id "E629"
-]
-  edge [
-    source "Seoul"
-    target "Daegu"
-    id "E758"
-]
-  edge [
-    source "Seoul"
-    target "Pyongyang"
-    id "E887"
-]
-  edge [
-    source "Seoul"
     target "Hiroshima"
     id "E1072"
-]
-  edge [
-    source "Seoul"
-    target "Fushun"
-    id "E1139"
 ]
   edge [
     source "Seoul"
@@ -3912,16 +3762,6 @@ graph [
     id "E41"
 ]
   edge [
-    source "Tokyo"
-    target "Yokohama"
-    id "E514"
-]
-  edge [
-    source "Tokyo"
-    target "Sendai"
-    id "E824"
-]
-  edge [
     source "Dongguan"
     target "Huizhou"
     id "E42"
@@ -3932,11 +3772,6 @@ graph [
     id "E530"
 ]
   edge [
-    source "Dongguan"
-    target "Foshan"
-    id "E540"
-]
-  edge [
     source "Cairo"
     target "Shubra al Khaymah"
     id "E43"
@@ -3945,16 +3780,6 @@ graph [
     source "Cairo"
     target "Giza"
     id "E44"
-]
-  edge [
-    source "Cairo"
-    target "Amman"
-    id "E1101"
-]
-  edge [
-    source "Cairo"
-    target "Madinah"
-    id "E1210"
 ]
   edge [
     source "Xi'an"
@@ -4048,11 +3873,6 @@ graph [
 ]
   edge [
     source "Hangzhou"
-    target "Jinhua"
-    id "E631"
-]
-  edge [
-    source "Hangzhou"
     target "Wuhu"
     id "E729"
 ]
@@ -4098,11 +3918,6 @@ graph [
 ]
   edge [
     source "Ho Chi Minh City"
-    target "Bangkok"
-    id "E1219"
-]
-  edge [
-    source "Ho Chi Minh City"
     target "Haikou"
     id "E1232"
 ]
@@ -4132,34 +3947,9 @@ graph [
     id "E1178"
 ]
   edge [
-    source "London"
-    target "Milan"
-    id "E1190"
-]
-  edge [
     source "New York City"
     target "Manhattan"
-    id "E58"
-]
-  edge [
-    source "New York City"
-    target "Brooklyn"
-    id "E59"
-]
-  edge [
-    source "New York City"
-    target "New York City"
-    id "E482"
-]
-  edge [
-    source "New York City"
-    target "Queens"
-    id "E500"
-]
-  edge [
-    source "New York City"
-    target "Philadelphia"
-    id "E606"
+    id "Non_labeled_0"
 ]
   edge [
     source "Jakarta"
@@ -4180,11 +3970,6 @@ graph [
     source "Jakarta"
     target "Tangerang"
     id "E509"
-]
-  edge [
-    source "Jakarta"
-    target "Bandar Lampung"
-    id "E623"
 ]
   edge [
     source "Bengaluru"
@@ -4238,23 +4023,8 @@ graph [
 ]
   edge [
     source "Taipei"
-    target "Taichung"
-    id "E608"
-]
-  edge [
-    source "Taipei"
     target "Kaohsiung"
     id "E818"
-]
-  edge [
-    source "Taipei"
-    target "Putian"
-    id "E867"
-]
-  edge [
-    source "Taipei"
-    target "Taizhou"
-    id "E977"
 ]
   edge [
     source "Taipei"
@@ -4267,16 +4037,6 @@ graph [
     id "E1244"
 ]
   edge [
-    source "Taipei"
-    target "Caloocan City"
-    id "E1245"
-]
-  edge [
-    source "Taipei"
-    target "Manila"
-    id "E1246"
-]
-  edge [
     source "Lima"
     target "Callao"
     id "E65"
@@ -4287,11 +4047,6 @@ graph [
     id "E66"
 ]
   edge [
-    source "Lima"
-    target "Guayaquil"
-    id "E1240"
-]
-  edge [
     source "Bogota"
     target "Medellin"
     id "E67"
@@ -4300,16 +4055,6 @@ graph [
     source "Bogota"
     target "Cali"
     id "E68"
-]
-  edge [
-    source "Bogota"
-    target "Barranquilla"
-    id "E1028"
-]
-  edge [
-    source "Bogota"
-    target "Quito"
-    id "E1213"
 ]
   edge [
     source "Bogota"
@@ -4325,16 +4070,6 @@ graph [
     source "Hong Kong"
     target "Kowloon"
     id "E70"
-]
-  edge [
-    source "Hong Kong"
-    target "New Territories"
-    id "E502"
-]
-  edge [
-    source "Hong Kong"
-    target "Bao'an"
-    id "E561"
 ]
   edge [
     source "Hong Kong"
@@ -4358,11 +4093,6 @@ graph [
 ]
   edge [
     source "Chongqing"
-    target "Zigong"
-    id "E685"
-]
-  edge [
-    source "Chongqing"
     target "Dazhou"
     id "E730"
 ]
@@ -4380,11 +4110,6 @@ graph [
     source "Baghdad"
     target "Mosul"
     id "E856"
-]
-  edge [
-    source "Baghdad"
-    target "Al Mawsil al Jadidah"
-    id "E858"
 ]
   edge [
     source "Baghdad"
@@ -4433,11 +4158,6 @@ graph [
 ]
   edge [
     source "Tehran"
-    target "Shiraz"
-    id "E1019"
-]
-  edge [
-    source "Tehran"
     target "Baku"
     id "E1038"
 ]
@@ -4450,26 +4170,6 @@ graph [
     source "Shenyang"
     target "Anshan"
     id "E82"
-]
-  edge [
-    source "Shenyang"
-    target "Changchun"
-    id "E802"
-]
-  edge [
-    source "Shenyang"
-    target "Dalian"
-    id "E860"
-]
-  edge [
-    source "Shenyang"
-    target "Daqing"
-    id "E966"
-]
-  edge [
-    source "Shenyang"
-    target "Hohhot"
-    id "E1102"
 ]
   edge [
     source "Hyderabad"
@@ -4487,11 +4187,6 @@ graph [
     id "E993"
 ]
   edge [
-    source "Hyderabad"
-    target "Hyderabad"
-    id "E1194"
-]
-  edge [
     source "Rio de Janeiro"
     target "Belo Horizonte"
     id "E84"
@@ -4505,16 +4200,6 @@ graph [
     source "Rio de Janeiro"
     target "Curitiba"
     id "E932"
-]
-  edge [
-    source "Rio de Janeiro"
-    target "Salvador"
-    id "E1073"
-]
-  edge [
-    source "Rio de Janeiro"
-    target "Recife"
-    id "E1183"
 ]
   edge [
     source "Suzhou"
@@ -4547,16 +4232,6 @@ graph [
     id "E616"
 ]
   edge [
-    source "Suzhou"
-    target "Huai'an"
-    id "E710"
-]
-  edge [
-    source "Suzhou"
-    target "Suzhou"
-    id "E909"
-]
-  edge [
     source "Ahmedabad"
     target "Vadodara"
     id "E87"
@@ -4587,16 +4262,6 @@ graph [
     id "E89"
 ]
   edge [
-    source "Abidjan"
-    target "Kumasi"
-    id "E989"
-]
-  edge [
-    source "Abidjan"
-    target "Monrovia"
-    id "E1122"
-]
-  edge [
     source "Singapore"
     target "Batam"
     id "E90"
@@ -4622,14 +4287,14 @@ graph [
     id "E1076"
 ]
   edge [
-    source "Saint Petersburg"
-    target "Stockholm"
-    id "E1096"
+    source "Dar es Salaam"
+    target "Antananarivo"
+    id "Non_labeled_1"
 ]
   edge [
     source "Saint Petersburg"
-    target "Voronezh"
-    id "E1129"
+    target "Stockholm"
+    id "E1096"
 ]
   edge [
     source "Saint Petersburg"
@@ -4637,19 +4302,9 @@ graph [
     id "E1198"
 ]
   edge [
-    source "Saint Petersburg"
-    target "Oslo"
-    id "E1227"
-]
-  edge [
     source "Alexandria"
     target "Shubra al Khaymah"
     id "E93"
-]
-  edge [
-    source "Alexandria"
-    target "Giza"
-    id "E692"
 ]
   edge [
     source "Alexandria"
@@ -4663,11 +4318,6 @@ graph [
 ]
   edge [
     source "Alexandria"
-    target "Beirut"
-    id "E1070"
-]
-  edge [
-    source "Alexandria"
     target "Antalya"
     id "E1085"
 ]
@@ -4678,8 +4328,8 @@ graph [
 ]
   edge [
     source "Alexandria"
-    target "Bursa"
-    id "E1201"
+    target "Tripoli"
+    id "Non_labeled_2"
 ]
   edge [
     source "Harbin"
@@ -4802,6 +4452,11 @@ graph [
     id "E109"
 ]
   edge [
+    source "Santiago"
+    target "Callao"
+    id "Non_labeled_3"
+]
+  edge [
     source "Peshawar"
     target "Rawalpindi"
     id "E110"
@@ -4843,13 +4498,13 @@ graph [
 ]
   edge [
     source "Cape Town"
-    target "Soweto"
-    id "E1170"
+    target "Pretoria"
+    id "E1181"
 ]
   edge [
     source "Cape Town"
-    target "Pretoria"
-    id "E1181"
+    target "Luanda"
+    id "Non_labeled_4"
 ]
   edge [
     source "Jeddah"
@@ -4867,16 +4522,6 @@ graph [
     id "E117"
 ]
   edge [
-    source "Jeddah"
-    target "Sanaa"
-    id "E1163"
-]
-  edge [
-    source "Jeddah"
-    target "Khartoum"
-    id "E1192"
-]
-  edge [
     source "Chennai"
     target "Kallakurichi"
     id "E118"
@@ -4888,18 +4533,8 @@ graph [
 ]
   edge [
     source "Chennai"
-    target "Visakhapatnam"
-    id "E900"
-]
-  edge [
-    source "Chennai"
     target "Rasapudipalem"
     id "E910"
-]
-  edge [
-    source "Chennai"
-    target "Tirunelveli"
-    id "E975"
 ]
   edge [
     source "Kolkata"
@@ -4918,11 +4553,6 @@ graph [
 ]
   edge [
     source "Kolkata"
-    target "Chattogram"
-    id "E944"
-]
-  edge [
-    source "Kolkata"
     target "Rasapudipalem"
     id "E954"
 ]
@@ -4930,16 +4560,6 @@ graph [
     source "Kolkata"
     target "Gazipur"
     id "E957"
-]
-  edge [
-    source "Kolkata"
-    target "Tirunelveli"
-    id "E1188"
-]
-  edge [
-    source "Kolkata"
-    target "Yangon"
-    id "E1211"
 ]
   edge [
     source "Xiamen"
@@ -4953,38 +4573,8 @@ graph [
 ]
   edge [
     source "Xiamen"
-    target "Quanzhou"
-    id "E525"
-]
-  edge [
-    source "Xiamen"
-    target "Putian"
-    id "E573"
-]
-  edge [
-    source "Xiamen"
-    target "Shantou"
-    id "E612"
-]
-  edge [
-    source "Xiamen"
-    target "Jieyang"
-    id "E632"
-]
-  edge [
-    source "Xiamen"
     target "Ganzhou"
     id "E764"
-]
-  edge [
-    source "Xiamen"
-    target "Huizhou"
-    id "E805"
-]
-  edge [
-    source "Xiamen"
-    target "Fuzhou"
-    id "E817"
 ]
   edge [
     source "Surat"
@@ -5015,6 +4605,11 @@ graph [
     source "Yangon"
     target "Chattogram"
     id "E1230"
+]
+  edge [
+    source "Yangon"
+    target "Rasapudipalem"
+    id "Non_labeled_5"
 ]
   edge [
     source "Bao'an"
@@ -5093,11 +4688,6 @@ graph [
 ]
   edge [
     source "Giza"
-    target "Shubra al Khaymah"
-    id "E498"
-]
-  edge [
-    source "Giza"
     target "Amman"
     id "E1109"
 ]
@@ -5105,6 +4695,11 @@ graph [
     source "Giza"
     target "Madinah"
     id "E1209"
+]
+  edge [
+    source "Giza"
+    target "Omdurman"
+    id "Non_labeled_6"
 ]
   edge [
     source "Jinan"
@@ -5123,16 +4718,6 @@ graph [
 ]
   edge [
     source "Jinan"
-    target "Weifang"
-    id "E707"
-]
-  edge [
-    source "Jinan"
-    target "Tangshan"
-    id "E763"
-]
-  edge [
-    source "Jinan"
     target "Shijiazhuang"
     id "E793"
 ]
@@ -5143,16 +4728,6 @@ graph [
 ]
   edge [
     source "Taiyuan"
-    target "Shijiazhuang"
-    id "E674"
-]
-  edge [
-    source "Taiyuan"
-    target "Changzhi"
-    id "E714"
-]
-  edge [
-    source "Taiyuan"
     target "Datong"
     id "E774"
 ]
@@ -5160,11 +4735,6 @@ graph [
     source "Taiyuan"
     target "Ordos"
     id "E828"
-]
-  edge [
-    source "Taiyuan"
-    target "Luoyang"
-    id "E859"
 ]
   edge [
     source "Taiyuan"
@@ -5210,11 +4780,6 @@ graph [
     source "Bamako"
     target "Monrovia"
     id "E1130"
-]
-  edge [
-    source "Bamako"
-    target "Camayenne"
-    id "E1204"
 ]
   edge [
     source "Riyadh"
@@ -5288,11 +4853,6 @@ graph [
 ]
   edge [
     source "Chattogram"
-    target "Gazipur"
-    id "E662"
-]
-  edge [
-    source "Chattogram"
     target "Khulna"
     id "E670"
 ]
@@ -5315,21 +4875,6 @@ graph [
     source "Kunming"
     target "Mandalay"
     id "E155"
-]
-  edge [
-    source "Kunming"
-    target "Bijie"
-    id "E864"
-]
-  edge [
-    source "Kunming"
-    target "Guiyang"
-    id "E915"
-]
-  edge [
-    source "Kunming"
-    target "Nanning"
-    id "E995"
 ]
   edge [
     source "Zhongshan"
@@ -5378,11 +4923,6 @@ graph [
 ]
   edge [
     source "Shantou"
-    target "Huizhou"
-    id "E659"
-]
-  edge [
-    source "Shantou"
     target "Jinjiang"
     id "E687"
 ]
@@ -5390,11 +4930,6 @@ graph [
     source "Shantou"
     target "Hong Kong Island"
     id "E892"
-]
-  edge [
-    source "Shantou"
-    target "Haikou"
-    id "E953"
 ]
   edge [
     source "Shantou"
@@ -5407,29 +4942,14 @@ graph [
     id "E1222"
 ]
   edge [
-    source "Shantou"
-    target "Manila"
-    id "E1224"
-]
-  edge [
-    source "Los Angeles"
-    target "San Diego"
-    id "E161"
-]
-  edge [
     source "Los Angeles"
     target "Los Angeles"
     id "E483"
 ]
   edge [
     source "Los Angeles"
-    target "Tijuana"
-    id "E808"
-]
-  edge [
-    source "Los Angeles"
-    target "Phoenix"
-    id "E984"
+    target "San Diego"
+    id "Non_labeled_1"
 ]
   edge [
     source "Faisalabad"
@@ -5450,11 +4970,6 @@ graph [
     source "Faisalabad"
     target "Bannu"
     id "E813"
-]
-  edge [
-    source "Faisalabad"
-    target "Quetta"
-    id "E988"
 ]
   edge [
     source "Dubai"
@@ -5482,44 +4997,19 @@ graph [
     id "E529"
 ]
   edge [
-    source "Fuzhou"
-    target "Yichun"
-    id "E167"
-]
-  edge [
-    source "Fuzhou"
-    target "Putian"
-    id "E552"
-]
-  edge [
-    source "Fuzhou"
-    target "Nanchang"
-    id "E565"
-]
-  edge [
-    source "Fuzhou"
-    target "Shangrao"
-    id "E669"
-]
-  edge [
-    source "Fuzhou"
-    target "Jiujiang"
-    id "E720"
-]
-  edge [
-    source "Fuzhou"
-    target "Wenzhou"
-    id "E772"
-]
-  edge [
-    source "Fuzhou"
-    target "Ganzhou"
-    id "E796"
+    source "Yokohama"
+    target "Brisbane"
+    id "Non_labeled_9"
 ]
   edge [
     source "Fuzhou"
     target "Fuzhou"
     id "E871"
+]
+  edge [
+    source "Fuzhou"
+    target "Yichun"
+    id "Non_labeled_2"
 ]
   edge [
     source "Ningbo"
@@ -5540,11 +5030,6 @@ graph [
     source "Ningbo"
     target "Yiwu"
     id "E651"
-]
-  edge [
-    source "Ningbo"
-    target "Yantai"
-    id "E986"
 ]
   edge [
     source "Ningbo"
@@ -5573,8 +5058,8 @@ graph [
 ]
   edge [
     source "Casablanca"
-    target "Madrid"
-    id "E1154"
+    target "Nouakchott"
+    id "Non_labeled_10"
 ]
   edge [
     source "Ibadan"
@@ -5585,11 +5070,6 @@ graph [
     source "Ibadan"
     target "Benin City"
     id "E174"
-]
-  edge [
-    source "Ibadan"
-    target "Sokoto"
-    id "E1005"
 ]
   edge [
     source "Puyang"
@@ -5623,18 +5103,8 @@ graph [
 ]
   edge [
     source "Ankara"
-    target "Antalya"
-    id "E883"
-]
-  edge [
-    source "Ankara"
     target "Adana"
     id "E888"
-]
-  edge [
-    source "Ankara"
-    target "Diyarbakir"
-    id "E1015"
 ]
   edge [
     source "Shiyan"
@@ -5712,11 +5182,6 @@ graph [
     id "E187"
 ]
   edge [
-    source "Rawalpindi"
-    target "Ludhiana"
-    id "E1058"
-]
-  edge [
     source "Durban"
     target "Matola"
     id "E188"
@@ -5725,16 +5190,6 @@ graph [
     source "Durban"
     target "Port Elizabeth"
     id "E189"
-]
-  edge [
-    source "Durban"
-    target "Pretoria"
-    id "E961"
-]
-  edge [
-    source "Durban"
-    target "Maputo"
-    id "E1090"
 ]
   edge [
     source "Changzhou"
@@ -5783,11 +5238,6 @@ graph [
 ]
   edge [
     source "Pyongyang"
-    target "Incheon"
-    id "E885"
-]
-  edge [
-    source "Pyongyang"
     target "Fushun"
     id "E941"
 ]
@@ -5795,11 +5245,6 @@ graph [
     source "Pyongyang"
     target "Yantai"
     id "E985"
-]
-  edge [
-    source "Pyongyang"
-    target "Gwangju"
-    id "E996"
 ]
   edge [
     source "Zibo"
@@ -5810,16 +5255,6 @@ graph [
     source "Pune"
     target "Pimpri"
     id "E198"
-]
-  edge [
-    source "Pune"
-    target "Navi Mumbai"
-    id "E579"
-]
-  edge [
-    source "Pune"
-    target "Nashik"
-    id "E664"
 ]
   edge [
     source "Pune"
@@ -5878,11 +5313,6 @@ graph [
 ]
   edge [
     source "Guiyang"
-    target "Qujing"
-    id "E838"
-]
-  edge [
-    source "Guiyang"
     target "Liuzhou"
     id "E877"
 ]
@@ -5890,16 +5320,6 @@ graph [
     source "Guiyang"
     target "Guilin"
     id "E884"
-]
-  edge [
-    source "Guiyang"
-    target "Qinzhou"
-    id "E968"
-]
-  edge [
-    source "Guiyang"
-    target "Changde"
-    id "E973"
 ]
   edge [
     source "UEruemqi"
@@ -5912,14 +5332,14 @@ graph [
     id "E1207"
 ]
   edge [
-    source "Caracas"
-    target "Maracay"
-    id "E205"
+    source "UEruemqi"
+    target "Krasnoyarsk"
+    id "Non_labeled_12"
 ]
   edge [
     source "Caracas"
-    target "Valencia"
-    id "E603"
+    target "Maracay"
+    id "E205"
 ]
   edge [
     source "Caracas"
@@ -5928,13 +5348,13 @@ graph [
 ]
   edge [
     source "Caracas"
-    target "Maracaibo"
-    id "E872"
+    target "Santo Domingo"
+    id "E1186"
 ]
   edge [
     source "Caracas"
-    target "Santo Domingo"
-    id "E1186"
+    target "Belem"
+    id "Non_labeled_13"
 ]
   edge [
     source "Lanzhou"
@@ -5952,11 +5372,6 @@ graph [
     id "E851"
 ]
   edge [
-    source "Lanzhou"
-    target "Bayan Nur"
-    id "E990"
-]
-  edge [
     source "Quezon City"
     target "Manila"
     id "E208"
@@ -5967,16 +5382,6 @@ graph [
     id "E496"
 ]
   edge [
-    source "Quezon City"
-    target "Budta"
-    id "E1001"
-]
-  edge [
-    source "Quezon City"
-    target "Davao"
-    id "E1020"
-]
-  edge [
     source "Incheon"
     target "Goyang-si"
     id "E209"
@@ -5985,16 +5390,6 @@ graph [
     source "Incheon"
     target "Suwon"
     id "E516"
-]
-  edge [
-    source "Incheon"
-    target "Daejeon"
-    id "E624"
-]
-  edge [
-    source "Incheon"
-    target "Gwangju"
-    id "E776"
 ]
   edge [
     source "Huizhou"
@@ -6047,11 +5442,6 @@ graph [
     id "E215"
 ]
   edge [
-    source "Surabaya"
-    target "Bandung"
-    id "E981"
-]
-  edge [
     source "Haikou"
     target "Zhanjiang"
     id "E216"
@@ -6065,11 +5455,6 @@ graph [
     source "Haikou"
     target "Qinzhou"
     id "E718"
-]
-  edge [
-    source "Haikou"
-    target "Zhuhai"
-    id "E812"
 ]
   edge [
     source "Haikou"
@@ -6117,11 +5502,6 @@ graph [
     id "E1221"
 ]
   edge [
-    source "Kyiv"
-    target "Rostov-na-Donu"
-    id "E1228"
-]
-  edge [
     source "Quito"
     target "Guayaquil"
     id "E221"
@@ -6133,8 +5513,8 @@ graph [
 ]
   edge [
     source "Luanda"
-    target "Brazzaville"
-    id "E1053"
+    target "Douala"
+    id "Non_labeled_14"
 ]
   edge [
     source "Osaka"
@@ -6145,21 +5525,6 @@ graph [
     source "Osaka"
     target "Kyoto"
     id "E224"
-]
-  edge [
-    source "Osaka"
-    target "Nagoya"
-    id "E627"
-]
-  edge [
-    source "Osaka"
-    target "Hiroshima"
-    id "E722"
-]
-  edge [
-    source "Osaka"
-    target "Fukuoka"
-    id "E849"
 ]
   edge [
     source "Linyi"
@@ -6198,28 +5563,13 @@ graph [
 ]
   edge [
     source "Brooklyn"
-    target "Queens"
-    id "E227"
-]
-  edge [
-    source "Brooklyn"
     target "Philadelphia"
-    id "E228"
-]
-  edge [
-    source "Brooklyn"
-    target "Brooklyn"
-    id "E484"
+    id "Non_labeled_3"
 ]
   edge [
     source "Guayaquil"
     target "Callao"
     id "E229"
-]
-  edge [
-    source "Guayaquil"
-    target "Cali"
-    id "E1113"
 ]
   edge [
     source "Guayaquil"
@@ -6245,11 +5595,6 @@ graph [
     source "Belo Horizonte"
     target "Goiania"
     id "E1010"
-]
-  edge [
-    source "Belo Horizonte"
-    target "Recife"
-    id "E1151"
 ]
   edge [
     source "Salvador"
@@ -6298,16 +5643,6 @@ graph [
 ]
   edge [
     source "Jaipur"
-    target "Amritsar"
-    id "E958"
-]
-  edge [
-    source "Jaipur"
-    target "Rajkot"
-    id "E1032"
-]
-  edge [
-    source "Jaipur"
     target "Multan"
     id "E1143"
 ]
@@ -6325,16 +5660,6 @@ graph [
     source "Abuja"
     target "Onitsha"
     id "E846"
-]
-  edge [
-    source "Abuja"
-    target "Aba"
-    id "E916"
-]
-  edge [
-    source "Gazipur"
-    target "Khulna"
-    id "E655"
 ]
   edge [
     source "Gazipur"
@@ -6355,21 +5680,6 @@ graph [
     source "Chicago"
     target "Toronto"
     id "E237"
-]
-  edge [
-    source "Chicago"
-    target "Dallas"
-    id "E238"
-]
-  edge [
-    source "Chicago"
-    target "Chicago"
-    id "E485"
-]
-  edge [
-    source "Chicago"
-    target "Philadelphia"
-    id "E1126"
 ]
   edge [
     source "Wenzhou"
@@ -6423,11 +5733,6 @@ graph [
 ]
   edge [
     source "Yunfu"
-    target "Qingyuan"
-    id "E613"
-]
-  edge [
-    source "Yunfu"
     target "Maoming"
     id "E693"
 ]
@@ -6447,16 +5752,6 @@ graph [
     id "E244"
 ]
   edge [
-    source "Toronto"
-    target "Philadelphia"
-    id "E1138"
-]
-  edge [
-    source "Toronto"
-    target "Manhattan"
-    id "E1141"
-]
-  edge [
     source "Navi Mumbai"
     target "Pimpri"
     id "E245"
@@ -6470,11 +5765,6 @@ graph [
     source "Navi Mumbai"
     target "Dombivli"
     id "E507"
-]
-  edge [
-    source "Navi Mumbai"
-    target "Kalyan"
-    id "E510"
 ]
   edge [
     source "Mogadishu"
@@ -6493,11 +5783,6 @@ graph [
 ]
   edge [
     source "Daegu"
-    target "Fukuoka"
-    id "E907"
-]
-  edge [
-    source "Daegu"
     target "Hiroshima"
     id "E965"
 ]
@@ -6508,28 +5793,8 @@ graph [
 ]
   edge [
     source "Bekasi"
-    target "Tangerang"
-    id "E520"
-]
-  edge [
-    source "Bekasi"
-    target "Bogor"
-    id "E523"
-]
-  edge [
-    source "Bekasi"
     target "Bandung"
     id "E576"
-]
-  edge [
-    source "Bekasi"
-    target "Bandar Lampung"
-    id "E637"
-]
-  edge [
-    source "Bekasi"
-    target "Jepara"
-    id "E806"
 ]
   edge [
     source "Bekasi"
@@ -6562,19 +5827,9 @@ graph [
     id "E1175"
 ]
   edge [
-    source "Kumasi"
-    target "Monrovia"
-    id "E1203"
-]
-  edge [
     source "Gujranwala"
     target "Amritsar"
     id "E686"
-]
-  edge [
-    source "Gujranwala"
-    target "Ludhiana"
-    id "E901"
 ]
   edge [
     source "Izmir"
@@ -6618,23 +5873,8 @@ graph [
 ]
   edge [
     source "Lucknow"
-    target "Varanasi"
-    id "E788"
-]
-  edge [
-    source "Lucknow"
-    target "Agra"
-    id "E809"
-]
-  edge [
-    source "Lucknow"
     target "Meerut"
     id "E891"
-]
-  edge [
-    source "Lucknow"
-    target "Patna"
-    id "E919"
 ]
   edge [
     source "Bandung"
@@ -6645,11 +5885,6 @@ graph [
     source "Bandung"
     target "Semarang"
     id "E254"
-]
-  edge [
-    source "Bandung"
-    target "Jepara"
-    id "E759"
 ]
   edge [
     source "Medan"
@@ -6738,11 +5973,6 @@ graph [
 ]
   edge [
     source "Hohhot"
-    target "Bayan Nur"
-    id "E866"
-]
-  edge [
-    source "Hohhot"
     target "Daqing"
     id "E1171"
 ]
@@ -6785,21 +6015,6 @@ graph [
     source "Rome"
     target "Sofia"
     id "E1172"
-]
-  edge [
-    source "Houston"
-    target "San Antonio"
-    id "E267"
-]
-  edge [
-    source "Houston"
-    target "Dallas"
-    id "E268"
-]
-  edge [
-    source "Houston"
-    target "Houston"
-    id "E486"
 ]
   edge [
     source "Houston"
@@ -6848,16 +6063,6 @@ graph [
 ]
   edge [
     source "Nantong"
-    target "Jiangyin"
-    id "E535"
-]
-  edge [
-    source "Nantong"
-    target "Kunshan"
-    id "E549"
-]
-  edge [
-    source "Nantong"
     target "Yangzhou"
     id "E572"
 ]
@@ -6868,33 +6073,13 @@ graph [
 ]
   edge [
     source "Queens"
-    target "Queens"
-    id "E487"
-]
-  edge [
-    source "Queens"
-    target "Manhattan"
-    id "E501"
+    target "Birmingham"
+    id "Non_labeled_16"
 ]
   edge [
     source "Queens"
     target "The Bronx"
-    id "E505"
-]
-  edge [
-    source "Queens"
-    target "Philadelphia"
-    id "E570"
-]
-  edge [
-    source "Queens"
-    target "Montreal"
-    id "E1131"
-]
-  edge [
-    source "Kowloon"
-    target "Hong Kong Island"
-    id "E495"
+    id "Non_labeled_4"
 ]
   edge [
     source "Nagpur"
@@ -6923,11 +6108,6 @@ graph [
 ]
   edge [
     source "Nagpur"
-    target "Agra"
-    id "E1016"
-]
-  edge [
-    source "Nagpur"
     target "Ranchi"
     id "E1022"
 ]
@@ -6935,16 +6115,6 @@ graph [
     source "Yantai"
     target "Weifang"
     id "E743"
-]
-  edge [
-    source "Yantai"
-    target "Anshan"
-    id "E819"
-]
-  edge [
-    source "Yantai"
-    target "Yancheng"
-    id "E845"
 ]
   edge [
     source "Yantai"
@@ -6983,16 +6153,6 @@ graph [
 ]
   edge [
     source "Lubumbashi"
-    target "Kananga"
-    id "E1075"
-]
-  edge [
-    source "Lubumbashi"
-    target "Kisangani"
-    id "E1196"
-]
-  edge [
-    source "Lubumbashi"
     target "Lilongwe"
     id "E1214"
 ]
@@ -7025,16 +6185,6 @@ graph [
     source "Brasilia"
     target "Belem"
     id "E1144"
-]
-  edge [
-    source "Zhuhai"
-    target "Jiangmen"
-    id "E537"
-]
-  edge [
-    source "Zhuhai"
-    target "Hong Kong Island"
-    id "E601"
 ]
   edge [
     source "Zhuhai"
@@ -7107,11 +6257,6 @@ graph [
     id "E291"
 ]
   edge [
-    source "Paris"
-    target "Birmingham"
-    id "E1025"
-]
-  edge [
     source "Coimbatore"
     target "Madurai"
     id "E292"
@@ -7168,11 +6313,6 @@ graph [
 ]
   edge [
     source "Port Harcourt"
-    target "Douala"
-    id "E913"
-]
-  edge [
-    source "Port Harcourt"
     target "Accra"
     id "E1147"
 ]
@@ -7185,16 +6325,6 @@ graph [
     source "Pretoria"
     target "Bulawayo"
     id "E298"
-]
-  edge [
-    source "Pretoria"
-    target "Soweto"
-    id "E546"
-]
-  edge [
-    source "Pretoria"
-    target "Maputo"
-    id "E1080"
 ]
   edge [
     source "Pretoria"
@@ -7228,23 +6358,8 @@ graph [
 ]
   edge [
     source "Aleppo"
-    target "Diyarbakir"
-    id "E1009"
-]
-  edge [
-    source "Aleppo"
-    target "Amman"
-    id "E1097"
-]
-  edge [
-    source "Aleppo"
     target "Al Mawsil al Jadidah"
     id "E1124"
-]
-  edge [
-    source "Aleppo"
-    target "Mosul"
-    id "E1125"
 ]
   edge [
     source "Aleppo"
@@ -7273,23 +6388,8 @@ graph [
 ]
   edge [
     source "Al Mawsil al Jadidah"
-    target "Erbil"
-    id "E557"
-]
-  edge [
-    source "Al Mawsil al Jadidah"
     target "Karbala"
     id "E904"
-]
-  edge [
-    source "Al Mawsil al Jadidah"
-    target "Tabriz"
-    id "E1021"
-]
-  edge [
-    source "Al Mawsil al Jadidah"
-    target "Yerevan"
-    id "E1084"
 ]
   edge [
     source "Weifang"
@@ -7300,11 +6400,6 @@ graph [
     source "Weifang"
     target "Tai'an"
     id "E702"
-]
-  edge [
-    source "Weifang"
-    target "Jining"
-    id "E790"
 ]
   edge [
     source "Zunyi"
@@ -7318,16 +6413,6 @@ graph [
 ]
   edge [
     source "Zunyi"
-    target "Dazhou"
-    id "E890"
-]
-  edge [
-    source "Zunyi"
-    target "Meishan"
-    id "E893"
-]
-  edge [
-    source "Zunyi"
     target "Changde"
     id "E940"
 ]
@@ -7338,16 +6423,6 @@ graph [
 ]
   edge [
     source "Al Basrah al Qadimah"
-    target "Isfahan"
-    id "E307"
-]
-  edge [
-    source "Al Basrah al Qadimah"
-    target "Karbala"
-    id "E912"
-]
-  edge [
-    source "Al Basrah al Qadimah"
     target "Shiraz"
     id "E1006"
 ]
@@ -7355,11 +6430,6 @@ graph [
     source "Al Basrah al Qadimah"
     target "Dammam"
     id "E1026"
-]
-  edge [
-    source "Al Basrah al Qadimah"
-    target "Erbil"
-    id "E1034"
 ]
   edge [
     source "La Paz"
@@ -7382,6 +6452,11 @@ graph [
     id "E310"
 ]
   edge [
+    source "Medellin"
+    target "Puebla"
+    id "Non_labeled_17"
+]
+  edge [
     source "Brazzaville"
     target "Yaounde"
     id "E311"
@@ -7390,11 +6465,6 @@ graph [
     source "Tashkent"
     target "Shymkent"
     id "E312"
-]
-  edge [
-    source "Tashkent"
-    target "Almaty"
-    id "E1189"
 ]
   edge [
     source "Ganzhou"
@@ -7428,33 +6498,13 @@ graph [
 ]
   edge [
     source "Sapporo"
-    target "Saitama"
-    id "E980"
-]
-  edge [
-    source "Sapporo"
     target "Kyoto"
     id "E1029"
-]
-  edge [
-    source "Sapporo"
-    target "Hiroshima"
-    id "E1077"
-]
-  edge [
-    source "Accra"
-    target "Douala"
-    id "E1234"
 ]
   edge [
     source "Curitiba"
     target "Porto Alegre"
     id "E317"
-]
-  edge [
-    source "Curitiba"
-    target "Guarulhos"
-    id "E857"
 ]
   edge [
     source "Curitiba"
@@ -7493,16 +6543,6 @@ graph [
 ]
   edge [
     source "Tijuana"
-    target "San Diego"
-    id "E321"
-]
-  edge [
-    source "Tijuana"
-    target "Phoenix"
-    id "E322"
-]
-  edge [
-    source "Tijuana"
     target "Ciudad Juarez"
     id "E1107"
 ]
@@ -7510,11 +6550,6 @@ graph [
     source "Tijuana"
     target "Zapopan"
     id "E1184"
-]
-  edge [
-    source "Tijuana"
-    target "Guadalajara"
-    id "E1185"
 ]
   edge [
     source "Beirut"
@@ -7525,16 +6560,6 @@ graph [
     source "Beirut"
     target "Damascus"
     id "E324"
-]
-  edge [
-    source "Beirut"
-    target "Adana"
-    id "E937"
-]
-  edge [
-    source "Beirut"
-    target "Antalya"
-    id "E1046"
 ]
   edge [
     source "Tangerang"
@@ -7603,11 +6628,6 @@ graph [
 ]
   edge [
     source "Kakamega"
-    target "Mombasa"
-    id "E947"
-]
-  edge [
-    source "Kakamega"
     target "Mwanza"
     id "E1036"
 ]
@@ -7642,6 +6662,11 @@ graph [
     id "E886"
 ]
   edge [
+    source "Omdurman"
+    target "N'Djamena"
+    id "Non_labeled_18"
+]
+  edge [
     source "Hamburg"
     target "Copenhagen"
     id "E334"
@@ -7650,16 +6675,6 @@ graph [
     source "Hamburg"
     target "Munich"
     id "E992"
-]
-  edge [
-    source "Hamburg"
-    target "Oslo"
-    id "E1104"
-]
-  edge [
-    source "Hamburg"
-    target "Birmingham"
-    id "E1149"
 ]
   edge [
     source "Indore"
@@ -7712,21 +6727,6 @@ graph [
     id "E339"
 ]
   edge [
-    source "Iztapalapa"
-    target "Puebla"
-    id "E569"
-]
-  edge [
-    source "Iztapalapa"
-    target "Santiago de Queretaro"
-    id "E717"
-]
-  edge [
-    source "Iztapalapa"
-    target "Guadalajara"
-    id "E933"
-]
-  edge [
     source "Nanyang"
     target "Xiangyang"
     id "E340"
@@ -7757,11 +6757,6 @@ graph [
     id "E342"
 ]
   edge [
-    source "Abu Dhabi"
-    target "Sharjah"
-    id "E574"
-]
-  edge [
     source "Sharjah"
     target "Dammam"
     id "E1043"
@@ -7788,18 +6783,8 @@ graph [
 ]
   edge [
     source "Diyarbakir"
-    target "Mosul"
-    id "E997"
-]
-  edge [
-    source "Diyarbakir"
     target "Yerevan"
     id "E1087"
-]
-  edge [
-    source "Diyarbakir"
-    target "Tbilisi"
-    id "E1152"
 ]
   edge [
     source "Diyarbakir"
@@ -7825,11 +6810,6 @@ graph [
     source "Davao"
     target "Malingao"
     id "E345"
-]
-  edge [
-    source "Davao"
-    target "Budta"
-    id "E607"
 ]
   edge [
     source "Fuyang"
@@ -7859,12 +6839,7 @@ graph [
   edge [
     source "Montreal"
     target "The Bronx"
-    id "E348"
-]
-  edge [
-    source "Montreal"
-    target "Manhattan"
-    id "E1119"
+    id "Non_labeled_5"
 ]
   edge [
     source "Bayan Nur"
@@ -7913,11 +6888,6 @@ graph [
 ]
   edge [
     source "Budapest"
-    target "Prague"
-    id "E1082"
-]
-  edge [
-    source "Budapest"
     target "Warsaw"
     id "E1137"
 ]
@@ -7947,11 +6917,6 @@ graph [
     id "E577"
 ]
   edge [
-    source "Tai'an"
-    target "Heze"
-    id "E695"
-]
-  edge [
     source "Rasapudipalem"
     target "Visakhapatnam"
     id "E355"
@@ -7963,18 +6928,8 @@ graph [
 ]
   edge [
     source "Rasapudipalem"
-    target "Vijayawada"
-    id "E835"
-]
-  edge [
-    source "Rasapudipalem"
     target "Jamshedpur"
     id "E1002"
-]
-  edge [
-    source "Rasapudipalem"
-    target "Tirunelveli"
-    id "E1065"
 ]
   edge [
     source "Leon de los Aldama"
@@ -7992,11 +6947,6 @@ graph [
     id "E359"
 ]
   edge [
-    source "Leon de los Aldama"
-    target "Guadalajara"
-    id "E701"
-]
-  edge [
     source "Warsaw"
     target "Copenhagen"
     id "E1093"
@@ -8012,11 +6962,6 @@ graph [
     id "E1150"
 ]
   edge [
-    source "Soweto"
-    target "Port Elizabeth"
-    id "E1081"
-]
-  edge [
     source "Puebla"
     target "Ciudad Nezahualcoyotl"
     id "E360"
@@ -8025,16 +6970,6 @@ graph [
     source "Puebla"
     target "Merida"
     id "E361"
-]
-  edge [
-    source "Puebla"
-    target "Ecatepec de Morelos"
-    id "E581"
-]
-  edge [
-    source "Puebla"
-    target "Santiago de Queretaro"
-    id "E807"
 ]
   edge [
     source "Puebla"
@@ -8055,11 +6990,6 @@ graph [
     source "Vienna"
     target "Munich"
     id "E1030"
-]
-  edge [
-    source "Vienna"
-    target "Belgrade"
-    id "E1099"
 ]
   edge [
     source "Vienna"
@@ -8088,11 +7018,6 @@ graph [
 ]
   edge [
     source "Patna"
-    target "Meerut"
-    id "E1066"
-]
-  edge [
-    source "Patna"
     target "Ludhiana"
     id "E1135"
 ]
@@ -8103,11 +7028,6 @@ graph [
 ]
   edge [
     source "Mosul"
-    target "Tabriz"
-    id "E1018"
-]
-  edge [
-    source "Mosul"
     target "Yerevan"
     id "E1083"
 ]
@@ -8115,11 +7035,6 @@ graph [
     source "Kallakurichi"
     target "Madurai"
     id "E367"
-]
-  edge [
-    source "Kallakurichi"
-    target "Tirunelveli"
-    id "E870"
 ]
   edge [
     source "Kampala"
@@ -8135,16 +7050,6 @@ graph [
     source "Kampala"
     target "Kisangani"
     id "E1249"
-]
-  edge [
-    source "Xining"
-    target "Tianshui"
-    id "E908"
-]
-  edge [
-    source "Xining"
-    target "Meishan"
-    id "E1041"
 ]
   edge [
     source "Changshu"
@@ -8198,28 +7103,13 @@ graph [
 ]
   edge [
     source "Phoenix"
-    target "Ciudad Juarez"
-    id "E376"
-]
-  edge [
-    source "Phoenix"
     target "Phoenix"
     id "E488"
 ]
   edge [
     source "Phoenix"
-    target "San Diego"
-    id "E936"
-]
-  edge [
-    source "Phoenix"
-    target "San Antonio"
-    id "E1193"
-]
-  edge [
-    source "Phoenix"
     target "Dallas"
-    id "E1206"
+    id "Non_labeled_6"
 ]
   edge [
     source "Ecatepec de Morelos"
@@ -8292,19 +7182,9 @@ graph [
     id "E384"
 ]
   edge [
-    source "Fukuoka"
-    target "Gwangju"
-    id "E948"
-]
-  edge [
     source "Taizhou"
     target "Yiwu"
     id "E641"
-]
-  edge [
-    source "Taizhou"
-    target "Putian"
-    id "E821"
 ]
   edge [
     source "Taizhou"
@@ -8338,18 +7218,8 @@ graph [
 ]
   edge [
     source "Santiago de Queretaro"
-    target "Guadalajara"
-    id "E833"
-]
-  edge [
-    source "Santiago de Queretaro"
     target "Monterrey"
     id "E978"
-]
-  edge [
-    source "Dazhou"
-    target "Mianyang"
-    id "E786"
 ]
   edge [
     source "Dazhou"
@@ -8373,13 +7243,8 @@ graph [
 ]
   edge [
     source "Philadelphia"
-    target "Philadelphia"
-    id "E489"
-]
-  edge [
-    source "Philadelphia"
     target "Manhattan"
-    id "E625"
+    id "Non_labeled_7"
 ]
   edge [
     source "Phnom Penh"
@@ -8407,11 +7272,6 @@ graph [
     id "E389"
 ]
   edge [
-    source "Damascus"
-    target "Ra's Bayrut"
-    id "E682"
-]
-  edge [
     source "Quetta"
     target "Bannu"
     id "E925"
@@ -8420,11 +7280,6 @@ graph [
     source "Onitsha"
     target "Aba"
     id "E390"
-]
-  edge [
-    source "Onitsha"
-    target "Ilorin"
-    id "E868"
 ]
   edge [
     source "Mianyang"
@@ -8440,11 +7295,6 @@ graph [
     source "Isfahan"
     target "Shiraz"
     id "E391"
-]
-  edge [
-    source "Isfahan"
-    target "Karaj"
-    id "E865"
 ]
   edge [
     source "Isfahan"
@@ -8497,16 +7347,6 @@ graph [
     id "E397"
 ]
   edge [
-    source "Putian"
-    target "Jinjiang"
-    id "E554"
-]
-  edge [
-    source "Kawasaki"
-    target "Sendai"
-    id "E841"
-]
-  edge [
     source "Shangqiu"
     target "Bozhou"
     id "E398"
@@ -8542,14 +7382,9 @@ graph [
     id "E1061"
 ]
   edge [
-    source "Goiania"
-    target "Belem"
-    id "E1160"
-]
-  edge [
-    source "Goiania"
-    target "Porto Alegre"
-    id "E1223"
+    source "Auckland"
+    target "San Diego"
+    id "Non_labeled_8"
 ]
   edge [
     source "Kobe"
@@ -8583,11 +7418,6 @@ graph [
 ]
   edge [
     source "Ciudad Juarez"
-    target "San Antonio"
-    id "E403"
-]
-  edge [
-    source "Ciudad Juarez"
     target "Monterrey"
     id "E1089"
 ]
@@ -8595,11 +7425,6 @@ graph [
     source "Ciudad Juarez"
     target "Zapopan"
     id "E1174"
-]
-  edge [
-    source "Ciudad Juarez"
-    target "Guadalajara"
-    id "E1177"
 ]
   edge [
     source "Yekaterinburg"
@@ -8620,11 +7445,6 @@ graph [
     source "Yekaterinburg"
     target "Omsk"
     id "E1064"
-]
-  edge [
-    source "Yekaterinburg"
-    target "Nizhniy Novgorod"
-    id "E1112"
 ]
   edge [
     source "Gwangju"
@@ -8654,12 +7474,12 @@ graph [
   edge [
     source "Manhattan"
     target "The Bronx"
-    id "E408"
+    id "Non_labeled_9"
 ]
   edge [
-    source "Manhattan"
-    target "Manhattan"
-    id "E490"
+    source "Asuncion"
+    target "Cordoba"
+    id "Non_labeled_20"
 ]
   edge [
     source "Yiwu"
@@ -8702,16 +7522,6 @@ graph [
     id "E862"
 ]
   edge [
-    source "Kyoto"
-    target "Hiroshima"
-    id "E831"
-]
-  edge [
-    source "Kyoto"
-    target "Saitama"
-    id "E875"
-]
-  edge [
     source "Cixi"
     target "Jiaxing"
     id "E532"
@@ -8747,11 +7557,6 @@ graph [
     id "E416"
 ]
   edge [
-    source "Kuala Lumpur"
-    target "Batam"
-    id "E1017"
-]
-  edge [
     source "Kaifeng"
     target "Heze"
     id "E417"
@@ -8768,11 +7573,6 @@ graph [
 ]
   edge [
     source "Kaifeng"
-    target "Luohe"
-    id "E628"
-]
-  edge [
-    source "Kaifeng"
     target "Anyang"
     id "E635"
 ]
@@ -8782,34 +7582,9 @@ graph [
     id "E673"
 ]
   edge [
-    source "Kaifeng"
-    target "Luoyang"
-    id "E680"
-]
-  edge [
-    source "Kaifeng"
-    target "Liaocheng"
-    id "E760"
-]
-  edge [
-    source "Anshan"
-    target "Fushun"
-    id "E589"
-]
-  edge [
-    source "Karaj"
-    target "Tabriz"
-    id "E938"
-]
-  edge [
     source "Baoji"
     target "Tianshui"
     id "E418"
-]
-  edge [
-    source "Baoji"
-    target "Weinan"
-    id "E736"
 ]
   edge [
     source "Suqian"
@@ -8822,29 +7597,14 @@ graph [
     id "E420"
 ]
   edge [
-    source "Liuzhou"
-    target "Yulin"
-    id "E728"
-]
-  edge [
-    source "Tirunelveli"
-    target "Rajkot"
-    id "E1156"
-]
-  edge [
     source "San Antonio"
     target "Monterrey"
     id "E421"
 ]
   edge [
     source "San Antonio"
-    target "San Antonio"
-    id "E491"
-]
-  edge [
-    source "San Antonio"
     target "Dallas"
-    id "E896"
+    id "Non_labeled_10"
 ]
   edge [
     source "Kharkiv"
@@ -8868,18 +7628,8 @@ graph [
 ]
   edge [
     source "Agra"
-    target "Najafgarh"
-    id "E709"
-]
-  edge [
-    source "Agra"
     target "Meerut"
     id "E727"
-]
-  edge [
-    source "Agra"
-    target "Prayagraj"
-    id "E911"
 ]
   edge [
     source "Tabriz"
@@ -8890,16 +7640,6 @@ graph [
     source "Tabriz"
     target "Baku"
     id "E427"
-]
-  edge [
-    source "Tabriz"
-    target "Tbilisi"
-    id "E1067"
-]
-  edge [
-    source "Makassar"
-    target "Jepara"
-    id "E1023"
 ]
   edge [
     source "Makassar"
@@ -8922,19 +7662,9 @@ graph [
     id "E519"
 ]
   edge [
-    source "Faridabad"
-    target "Meerut"
-    id "E551"
-]
-  edge [
     source "Bozhou"
     target "Huaibei"
     id "E428"
-]
-  edge [
-    source "Bozhou"
-    target "Heze"
-    id "E647"
 ]
   edge [
     source "Bozhou"
@@ -8947,24 +7677,9 @@ graph [
     id "E429"
 ]
   edge [
-    source "Qujing"
-    target "Bijie"
-    id "E770"
-]
-  edge [
-    source "South Tangerang"
-    target "Bogor"
-    id "E517"
-]
-  edge [
     source "Zhanjiang"
     target "Maoming"
     id "E430"
-]
-  edge [
-    source "Zhanjiang"
-    target "Yangjiang"
-    id "E594"
 ]
   edge [
     source "Zhanjiang"
@@ -8975,11 +7690,6 @@ graph [
     source "Zhanjiang"
     target "Qinzhou"
     id "E723"
-]
-  edge [
-    source "San Diego"
-    target "San Diego"
-    id "E492"
 ]
   edge [
     source "Luoyang"
@@ -9002,11 +7712,6 @@ graph [
     id "E789"
 ]
   edge [
-    source "The Bronx"
-    target "The Bronx"
-    id "E493"
-]
-  edge [
     source "Guankou"
     target "Zhuzhou"
     id "E431"
@@ -9017,11 +7722,6 @@ graph [
     id "E432"
 ]
   edge [
-    source "Guankou"
-    target "Heshan"
-    id "E614"
-]
-  edge [
     source "Milan"
     target "Munich"
     id "E433"
@@ -9030,11 +7730,6 @@ graph [
     source "Najafgarh"
     target "Gorakhpur"
     id "E434"
-]
-  edge [
-    source "Najafgarh"
-    target "Meerut"
-    id "E555"
 ]
   edge [
     source "N'Djamena"
@@ -9075,6 +7770,11 @@ graph [
     source "Antananarivo"
     target "Lilongwe"
     id "E439"
+]
+  edge [
+    source "Antananarivo"
+    target "Maputo"
+    id "Non_labeled_21"
 ]
   edge [
     source "Heze"
@@ -9122,16 +7822,6 @@ graph [
     id "E445"
 ]
   edge [
-    source "Basrah"
-    target "Shiraz"
-    id "E1007"
-]
-  edge [
-    source "Basrah"
-    target "Dammam"
-    id "E1027"
-]
-  edge [
     source "Saitama"
     target "Sendai"
     id "E446"
@@ -9157,11 +7847,6 @@ graph [
     id "E448"
 ]
   edge [
-    source "Cordoba"
-    target "Montevideo"
-    id "E1157"
-]
-  edge [
     source "Maoming"
     target "Yangjiang"
     id "E449"
@@ -9170,21 +7855,6 @@ graph [
     source "Maoming"
     target "Yulin"
     id "E450"
-]
-  edge [
-    source "Dallas"
-    target "Dallas"
-    id "E494"
-]
-  edge [
-    source "Madinah"
-    target "Dammam"
-    id "E1132"
-]
-  edge [
-    source "Yaounde"
-    target "Aba"
-    id "E1013"
 ]
   edge [
     source "Qinzhou"
@@ -9220,11 +7890,6 @@ graph [
     source "Nashik"
     target "Kalyan"
     id "E453"
-]
-  edge [
-    source "Nashik"
-    target "Thane"
-    id "E596"
 ]
   edge [
     source "Nashik"
@@ -9272,11 +7937,6 @@ graph [
     id "E457"
 ]
   edge [
-    source "Kalyan"
-    target "Thane"
-    id "E504"
-]
-  edge [
     source "Zigong"
     target "Neijiang"
     id "E458"
@@ -9312,19 +7972,9 @@ graph [
     id "E991"
 ]
   edge [
-    source "Jepara"
-    target "Batam"
-    id "E1056"
-]
-  edge [
     source "Maputo"
     target "Matola"
     id "E463"
-]
-  edge [
-    source "Maputo"
-    target "Bulawayo"
-    id "E1231"
 ]
   edge [
     source "Xuzhou"
@@ -9345,11 +7995,6 @@ graph [
     source "Neijiang"
     target "Meishan"
     id "E604"
-]
-  edge [
-    source "Heshan"
-    target "Zhuzhou"
-    id "E584"
 ]
   edge [
     source "Heshan"
@@ -9377,11 +8022,6 @@ graph [
     id "E1059"
 ]
   edge [
-    source "Barquisimeto"
-    target "Barranquilla"
-    id "E1068"
-]
-  edge [
     source "Port-au-Prince"
     target "Santiago de los Caballeros"
     id "E467"
@@ -9405,11 +8045,6 @@ graph [
     source "Meerut"
     target "Ghaziabad"
     id "E468"
-]
-  edge [
-    source "Nowrangapur"
-    target "Visakhapatnam"
-    id "E700"
 ]
   edge [
     source "Nowrangapur"
@@ -9452,11 +8087,6 @@ graph [
     id "E471"
 ]
   edge [
-    source "Chelyabinsk"
-    target "Samara"
-    id "E1044"
-]
-  edge [
     source "Merida"
     target "Monterrey"
     id "E1074"
@@ -9482,26 +8112,6 @@ graph [
     id "E472"
 ]
   edge [
-    source "Omsk"
-    target "Krasnoyarsk"
-    id "E1165"
-]
-  edge [
-    source "Omsk"
-    target "Samara"
-    id "E1226"
-]
-  edge [
-    source "Bandar Lampung"
-    target "Bogor"
-    id "E638"
-]
-  edge [
-    source "Bandar Lampung"
-    target "Pekanbaru"
-    id "E1054"
-]
-  edge [
     source "Varanasi"
     target "Prayagraj"
     id "E473"
@@ -9510,11 +8120,6 @@ graph [
     source "Varanasi"
     target "Ranchi"
     id "E839"
-]
-  edge [
-    source "Batam"
-    target "Pekanbaru"
-    id "E734"
 ]
   edge [
     source "Jiujiang"
@@ -9542,11 +8147,6 @@ graph [
     id "E976"
 ]
   edge [
-    source "Aba"
-    target "Maiduguri"
-    id "E1100"
-]
-  edge [
     source "Copenhagen"
     target "Oslo"
     id "E475"
@@ -9570,11 +8170,6 @@ graph [
     source "Yerevan"
     target "Tbilisi"
     id "E478"
-]
-  edge [
-    source "Bijie"
-    target "Meishan"
-    id "E848"
 ]
   edge [
     source "Kigali"
@@ -9602,11 +8197,6 @@ graph [
     id "E592"
 ]
   edge [
-    source "Ranchi"
-    target "Prayagraj"
-    id "E903"
-]
-  edge [
     source "Baku"
     target "Tbilisi"
     id "E1088"
@@ -9615,11 +8205,6 @@ graph [
     source "Maiduguri"
     target "Jos"
     id "E950"
-]
-  edge [
-    source "Maiduguri"
-    target "Sokoto"
-    id "E1078"
 ]
   edge [
     source "Guigang"

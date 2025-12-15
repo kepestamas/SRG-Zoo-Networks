@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Global_50_125_mst"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Global"
   node [
@@ -360,23 +360,8 @@ graph [
 ]
   edge [
     source "Shanghai"
-    target "Nanjing"
-    id "E54"
-]
-  edge [
-    source "Shanghai"
     target "Qingdao"
     id "E55"
-]
-  edge [
-    source "Shanghai"
-    target "Shenyang"
-    id "E62"
-]
-  edge [
-    source "Shanghai"
-    target "Taipei"
-    id "E70"
 ]
   edge [
     source "Shanghai"
@@ -397,11 +382,6 @@ graph [
     source "Beijing"
     target "Xi'an"
     id "E67"
-]
-  edge [
-    source "Beijing"
-    target "Chengdu"
-    id "E81"
 ]
   edge [
     source "Beijing"
@@ -427,11 +407,6 @@ graph [
     source "Shenzhen"
     target "Foshan"
     id "E50"
-]
-  edge [
-    source "Shenzhen"
-    target "Wuhan"
-    id "E66"
 ]
   edge [
     source "Shenzhen"
@@ -462,11 +437,6 @@ graph [
     source "Kinshasa"
     target "Dar es Salaam"
     id "E8"
-]
-  edge [
-    source "Kinshasa"
-    target "Abidjan"
-    id "E94"
 ]
   edge [
     source "Kinshasa"
@@ -505,11 +475,6 @@ graph [
 ]
   edge [
     source "Lagos"
-    target "Dar es Salaam"
-    id "E111"
-]
-  edge [
-    source "Lagos"
     target "London"
     id "E116"
 ]
@@ -530,18 +495,8 @@ graph [
 ]
   edge [
     source "Chengdu"
-    target "Foshan"
-    id "E78"
-]
-  edge [
-    source "Chengdu"
     target "Hanoi"
     id "E85"
-]
-  edge [
-    source "Chengdu"
-    target "Singapore"
-    id "E102"
 ]
   edge [
     source "Chengdu"
@@ -565,11 +520,6 @@ graph [
 ]
   edge [
     source "Lahore"
-    target "Dhaka"
-    id "E97"
-]
-  edge [
-    source "Lahore"
     target "Tehran"
     id "E99"
 ]
@@ -577,11 +527,6 @@ graph [
     source "Lahore"
     target "Moscow"
     id "E121"
-]
-  edge [
-    source "Lahore"
-    target "Shenyang"
-    id "E123"
 ]
   edge [
     source "Mumbai"
@@ -600,18 +545,8 @@ graph [
 ]
   edge [
     source "Mumbai"
-    target "Delhi"
-    id "E75"
-]
-  edge [
-    source "Mumbai"
     target "Karachi"
     id "E79"
-]
-  edge [
-    source "Mumbai"
-    target "Baghdad"
-    id "E101"
 ]
   edge [
     source "Sao Paulo"
@@ -630,11 +565,6 @@ graph [
 ]
   edge [
     source "Mexico City"
-    target "New York City"
-    id "E22"
-]
-  edge [
-    source "Mexico City"
     target "Lima"
     id "E112"
 ]
@@ -647,11 +577,6 @@ graph [
     source "Karachi"
     target "Tehran"
     id "E24"
-]
-  edge [
-    source "Karachi"
-    target "Baghdad"
-    id "E93"
 ]
   edge [
     source "Tianjin"
@@ -709,11 +634,6 @@ graph [
     id "E60"
 ]
   edge [
-    source "Wuhan"
-    target "Foshan"
-    id "E65"
-]
-  edge [
     source "Moscow"
     target "Tehran"
     id "E95"
@@ -727,11 +647,6 @@ graph [
     source "Moscow"
     target "Baghdad"
     id "E104"
-]
-  edge [
-    source "Dhaka"
-    target "Bengaluru"
-    id "E88"
 ]
   edge [
     source "Dhaka"
@@ -754,34 +669,14 @@ graph [
     id "E32"
 ]
   edge [
-    source "Seoul"
-    target "Taipei"
-    id "E83"
-]
-  edge [
-    source "Tokyo"
-    target "Shenyang"
-    id "E86"
-]
-  edge [
     source "Tokyo"
     target "Jakarta"
     id "E122"
 ]
   edge [
-    source "Dongguan"
-    target "Foshan"
-    id "E49"
-]
-  edge [
     source "Cairo"
     target "Baghdad"
     id "E33"
-]
-  edge [
-    source "Cairo"
-    target "London"
-    id "E103"
 ]
   edge [
     source "Cairo"
@@ -840,11 +735,6 @@ graph [
 ]
   edge [
     source "Foshan"
-    target "Hong Kong"
-    id "E52"
-]
-  edge [
-    source "Foshan"
     target "Chongqing"
     id "E71"
 ]
@@ -865,11 +755,6 @@ graph [
 ]
   edge [
     source "Ho Chi Minh City"
-    target "Jakarta"
-    id "E89"
-]
-  edge [
-    source "Ho Chi Minh City"
     target "Taipei"
     id "E92"
 ]
@@ -879,29 +764,14 @@ graph [
     id "E117"
 ]
   edge [
-    source "London"
-    target "New York City"
-    id "E120"
-]
-  edge [
     source "New York City"
-    target "New York City"
-    id "E48"
+    target "Abidjan"
+    id "Non_labeled_0"
 ]
   edge [
     source "Jakarta"
     target "Singapore"
     id "E43"
-]
-  edge [
-    source "Jakarta"
-    target "Taipei"
-    id "E105"
-]
-  edge [
-    source "Jakarta"
-    target "Bengaluru"
-    id "E106"
 ]
   edge [
     source "Bengaluru"
@@ -929,24 +799,9 @@ graph [
     id "E77"
 ]
   edge [
-    source "Hanoi"
-    target "Singapore"
-    id "E91"
-]
-  edge [
-    source "Taipei"
-    target "Hong Kong"
-    id "E74"
-]
-  edge [
     source "Lima"
     target "Bogota"
     id "E45"
-]
-  edge [
-    source "Lima"
-    target "Rio de Janeiro"
-    id "E118"
 ]
   edge [
     source "Bogota"

@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Global_50_125_mst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Global"
   node [
@@ -411,6 +411,11 @@ graph [
     id "E114"
 ]
   edge [
+    source "San Jose"
+    target "Aihara"
+    id "Non_labeled_0"
+]
+  edge [
     source "Delhi"
     target "Meerut"
     id "E5"
@@ -419,11 +424,6 @@ graph [
     source "Delhi"
     target "Bannu"
     id "E6"
-]
-  edge [
-    source "Delhi"
-    target "Kiratpur"
-    id "E49"
 ]
   edge [
     source "Delhi"
@@ -491,29 +491,14 @@ graph [
     id "E61"
 ]
   edge [
-    source "Derby"
-    target "Surry"
-    id "E77"
-]
-  edge [
     source "Aihara"
     target "Pyongyang"
     id "E15"
 ]
   edge [
     source "Aihara"
-    target "Chengde"
-    id "E91"
-]
-  edge [
-    source "Aihara"
     target "New Taipei City"
     id "E94"
-]
-  edge [
-    source "Aihara"
-    target "Segamat"
-    id "E120"
 ]
   edge [
     source "Cinisi"
@@ -527,33 +512,13 @@ graph [
 ]
   edge [
     source "Cinisi"
-    target "Istanbul"
-    id "E79"
-]
-  edge [
-    source "Cinisi"
-    target "Bochum"
-    id "E83"
-]
-  edge [
-    source "Cinisi"
     target "San Morales"
     id "E85"
 ]
   edge [
     source "Cinisi"
-    target "Alexandria"
-    id "E86"
-]
-  edge [
-    source "Cinisi"
     target "Mediouna"
     id "E90"
-]
-  edge [
-    source "Cinisi"
-    target "Al Qadarif"
-    id "E108"
 ]
   edge [
     source "Cinisi"
@@ -576,16 +541,6 @@ graph [
     id "E56"
 ]
   edge [
-    source "London"
-    target "San Morales"
-    id "E73"
-]
-  edge [
-    source "London"
-    target "Bannu"
-    id "E122"
-]
-  edge [
     source "Shunhua"
     target "Nanning"
     id "E20"
@@ -597,18 +552,8 @@ graph [
 ]
   edge [
     source "Shunhua"
-    target "Weisi Science & Technology Garden"
-    id "E51"
-]
-  edge [
-    source "Shunhua"
     target "Guangzhou"
     id "E52"
-]
-  edge [
-    source "Shunhua"
-    target "Chengdu"
-    id "E57"
 ]
   edge [
     source "San Morales"
@@ -626,19 +571,9 @@ graph [
     id "E24"
 ]
   edge [
-    source "San Morales"
-    target "Porz am Rhein"
-    id "E81"
-]
-  edge [
     source "Oakdale"
     target "Flossmoor"
     id "E25"
-]
-  edge [
-    source "Oakdale"
-    target "Surry"
-    id "E65"
 ]
   edge [
     source "Segamat"
@@ -661,11 +596,6 @@ graph [
     id "E101"
 ]
   edge [
-    source "Segamat"
-    target "New Taipei City"
-    id "E106"
-]
-  edge [
     source "Tangail"
     target "Comilla"
     id "E28"
@@ -677,18 +607,8 @@ graph [
 ]
   edge [
     source "Tangail"
-    target "Yangon"
-    id "E70"
-]
-  edge [
-    source "Tangail"
     target "Villupuram"
     id "E87"
-]
-  edge [
-    source "Tangail"
-    target "Chengdu"
-    id "E96"
 ]
   edge [
     source "Maxent"
@@ -717,33 +637,13 @@ graph [
 ]
   edge [
     source "Nanning"
-    target "Weisi Science & Technology Garden"
-    id "E53"
-]
-  edge [
-    source "Nanning"
     target "Ziyang"
     id "E59"
-]
-  edge [
-    source "Nanning"
-    target "Chengdu"
-    id "E62"
 ]
   edge [
     source "Bengaluru"
     target "Villupuram"
     id "E33"
-]
-  edge [
-    source "Bengaluru"
-    target "Meerut"
-    id "E76"
-]
-  edge [
-    source "Bengaluru"
-    target "Kiratpur"
-    id "E78"
 ]
   edge [
     source "Bengaluru"
@@ -792,23 +692,8 @@ graph [
 ]
   edge [
     source "Al Qadarif"
-    target "Alexandria"
-    id "E102"
-]
-  edge [
-    source "Al Qadarif"
-    target "Istanbul"
-    id "E105"
-]
-  edge [
-    source "Al Qadarif"
     target "Lagos"
     id "E110"
-]
-  edge [
-    source "Al Qadarif"
-    target "Villupuram"
-    id "E118"
 ]
   edge [
     source "Porz am Rhein"
@@ -822,18 +707,13 @@ graph [
 ]
   edge [
     source "Lagos"
-    target "Johannesburg"
-    id "E115"
+    target "Sao Paulo"
+    id "Non_labeled_1"
 ]
   edge [
     source "Chengdu"
     target "Ziyang"
     id "E39"
-]
-  edge [
-    source "Chengdu"
-    target "Weisi Science & Technology Garden"
-    id "E60"
 ]
   edge [
     source "Chengdu"
@@ -861,11 +741,6 @@ graph [
     id "E109"
 ]
   edge [
-    source "Chengdu"
-    target "Bannu"
-    id "E116"
-]
-  edge [
     source "Weisi Science & Technology Garden"
     target "Guangzhou"
     id "E40"
@@ -874,11 +749,6 @@ graph [
     source "Weisi Science & Technology Garden"
     target "New Taipei City"
     id "E41"
-]
-  edge [
-    source "Weisi Science & Technology Garden"
-    target "Hefei"
-    id "E64"
 ]
   edge [
     source "Weisi Science & Technology Garden"
@@ -894,11 +764,6 @@ graph [
     source "Istanbul"
     target "San Luca"
     id "E43"
-]
-  edge [
-    source "Istanbul"
-    target "Giza"
-    id "E74"
 ]
   edge [
     source "Istanbul"
@@ -949,11 +814,6 @@ graph [
     source "Hefei"
     target "Guangzhou"
     id "E63"
-]
-  edge [
-    source "Bochum"
-    target "Bannu"
-    id "E121"
 ]
   edge [
     source "San Luca"

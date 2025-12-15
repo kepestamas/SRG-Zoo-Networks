@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Europe_50_125_mst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Europe"
   node [
@@ -407,11 +407,6 @@ graph [
 ]
   edge [
     source "Altona"
-    target "Wroclaw"
-    id "E108"
-]
-  edge [
-    source "Altona"
     target "Meikle Earnock"
     id "E117"
 ]
@@ -447,18 +442,13 @@ graph [
 ]
   edge [
     source "Diyarbakir"
-    target "Beykonak"
-    id "E82"
-]
-  edge [
-    source "Diyarbakir"
     target "Antalya"
     id "E91"
 ]
   edge [
     source "Diyarbakir"
-    target "Istanbul"
-    id "E104"
+    target "Astrakhan"
+    id "Non_labeled_0"
 ]
   edge [
     source "Pieta"
@@ -506,11 +496,6 @@ graph [
     id "E78"
 ]
   edge [
-    source "Essen"
-    target "Meikle Earnock"
-    id "E112"
-]
-  edge [
     source "Wroclaw"
     target "Boguszow-Gorce"
     id "E10"
@@ -524,11 +509,6 @@ graph [
     source "Wroclaw"
     target "Rathenow"
     id "E86"
-]
-  edge [
-    source "Wroclaw"
-    target "Dunaalmas"
-    id "E88"
 ]
   edge [
     source "Wroclaw"
@@ -561,11 +541,6 @@ graph [
     id "E12"
 ]
   edge [
-    source "Lich"
-    target "Ludwigshafen am Rhein"
-    id "E49"
-]
-  edge [
     source "Reading"
     target "London"
     id "E13"
@@ -591,24 +566,9 @@ graph [
     id "E17"
 ]
   edge [
-    source "el Putxet i el Farro"
-    target "Porto Viro"
-    id "E115"
-]
-  edge [
-    source "el Putxet i el Farro"
-    target "Saint-Gregoire"
-    id "E124"
-]
-  edge [
     source "Cardiff"
     target "Meikle Earnock"
     id "E18"
-]
-  edge [
-    source "Cardiff"
-    target "London"
-    id "E52"
 ]
   edge [
     source "Cardiff"
@@ -616,19 +576,9 @@ graph [
     id "E62"
 ]
   edge [
-    source "Cardiff"
-    target "Saint-Gregoire"
-    id "E76"
-]
-  edge [
     source "Erzhausen"
     target "Ludwigshafen am Rhein"
     id "E19"
-]
-  edge [
-    source "Erzhausen"
-    target "Elxleben"
-    id "E51"
 ]
   edge [
     source "Boguszow-Gorce"
@@ -654,11 +604,6 @@ graph [
     source "Saint-Gregoire"
     target "Livry-Gargan"
     id "E60"
-]
-  edge [
-    source "Saint-Gregoire"
-    target "London"
-    id "E77"
 ]
   edge [
     source "Saint-Gregoire"
@@ -716,34 +661,19 @@ graph [
     id "E25"
 ]
   edge [
-    source "Astrakhan"
-    target "Voronezh"
-    id "E92"
-]
-  edge [
-    source "Astrakhan"
-    target "Moscow"
-    id "E114"
-]
-  edge [
     source "Volgograd"
     target "Voronezh"
     id "E26"
 ]
   edge [
     source "Volgograd"
-    target "Moscow"
-    id "E95"
+    target "Istanbul"
+    id "Non_labeled_1"
 ]
   edge [
     source "Cankaya"
     target "Istanbul"
     id "E27"
-]
-  edge [
-    source "Cankaya"
-    target "Beykonak"
-    id "E59"
 ]
   edge [
     source "Weissenfels"
@@ -771,11 +701,6 @@ graph [
     id "E98"
 ]
   edge [
-    source "Beykonak"
-    target "Berat"
-    id "E119"
-]
-  edge [
     source "Terlizzi"
     target "Berat"
     id "E30"
@@ -789,11 +714,6 @@ graph [
     source "Terlizzi"
     target "Bulqize"
     id "E72"
-]
-  edge [
-    source "Terlizzi"
-    target "Butel"
-    id "E80"
 ]
   edge [
     source "Meikle Earnock"
@@ -841,14 +761,14 @@ graph [
     id "E106"
 ]
   edge [
-    source "Sag"
-    target "Popesti"
-    id "E63"
+    source "Unteni"
+    target "Voronezh"
+    id "Non_labeled_2"
 ]
   edge [
     source "Sag"
-    target "Dunaalmas"
-    id "E84"
+    target "Popesti"
+    id "E63"
 ]
   edge [
     source "Voronezh"
@@ -859,11 +779,6 @@ graph [
     source "Surtainville"
     target "London"
     id "E65"
-]
-  edge [
-    source "Popesti"
-    target "Istanbul"
-    id "E85"
 ]
   edge [
     source "Popesti"
@@ -891,11 +806,6 @@ graph [
     id "E39"
 ]
   edge [
-    source "Berat"
-    target "Butel"
-    id "E68"
-]
-  edge [
     source "Dunaalmas"
     target "Brno"
     id "E40"
@@ -914,11 +824,6 @@ graph [
     source "Portvendres"
     target "Porto Viro"
     id "E107"
-]
-  edge [
-    source "Ludwigshafen am Rhein"
-    target "Elxleben"
-    id "E54"
 ]
   edge [
     source "Ludwigshafen am Rhein"

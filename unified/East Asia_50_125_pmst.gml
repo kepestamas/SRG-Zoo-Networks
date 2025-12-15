@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "East Asia_50_125_pmst"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "East Asia"
   node [
@@ -367,16 +367,6 @@ graph [
 ]
   edge [
     source "Shanghai"
-    target "Wuxi"
-    id "E2"
-]
-  edge [
-    source "Shanghai"
-    target "Changzhou"
-    id "E3"
-]
-  edge [
-    source "Shanghai"
     target "Dalian"
     id "E4"
 ]
@@ -396,21 +386,6 @@ graph [
     id "E7"
 ]
   edge [
-    source "Beijing"
-    target "Taiyuan"
-    id "E8"
-]
-  edge [
-    source "Beijing"
-    target "Shenyang"
-    id "E9"
-]
-  edge [
-    source "Beijing"
-    target "Harbin"
-    id "E10"
-]
-  edge [
     source "Shenzhen"
     target "New Territories"
     id "E11"
@@ -427,18 +402,8 @@ graph [
 ]
   edge [
     source "Shenzhen"
-    target "Zhongshan"
-    id "E14"
-]
-  edge [
-    source "Shenzhen"
     target "Dongguan"
     id "E15"
-]
-  edge [
-    source "Shenzhen"
-    target "Hong Kong"
-    id "E16"
 ]
   edge [
     source "Guangzhou"
@@ -449,16 +414,6 @@ graph [
     source "Guangzhou"
     target "Dongguan"
     id "E18"
-]
-  edge [
-    source "Guangzhou"
-    target "Shantou"
-    id "E19"
-]
-  edge [
-    source "Guangzhou"
-    target "Nanning"
-    id "E20"
 ]
   edge [
     source "Chengdu"
@@ -474,6 +429,11 @@ graph [
     source "Chengdu"
     target "Kunming"
     id "E23"
+]
+  edge [
+    source "Chengdu"
+    target "Xi'an"
+    id "Non_labeled_0"
 ]
   edge [
     source "Tianjin"
@@ -552,11 +512,6 @@ graph [
 ]
   edge [
     source "Dongguan"
-    target "Foshan"
-    id "E39"
-]
-  edge [
-    source "Dongguan"
     target "Zhongshan"
     id "E40"
 ]
@@ -587,8 +542,8 @@ graph [
 ]
   edge [
     source "Xi'an"
-    target "Changsha"
-    id "E46"
+    target "UEruemqi"
+    id "Non_labeled_1"
 ]
   edge [
     source "Nanjing"
@@ -604,11 +559,6 @@ graph [
     source "Nanjing"
     target "Hangzhou"
     id "E49"
-]
-  edge [
-    source "Nanjing"
-    target "Puyang"
-    id "E50"
 ]
   edge [
     source "Nanjing"
@@ -652,33 +602,13 @@ graph [
 ]
   edge [
     source "Taipei"
-    target "Fuzhou"
-    id "E59"
-]
-  edge [
-    source "Taipei"
-    target "Xiamen"
-    id "E60"
-]
-  edge [
-    source "Taipei"
     target "Shantou"
     id "E61"
-]
-  edge [
-    source "Taipei"
-    target "Ningbo"
-    id "E62"
 ]
   edge [
     source "Hong Kong"
     target "New Territories"
     id "E63"
-]
-  edge [
-    source "Hong Kong"
-    target "Zhongshan"
-    id "E64"
 ]
   edge [
     source "Hong Kong"
@@ -712,11 +642,6 @@ graph [
 ]
   edge [
     source "Qingdao"
-    target "Jinan"
-    id "E71"
-]
-  edge [
-    source "Qingdao"
     target "Changzhou"
     id "E72"
 ]
@@ -746,19 +671,9 @@ graph [
     id "E77"
 ]
   edge [
-    source "Shenyang"
-    target "Harbin"
-    id "E78"
-]
-  edge [
     source "Suzhou"
     target "Wuxi"
     id "E79"
-]
-  edge [
-    source "Suzhou"
-    target "Changzhou"
-    id "E80"
 ]
   edge [
     source "Suzhou"
@@ -794,21 +709,6 @@ graph [
     source "Dalian"
     target "Zibo"
     id "E87"
-]
-  edge [
-    source "Dalian"
-    target "Changzhou"
-    id "E88"
-]
-  edge [
-    source "Dalian"
-    target "Ningbo"
-    id "E89"
-]
-  edge [
-    source "Dalian"
-    target "Busan"
-    id "E90"
 ]
   edge [
     source "Changchun"
@@ -891,11 +791,6 @@ graph [
     id "E106"
 ]
   edge [
-    source "New Territories"
-    target "Shantou"
-    id "E107"
-]
-  edge [
     source "Kunming"
     target "Guiyang"
     id "E108"
@@ -906,24 +801,9 @@ graph [
     id "E109"
 ]
   edge [
-    source "Zhongshan"
-    target "Nanning"
-    id "E110"
-]
-  edge [
     source "Nanning"
     target "Guiyang"
     id "E111"
-]
-  edge [
-    source "Nanning"
-    target "Shantou"
-    id "E112"
-]
-  edge [
-    source "Shantou"
-    target "Fuzhou"
-    id "E113"
 ]
   edge [
     source "Shantou"
@@ -959,11 +839,6 @@ graph [
     source "Ningbo"
     target "Puyang"
     id "E120"
-]
-  edge [
-    source "Busan"
-    target "Pyongyang"
-    id "E121"
 ]
   edge [
     source "Shiyan"

@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "US_200_500_mst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "US"
   node [
@@ -587,13 +587,6 @@ graph [
     Latitude 38.8814
   ]
   node [
-    id "Dowsett Highlands"
-    label "Dowsett Highlands"
-    Internal 1
-    Longitude -157.83382
-    Latitude 21.33735
-  ]
-  node [
     id "Berwick"
     label "Berwick"
     Internal 1
@@ -837,13 +830,6 @@ graph [
     Internal 1
     Longitude -120.691
     Latitude 35.62664
-  ]
-  node [
-    id "Elmendorf Air Force Base"
-    label "Elmendorf Air Force Base"
-    Internal 1
-    Longitude -149.63139
-    Latitude 61.25703
   ]
   node [
     id "Fayetteville"
@@ -1203,13 +1189,6 @@ graph [
     Latitude 35.23591
   ]
   node [
-    id "Hawaiian Paradise Park"
-    label "Hawaiian Paradise Park"
-    Internal 1
-    Longitude -154.97306
-    Latitude 19.59333
-  ]
-  node [
     id "Milledgeville"
     label "Milledgeville"
     Internal 1
@@ -1407,11 +1386,6 @@ graph [
 ]
   edge [
     source "Arlington"
-    target "Denison"
-    id "E232"
-]
-  edge [
-    source "Arlington"
     target "Tyler"
     id "E287"
 ]
@@ -1434,16 +1408,6 @@ graph [
     source "Nashville"
     target "Murfreesboro"
     id "E8"
-]
-  edge [
-    source "Nashville"
-    target "Athens"
-    id "E9"
-]
-  edge [
-    source "Nashville"
-    target "Soddy-Daisy"
-    id "E292"
 ]
   edge [
     source "Nashville"
@@ -1541,11 +1505,6 @@ graph [
     id "E469"
 ]
   edge [
-    source "Sioux Falls"
-    target "Trenton"
-    id "E497"
-]
-  edge [
     source "Phoenix"
     target "San Tan Valley"
     id "E17"
@@ -1554,11 +1513,6 @@ graph [
     source "Phoenix"
     target "Big Park"
     id "E18"
-]
-  edge [
-    source "Phoenix"
-    target "Tucson"
-    id "E283"
 ]
   edge [
     source "Phoenix"
@@ -1577,18 +1531,8 @@ graph [
 ]
   edge [
     source "Anaheim"
-    target "Oxnard"
-    id "E201"
-]
-  edge [
-    source "Anaheim"
     target "Lancaster"
     id "E209"
-]
-  edge [
-    source "Anaheim"
-    target "Coachella"
-    id "E269"
 ]
   edge [
     source "Lexington-Fayette"
@@ -1627,11 +1571,6 @@ graph [
 ]
   edge [
     source "Dearborn Heights"
-    target "Saginaw"
-    id "E243"
-]
-  edge [
-    source "Dearborn Heights"
     target "Cleveland"
     id "E266"
 ]
@@ -1644,11 +1583,6 @@ graph [
     source "Dearborn Heights"
     target "Fort Wayne"
     id "E335"
-]
-  edge [
-    source "Dearborn Heights"
-    target "Canal Fulton"
-    id "E342"
 ]
   edge [
     source "Midland"
@@ -1667,13 +1601,8 @@ graph [
 ]
   edge [
     source "Midland"
-    target "Amarillo"
-    id "E463"
-]
-  edge [
-    source "Midland"
-    target "San Antonio"
-    id "E492"
+    target "El Paso"
+    id "Non_labeled_0"
 ]
   edge [
     source "Erie"
@@ -1747,11 +1676,6 @@ graph [
 ]
   edge [
     source "Indianapolis"
-    target "Columbus"
-    id "E32"
-]
-  edge [
-    source "Indianapolis"
     target "North Terre Haute"
     id "E33"
 ]
@@ -1817,11 +1741,6 @@ graph [
 ]
   edge [
     source "Chicago"
-    target "Milwaukee"
-    id "E244"
-]
-  edge [
-    source "Chicago"
     target "Kentwood"
     id "E330"
 ]
@@ -1867,11 +1786,6 @@ graph [
 ]
   edge [
     source "New Cumberland"
-    target "Sayre"
-    id "E324"
-]
-  edge [
-    source "New Cumberland"
     target "Pittsburgh"
     id "E393"
 ]
@@ -1892,28 +1806,13 @@ graph [
 ]
   edge [
     source "Coeur d'Alene"
-    target "Sunnyside"
-    id "E419"
-]
-  edge [
-    source "Coeur d'Alene"
     target "Council"
     id "E451"
 ]
   edge [
     source "Coeur d'Alene"
-    target "Great Falls"
-    id "E482"
-]
-  edge [
-    source "Coeur d'Alene"
     target "Seattle"
     id "E484"
-]
-  edge [
-    source "Coeur d'Alene"
-    target "Boise"
-    id "E496"
 ]
   edge [
     source "Trenton"
@@ -1924,11 +1823,6 @@ graph [
     source "Trenton"
     target "Bellevue"
     id "E357"
-]
-  edge [
-    source "Trenton"
-    target "Chanute"
-    id "E440"
 ]
   edge [
     source "Trenton"
@@ -1952,11 +1846,6 @@ graph [
 ]
   edge [
     source "Dunkirk"
-    target "Algonac"
-    id "E389"
-]
-  edge [
-    source "Dunkirk"
     target "Syracuse"
     id "E396"
 ]
@@ -1964,11 +1853,6 @@ graph [
     source "Dunkirk"
     target "Sandusky"
     id "E432"
-]
-  edge [
-    source "Dunkirk"
-    target "Tawas City"
-    id "E477"
 ]
   edge [
     source "New Orleans"
@@ -1986,29 +1870,9 @@ graph [
     id "E200"
 ]
   edge [
-    source "New Orleans"
-    target "Brent"
-    id "E322"
-]
-  edge [
     source "San Francisco"
     target "Fairfield"
     id "E51"
-]
-  edge [
-    source "San Francisco"
-    target "Hawaiian Paradise Park"
-    id "E52"
-]
-  edge [
-    source "San Francisco"
-    target "San Juan Bautista"
-    id "E205"
-]
-  edge [
-    source "San Francisco"
-    target "Susanville"
-    id "E452"
 ]
   edge [
     source "San Francisco"
@@ -2032,11 +1896,6 @@ graph [
 ]
   edge [
     source "Saint Joseph"
-    target "Chanute"
-    id "E371"
-]
-  edge [
-    source "Saint Joseph"
     target "Wichita"
     id "E444"
 ]
@@ -2047,18 +1906,8 @@ graph [
 ]
   edge [
     source "Seattle"
-    target "Elmendorf Air Force Base"
-    id "E56"
-]
-  edge [
-    source "Seattle"
     target "Troutdale"
     id "E364"
-]
-  edge [
-    source "Seattle"
-    target "Keizer"
-    id "E427"
 ]
   edge [
     source "Seattle"
@@ -2069,11 +1918,6 @@ graph [
     source "Cypress"
     target "Channelview"
     id "E57"
-]
-  edge [
-    source "Cypress"
-    target "Port Arthur"
-    id "E279"
 ]
   edge [
     source "Cypress"
@@ -2121,11 +1965,6 @@ graph [
     id "E236"
 ]
   edge [
-    source "Columbus"
-    target "Columbus"
-    id "E392"
-]
-  edge [
     source "Harrisburg"
     target "Eureka Mill"
     id "E60"
@@ -2161,16 +2000,6 @@ graph [
     id "E331"
 ]
   edge [
-    source "Harrisburg"
-    target "Pumpkin Center"
-    id "E433"
-]
-  edge [
-    source "Harrisburg"
-    target "Meads"
-    id "E473"
-]
-  edge [
     source "Santa Ynez"
     target "Taft Heights"
     id "E62"
@@ -2184,16 +2013,6 @@ graph [
     source "Santa Ynez"
     target "Paso Robles"
     id "E233"
-]
-  edge [
-    source "Santa Ynez"
-    target "Poway"
-    id "E368"
-]
-  edge [
-    source "Santa Ynez"
-    target "San Juan Bautista"
-    id "E409"
 ]
   edge [
     source "Waterbury"
@@ -2231,11 +2050,6 @@ graph [
     id "E217"
 ]
   edge [
-    source "Charlestown"
-    target "Merrimac"
-    id "E280"
-]
-  edge [
     source "Lakewood"
     target "Fort Collins"
     id "E68"
@@ -2244,11 +2058,6 @@ graph [
     source "Lakewood"
     target "Colorado Springs"
     id "E69"
-]
-  edge [
-    source "Lakewood"
-    target "Nambe"
-    id "E489"
 ]
   edge [
     source "Aurora"
@@ -2264,11 +2073,6 @@ graph [
     source "Aurora"
     target "Oshkosh"
     id "E382"
-]
-  edge [
-    source "Aurora"
-    target "Girard"
-    id "E415"
 ]
   edge [
     source "Marietta"
@@ -2297,11 +2101,6 @@ graph [
 ]
   edge [
     source "Oak Hill"
-    target "Estell Manor"
-    id "E274"
-]
-  edge [
-    source "Oak Hill"
     target "Pittsburgh"
     id "E406"
 ]
@@ -2309,16 +2108,6 @@ graph [
     source "Oak Hill"
     target "Wheeling"
     id "E441"
-]
-  edge [
-    source "Fairhaven"
-    target "Merrimac"
-    id "E208"
-]
-  edge [
-    source "Fairhaven"
-    target "North Bay Shore"
-    id "E261"
 ]
   edge [
     source "Fairhaven"
@@ -2357,11 +2146,6 @@ graph [
 ]
   edge [
     source "Decatur"
-    target "Godfrey"
-    id "E248"
-]
-  edge [
-    source "Decatur"
     target "Williamsport"
     id "E255"
 ]
@@ -2391,11 +2175,6 @@ graph [
     id "E240"
 ]
   edge [
-    source "Taft Heights"
-    target "Fresno"
-    id "E300"
-]
-  edge [
     source "Lake Shore"
     target "Lakeside"
     id "E241"
@@ -2419,11 +2198,6 @@ graph [
     source "Reno"
     target "Placerville"
     id "E79"
-]
-  edge [
-    source "Reno"
-    target "Sacramento"
-    id "E296"
 ]
   edge [
     source "Reno"
@@ -2467,11 +2241,6 @@ graph [
 ]
   edge [
     source "Athens"
-    target "Athens"
-    id "E456"
-]
-  edge [
-    source "Athens"
     target "Marianna"
     id "E459"
 ]
@@ -2496,11 +2265,6 @@ graph [
     id "E479"
 ]
   edge [
-    source "Pumpkin Center"
-    target "Jacksonville"
-    id "E493"
-]
-  edge [
     source "Jacksonville"
     target "The Villages"
     id "E83"
@@ -2517,11 +2281,6 @@ graph [
 ]
   edge [
     source "Jacksonville"
-    target "North Brooksville"
-    id "E338"
-]
-  edge [
-    source "Jacksonville"
     target "Charleston"
     id "E353"
 ]
@@ -2531,19 +2290,9 @@ graph [
     id "E359"
 ]
   edge [
-    source "Jacksonville"
-    target "Jupiter"
-    id "E414"
-]
-  edge [
     source "St. Petersburg"
     target "North Brooksville"
     id "E85"
-]
-  edge [
-    source "St. Petersburg"
-    target "The Villages"
-    id "E251"
 ]
   edge [
     source "St. Petersburg"
@@ -2559,11 +2308,6 @@ graph [
     source "St. Petersburg"
     target "Pembroke Pines"
     id "E443"
-]
-  edge [
-    source "St. Petersburg"
-    target "Ozark"
-    id "E460"
 ]
   edge [
     source "St. Petersburg"
@@ -2624,6 +2368,11 @@ graph [
     source "South Jordan"
     target "Idaho Falls"
     id "E92"
+]
+  edge [
+    source "South Jordan"
+    target "Fort Collins"
+    id "Non_labeled_1"
 ]
   edge [
     source "Pittsburgh"
@@ -2692,11 +2441,6 @@ graph [
 ]
   edge [
     source "Susanville"
-    target "Fairfield"
-    id "E398"
-]
-  edge [
-    source "Susanville"
     target "Eugene"
     id "E494"
 ]
@@ -2709,16 +2453,6 @@ graph [
     source "Antioch"
     target "Milwaukee"
     id "E102"
-]
-  edge [
-    source "Antioch"
-    target "Kewaskum"
-    id "E224"
-]
-  edge [
-    source "Antioch"
-    target "Oshkosh"
-    id "E289"
 ]
   edge [
     source "Chatsworth"
@@ -2744,11 +2478,6 @@ graph [
     source "Lawton"
     target "Hennessey"
     id "E282"
-]
-  edge [
-    source "Lawton"
-    target "Roby"
-    id "E404"
 ]
   edge [
     source "Lawton"
@@ -2807,16 +2536,6 @@ graph [
 ]
   edge [
     source "Kennewick"
-    target "Troutdale"
-    id "E390"
-]
-  edge [
-    source "Kennewick"
-    target "Boise"
-    id "E468"
-]
-  edge [
-    source "Kennewick"
     target "Eugene"
     id "E476"
 ]
@@ -2829,11 +2548,6 @@ graph [
     source "San Antonio"
     target "Laredo"
     id "E367"
-]
-  edge [
-    source "San Antonio"
-    target "Lacy-Lakeview"
-    id "E407"
 ]
   edge [
     source "San Antonio"
@@ -2917,11 +2631,6 @@ graph [
 ]
   edge [
     source "South Valley"
-    target "Las Cruces"
-    id "E119"
-]
-  edge [
-    source "South Valley"
     target "El Paso"
     id "E465"
 ]
@@ -2952,13 +2661,13 @@ graph [
 ]
   edge [
     source "Ravenna"
-    target "Bellevue"
-    id "E384"
+    target "Wichita"
+    id "E478"
 ]
   edge [
     source "Ravenna"
-    target "Wichita"
-    id "E478"
+    target "Fort Collins"
+    id "Non_labeled_2"
 ]
   edge [
     source "Keizer"
@@ -2971,19 +2680,9 @@ graph [
     id "E123"
 ]
   edge [
-    source "Keizer"
-    target "Eugene"
-    id "E214"
-]
-  edge [
     source "Troutdale"
     target "Sunnyside"
     id "E124"
-]
-  edge [
-    source "Troutdale"
-    target "Eugene"
-    id "E284"
 ]
   edge [
     source "Monroe"
@@ -3091,24 +2790,9 @@ graph [
     id "E129"
 ]
   edge [
-    source "Dowsett Highlands"
-    target "Hawaiian Paradise Park"
-    id "E130"
-]
-  edge [
     source "Berwick"
     target "Sayre"
     id "E131"
-]
-  edge [
-    source "Berwick"
-    target "Cortlandt Manor"
-    id "E328"
-]
-  edge [
-    source "Berwick"
-    target "Syracuse"
-    id "E352"
 ]
   edge [
     source "Williamsport"
@@ -3237,11 +2921,6 @@ graph [
 ]
   edge [
     source "Roby"
-    target "Mineral Wells"
-    id "E341"
-]
-  edge [
-    source "Roby"
     target "Burkburnett"
     id "E358"
 ]
@@ -3259,11 +2938,6 @@ graph [
     source "Fresno"
     target "Keyes"
     id "E145"
-]
-  edge [
-    source "Fresno"
-    target "Paso Robles"
-    id "E253"
 ]
   edge [
     source "Fresno"
@@ -3306,11 +2980,6 @@ graph [
     id "E439"
 ]
   edge [
-    source "Pottsville"
-    target "Chanute"
-    id "E457"
-]
-  edge [
     source "McRae"
     target "Milledgeville"
     id "E148"
@@ -3349,11 +3018,6 @@ graph [
     source "North Bay Shore"
     target "Toms River"
     id "E199"
-]
-  edge [
-    source "North Bay Shore"
-    target "Estell Manor"
-    id "E245"
 ]
   edge [
     source "Hamilton"
@@ -3396,24 +3060,9 @@ graph [
     id "E196"
 ]
   edge [
-    source "Fairfield"
-    target "Keyes"
-    id "E202"
-]
-  edge [
-    source "Coachella"
-    target "Lancaster"
-    id "E343"
-]
-  edge [
     source "Coachella"
     target "Big Park"
     id "E488"
-]
-  edge [
-    source "Lancaster"
-    target "Oxnard"
-    id "E221"
 ]
   edge [
     source "Idaho Falls"
@@ -3491,6 +3140,11 @@ graph [
     id "E429"
 ]
   edge [
+    source "West Glendive"
+    target "Great Falls"
+    id "Non_labeled_3"
+]
+  edge [
     source "Tyrone"
     target "Auburn"
     id "E157"
@@ -3499,11 +3153,6 @@ graph [
     source "Tyrone"
     target "Milledgeville"
     id "E158"
-]
-  edge [
-    source "Tyrone"
-    target "Soddy-Daisy"
-    id "E333"
 ]
   edge [
     source "Paso Robles"
@@ -3519,11 +3168,6 @@ graph [
     source "Fayetteville"
     target "Timmonsville"
     id "E160"
-]
-  edge [
-    source "Fayetteville"
-    target "Charleston"
-    id "E314"
 ]
   edge [
     source "Charleston"
@@ -3611,16 +3255,6 @@ graph [
     id "E169"
 ]
   edge [
-    source "Port Arthur"
-    target "Corpus Christi"
-    id "E417"
-]
-  edge [
-    source "Port Arthur"
-    target "Grand Bayou Mobile Home Park"
-    id "E434"
-]
-  edge [
     source "Coos Bay"
     target "Eugene"
     id "E170"
@@ -3671,11 +3305,6 @@ graph [
     id "E175"
 ]
   edge [
-    source "Burkburnett"
-    target "Norman"
-    id "E271"
-]
-  edge [
     source "Godfrey"
     target "Carbondale"
     id "E176"
@@ -3722,11 +3351,6 @@ graph [
 ]
   edge [
     source "Oshkosh"
-    target "Milwaukee"
-    id "E227"
-]
-  edge [
-    source "Oshkosh"
     target "Kentwood"
     id "E394"
 ]
@@ -3751,16 +3375,6 @@ graph [
     id "E184"
 ]
   edge [
-    source "Fort Collins"
-    target "Colorado Springs"
-    id "E323"
-]
-  edge [
-    source "El Paso"
-    target "Tucson"
-    id "E487"
-]
-  edge [
     source "San Tan Valley"
     target "Tucson"
     id "E185"
@@ -3769,11 +3383,6 @@ graph [
     source "San Tan Valley"
     target "Big Park"
     id "E293"
-]
-  edge [
-    source "Tucson"
-    target "Big Park"
-    id "E425"
 ]
   edge [
     source "Tyler"
@@ -3816,11 +3425,6 @@ graph [
     id "E190"
 ]
   edge [
-    source "Kentwood"
-    target "Tawas City"
-    id "E365"
-]
-  edge [
     source "Robbinsville"
     target "Milledgeville"
     id "E385"
@@ -3834,11 +3438,6 @@ graph [
     source "Ozark"
     target "North Brooksville"
     id "E442"
-]
-  edge [
-    source "Adamsville"
-    target "Marianna"
-    id "E351"
 ]
   edge [
     source "Adamsville"

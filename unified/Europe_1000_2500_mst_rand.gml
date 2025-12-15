@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Europe_1000_2500_mst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Europe"
   node [
@@ -5837,13 +5837,6 @@ graph [
     Latitude 58.29708
   ]
   node [
-    id "Usinsk"
-    label "Usinsk"
-    Internal 1
-    Longitude 57.53054
-    Latitude 66.00866
-  ]
-  node [
     id "Polohy"
     label "Polohy"
     Internal 1
@@ -7024,16 +7017,6 @@ graph [
     id "E1782"
 ]
   edge [
-    source "Istanbul"
-    target "Kirklareli"
-    id "E2305"
-]
-  edge [
-    source "Istanbul"
-    target "Duezce"
-    id "E2437"
-]
-  edge [
     source "Seriate"
     target "Vobarno"
     id "E1"
@@ -7094,11 +7077,6 @@ graph [
     id "E2126"
 ]
   edge [
-    source "Moscow"
-    target "Tver"
-    id "E2287"
-]
-  edge [
     source "Kyiv"
     target "Desna"
     id "E7"
@@ -7107,11 +7085,6 @@ graph [
     source "Kyiv"
     target "Bila Tserkva"
     id "E8"
-]
-  edge [
-    source "Kyiv"
-    target "Chernihiv"
-    id "E1952"
 ]
   edge [
     source "Kyiv"
@@ -7260,11 +7233,6 @@ graph [
 ]
   edge [
     source "Wesel"
-    target "Quakenbrueck"
-    id "E2135"
-]
-  edge [
-    source "Wesel"
     target "Oldenzaal"
     id "E2193"
 ]
@@ -7272,11 +7240,6 @@ graph [
     source "Wesel"
     target "Leuken"
     id "E2222"
-]
-  edge [
-    source "Wesel"
-    target "Gerolstein"
-    id "E2276"
 ]
   edge [
     source "Karaman"
@@ -7434,11 +7397,6 @@ graph [
     id "E1893"
 ]
   edge [
-    source "Mansfield Woodhouse"
-    target "Norwich"
-    id "E1897"
-]
-  edge [
     source "Berlin"
     target "Bad Belzig"
     id "E31"
@@ -7457,11 +7415,6 @@ graph [
     source "Berlin"
     target "Stendal"
     id "E1589"
-]
-  edge [
-    source "Berlin"
-    target "Belleben"
-    id "E2228"
 ]
   edge [
     source "Berlin"
@@ -7484,6 +7437,11 @@ graph [
     id "E33"
 ]
   edge [
+    source "Astrakhan"
+    target "Volgograd"
+    id "Non_labeled_0"
+]
+  edge [
     source "Naples"
     target "Santa Lucia"
     id "E34"
@@ -7497,16 +7455,6 @@ graph [
     source "Naples"
     target "Marina di Casal Velino"
     id "E1073"
-]
-  edge [
-    source "Naples"
-    target "Villa Santo Stefano"
-    id "E1670"
-]
-  edge [
-    source "Naples"
-    target "Rome"
-    id "E1989"
 ]
   edge [
     source "Naples"
@@ -7590,11 +7538,6 @@ graph [
 ]
   edge [
     source "Benalup-Casas Viejas"
-    target "Huelva"
-    id "E1496"
-]
-  edge [
-    source "Benalup-Casas Viejas"
     target "Teba"
     id "E1627"
 ]
@@ -7637,11 +7580,6 @@ graph [
     source "Diyarbakir"
     target "Mus"
     id "E2127"
-]
-  edge [
-    source "Diyarbakir"
-    target "Siirt"
-    id "E2203"
 ]
   edge [
     source "Leeds"
@@ -7885,11 +7823,6 @@ graph [
 ]
   edge [
     source "Lurup"
-    target "Roevershagen"
-    id "E1807"
-]
-  edge [
-    source "Lurup"
     target "Stendal"
     id "E2344"
 ]
@@ -7962,11 +7895,6 @@ graph [
     source "Lebork"
     target "Koszalin"
     id "E1672"
-]
-  edge [
-    source "Lebork"
-    target "Karnice"
-    id "E2418"
 ]
   edge [
     source "Saint Petersburg"
@@ -8059,16 +7987,6 @@ graph [
     id "E1367"
 ]
   edge [
-    source "Sector 6"
-    target "Corabia"
-    id "E2112"
-]
-  edge [
-    source "Sector 6"
-    target "Amzacea"
-    id "E2488"
-]
-  edge [
     source "Oslo"
     target "Tonsberg"
     id "E79"
@@ -8082,11 +8000,6 @@ graph [
     source "Oslo"
     target "Gol"
     id "E2012"
-]
-  edge [
-    source "Oslo"
-    target "Kristiansand"
-    id "E2370"
 ]
   edge [
     source "Dresden"
@@ -8109,14 +8022,14 @@ graph [
     id "E1341"
 ]
   edge [
-    source "Dresden"
-    target "Werdau"
-    id "E1520"
-]
-  edge [
     source "Volgograd"
     target "Krasnoarmeyskiy"
     id "E84"
+]
+  edge [
+    source "Volgograd"
+    target "Dergachi"
+    id "Non_labeled_1"
 ]
   edge [
     source "Genoa"
@@ -8257,11 +8170,6 @@ graph [
     source "Muratpasa"
     target "Isparta"
     id "E97"
-]
-  edge [
-    source "Muratpasa"
-    target "Goekceoeren"
-    id "E1995"
 ]
   edge [
     source "Muratpasa"
@@ -8454,11 +8362,6 @@ graph [
     id "E2190"
 ]
   edge [
-    source "Kazan"
-    target "Ulyanovsk"
-    id "E2331"
-]
-  edge [
     source "Pont-Eveque"
     target "Champdieu"
     id "E114"
@@ -8505,11 +8408,6 @@ graph [
 ]
   edge [
     source "Bryansk"
-    target "Mtsensk"
-    id "E2167"
-]
-  edge [
-    source "Bryansk"
     target "L'gov"
     id "E2421"
 ]
@@ -8552,16 +8450,6 @@ graph [
     source "Plymouth"
     target "Exeter"
     id "E123"
-]
-  edge [
-    source "Plymouth"
-    target "Beaminster"
-    id "E1109"
-]
-  edge [
-    source "Plymouth"
-    target "Bournemouth"
-    id "E1766"
 ]
   edge [
     source "Warsaw"
@@ -8765,11 +8653,6 @@ graph [
 ]
   edge [
     source "Budapest"
-    target "Gyor"
-    id "E1636"
-]
-  edge [
-    source "Budapest"
     target "Ozd"
     id "E1884"
 ]
@@ -8787,11 +8670,6 @@ graph [
     source "Sanliurfa"
     target "Viransehir"
     id "E1226"
-]
-  edge [
-    source "Sanliurfa"
-    target "Hasancali"
-    id "E2384"
 ]
   edge [
     source "Sacele"
@@ -8890,11 +8768,6 @@ graph [
 ]
   edge [
     source "Iscehisar"
-    target "Usak"
-    id "E1819"
-]
-  edge [
-    source "Iscehisar"
     target "Bozueyuek"
     id "E2001"
 ]
@@ -8974,6 +8847,11 @@ graph [
     id "E2064"
 ]
   edge [
+    source "Basgedikler"
+    target "Urkarakh"
+    id "Non_labeled_2"
+]
+  edge [
     source "Saratov"
     target "Atkarsk"
     id "E156"
@@ -9029,11 +8907,6 @@ graph [
     id "E1917"
 ]
   edge [
-    source "Malatya"
-    target "Sivas"
-    id "E2463"
-]
-  edge [
     source "Niva"
     target "Koge"
     id "E160"
@@ -9042,11 +8915,6 @@ graph [
     source "Niva"
     target "Halmstad"
     id "E161"
-]
-  edge [
-    source "Niva"
-    target "Arhus"
-    id "E1507"
 ]
   edge [
     source "Niva"
@@ -9130,11 +8998,6 @@ graph [
 ]
   edge [
     source "Konala"
-    target "Sysmae"
-    id "E2171"
-]
-  edge [
-    source "Konala"
     target "Vaiatu"
     id "E2299"
 ]
@@ -9157,11 +9020,6 @@ graph [
     source "Wilhelmshaven"
     target "Otterndorf"
     id "E168"
-]
-  edge [
-    source "Wilhelmshaven"
-    target "Osterronfeld"
-    id "E1383"
 ]
   edge [
     source "Wilhelmshaven"
@@ -9225,11 +9083,6 @@ graph [
 ]
   edge [
     source "Bobowa"
-    target "Cieszyn"
-    id "E2316"
-]
-  edge [
-    source "Bobowa"
     target "Spisska Nova Ves"
     id "E2386"
 ]
@@ -9257,11 +9110,6 @@ graph [
     source "Zhytomyr"
     target "Desna"
     id "E2301"
-]
-  edge [
-    source "Zhytomyr"
-    target "Rivne"
-    id "E2380"
 ]
   edge [
     source "Ulyanovsk"
@@ -9330,11 +9178,6 @@ graph [
 ]
   edge [
     source "Eixample"
-    target "Amposta"
-    id "E1631"
-]
-  edge [
-    source "Eixample"
     target "Ger"
     id "E1783"
 ]
@@ -9372,16 +9215,6 @@ graph [
     source "Buggingen"
     target "Villingen-Schwenningen"
     id "E182"
-]
-  edge [
-    source "Buggingen"
-    target "Veringenstadt"
-    id "E1874"
-]
-  edge [
-    source "Buggingen"
-    target "Karlsruhe"
-    id "E2105"
 ]
   edge [
     source "Buggingen"
@@ -9445,11 +9278,6 @@ graph [
 ]
   edge [
     source "Bournemouth"
-    target "Stroud"
-    id "E1174"
-]
-  edge [
-    source "Bournemouth"
     target "Cherbourg"
     id "E2337"
 ]
@@ -9507,11 +9335,6 @@ graph [
     source "Saeffle"
     target "OErebro"
     id "E1988"
-]
-  edge [
-    source "Saeffle"
-    target "Goeteborg"
-    id "E2327"
 ]
   edge [
     source "Saeffle"
@@ -9669,11 +9492,6 @@ graph [
     id "E1012"
 ]
   edge [
-    source "Sevastopol"
-    target "Novosel'skoye"
-    id "E1185"
-]
-  edge [
     source "Pieris"
     target "San Martino al Tagliamento"
     id "E206"
@@ -9687,11 +9505,6 @@ graph [
     source "Pieris"
     target "Treviso"
     id "E1412"
-]
-  edge [
-    source "Pieris"
-    target "Villamarzana"
-    id "E1754"
 ]
   edge [
     source "Pieris"
@@ -9775,11 +9588,6 @@ graph [
 ]
   edge [
     source "Yelyzavethradka"
-    target "Lykhivka"
-    id "E1725"
-]
-  edge [
-    source "Yelyzavethradka"
     target "Kryvyy Rih"
     id "E1886"
 ]
@@ -9797,6 +9605,11 @@ graph [
     source "Murmansk"
     target "Apatity"
     id "E216"
+]
+  edge [
+    source "Murmansk"
+    target "Alta"
+    id "Non_labeled_3"
 ]
   edge [
     source "Bad Koesen"
@@ -9902,11 +9715,6 @@ graph [
     source "Rome"
     target "Villa Santo Stefano"
     id "E1124"
-]
-  edge [
-    source "Rome"
-    target "Perugia"
-    id "E2048"
 ]
   edge [
     source "Rome"
@@ -10070,21 +9878,6 @@ graph [
 ]
   edge [
     source "Montegranaro"
-    target "Casalincontrada"
-    id "E1710"
-]
-  edge [
-    source "Montegranaro"
-    target "Avezzano"
-    id "E2032"
-]
-  edge [
-    source "Montegranaro"
-    target "Savignano sul Rubicone"
-    id "E2063"
-]
-  edge [
-    source "Montegranaro"
     target "Sannicandro Garganico"
     id "E2239"
 ]
@@ -10149,19 +9942,9 @@ graph [
     id "E1164"
 ]
   edge [
-    source "Eichstaett"
-    target "Stuttgart"
-    id "E2177"
-]
-  edge [
     source "Gdynia"
     target "Malbork"
     id "E247"
-]
-  edge [
-    source "Gdynia"
-    target "Olsztyn"
-    id "E1616"
 ]
   edge [
     source "Gdynia"
@@ -10292,11 +10075,6 @@ graph [
     source "Vilnius"
     target "Panevezys"
     id "E1975"
-]
-  edge [
-    source "Vilnius"
-    target "Birzai"
-    id "E2341"
 ]
   edge [
     source "Duezce"
@@ -10502,11 +10280,6 @@ graph [
     source "Edinburgh"
     target "Whitehaven"
     id "E1696"
-]
-  edge [
-    source "Edinburgh"
-    target "Londonderry County Borough"
-    id "E2479"
 ]
   edge [
     source "Voronezh"
@@ -10774,11 +10547,6 @@ graph [
     id "E2087"
 ]
   edge [
-    source "Palermo"
-    target "Paola"
-    id "E2449"
-]
-  edge [
     source "Limerick"
     target "Birr"
     id "E298"
@@ -10792,11 +10560,6 @@ graph [
     source "Limerick"
     target "Cork"
     id "E300"
-]
-  edge [
-    source "Limerick"
-    target "Monasterevin"
-    id "E1792"
 ]
   edge [
     source "Lykhivka"
@@ -10842,11 +10605,6 @@ graph [
     source "Torri di Quartesolo"
     target "Codisotto"
     id "E1353"
-]
-  edge [
-    source "Torri di Quartesolo"
-    target "Bologna"
-    id "E1776"
 ]
   edge [
     source "Osmaniye"
@@ -10970,28 +10728,13 @@ graph [
 ]
   edge [
     source "Goerele"
-    target "Fatsa"
-    id "E1286"
-]
-  edge [
-    source "Goerele"
     target "Sebin Karahisar"
     id "E1423"
 ]
   edge [
     source "Goerele"
-    target "Arhavi"
-    id "E2061"
-]
-  edge [
-    source "Goerele"
     target "Erzincan"
     id "E2186"
-]
-  edge [
-    source "Goerele"
-    target "Samsun"
-    id "E2256"
 ]
   edge [
     source "Marseille 11"
@@ -11007,11 +10750,6 @@ graph [
     source "Marseille 11"
     target "Montpellier"
     id "E1994"
-]
-  edge [
-    source "Marseille 11"
-    target "Chateauneuf-Grasse"
-    id "E2002"
 ]
   edge [
     source "Marseille 11"
@@ -11077,11 +10815,6 @@ graph [
     source "Sedziejowice"
     target "Lowicz"
     id "E1350"
-]
-  edge [
-    source "Sedziejowice"
-    target "Milicz"
-    id "E1858"
 ]
   edge [
     source "Sedziejowice"
@@ -11274,11 +11007,6 @@ graph [
     id "E1088"
 ]
   edge [
-    source "Birkenhead"
-    target "Whitehaven"
-    id "E1380"
-]
-  edge [
     source "Lisbon"
     target "Obidos"
     id "E344"
@@ -11287,11 +11015,6 @@ graph [
     source "Lisbon"
     target "Santo Andre"
     id "E345"
-]
-  edge [
-    source "Lisbon"
-    target "Aljustrel"
-    id "E1282"
 ]
   edge [
     source "Lisbon"
@@ -11409,16 +11132,6 @@ graph [
     id "E1143"
 ]
   edge [
-    source "Bari"
-    target "Sannicandro Garganico"
-    id "E1397"
-]
-  edge [
-    source "Bari"
-    target "Carpignano Salentino"
-    id "E2277"
-]
-  edge [
     source "Dortmund"
     target "Attendorn"
     id "E355"
@@ -11529,11 +11242,6 @@ graph [
     id "E365"
 ]
   edge [
-    source "Tirana"
-    target "Krume"
-    id "E1661"
-]
-  edge [
     source "Huelva"
     target "Sanlucar de Barrameda"
     id "E366"
@@ -11562,11 +11270,6 @@ graph [
     source "Kiuruvesi"
     target "Oulu"
     id "E2280"
-]
-  edge [
-    source "Kiuruvesi"
-    target "Kemi"
-    id "E2371"
 ]
   edge [
     source "Targu Jiu"
@@ -11695,11 +11398,6 @@ graph [
 ]
   edge [
     source "Pauillac"
-    target "Jard-sur-Mer"
-    id "E1579"
-]
-  edge [
-    source "Pauillac"
     target "Villeneuve-sur-Lot"
     id "E2143"
 ]
@@ -11742,11 +11440,6 @@ graph [
     source "Alytus"
     target "Hrodna"
     id "E382"
-]
-  edge [
-    source "Alytus"
-    target "Siauliai"
-    id "E2377"
 ]
   edge [
     source "Alytus"
@@ -11839,11 +11532,6 @@ graph [
     id "E1545"
 ]
   edge [
-    source "Terrarossa"
-    target "Pavia"
-    id "E1892"
-]
-  edge [
     source "Zagreb"
     target "Ivanovec"
     id "E387"
@@ -11927,11 +11615,6 @@ graph [
     source "OEdemis"
     target "Bergama"
     id "E1842"
-]
-  edge [
-    source "OEdemis"
-    target "Simav"
-    id "E1973"
 ]
   edge [
     source "Cherkasy"
@@ -12179,11 +11862,6 @@ graph [
     id "E1898"
 ]
   edge [
-    source "Anapa"
-    target "Sochi"
-    id "E2326"
-]
-  edge [
     source "Rostov-na-Donu"
     target "Taganrog"
     id "E416"
@@ -12242,11 +11920,6 @@ graph [
     source "Koszalin"
     target "Chojnice"
     id "E1613"
-]
-  edge [
-    source "Koszalin"
-    target "Drawno"
-    id "E1711"
 ]
   edge [
     source "Trelleborg"
@@ -12345,11 +12018,6 @@ graph [
 ]
   edge [
     source "Coudekerque-Branche"
-    target "Yerville"
-    id "E1962"
-]
-  edge [
-    source "Coudekerque-Branche"
     target "Tournai"
     id "E2322"
 ]
@@ -12402,16 +12070,6 @@ graph [
     source "Ozd"
     target "Abony"
     id "E1777"
-]
-  edge [
-    source "Ozd"
-    target "Tunyogmatolcs"
-    id "E2297"
-]
-  edge [
-    source "Ozd"
-    target "Dunavecse"
-    id "E2369"
 ]
   edge [
     source "Ozd"
@@ -12485,11 +12143,6 @@ graph [
 ]
   edge [
     source "Athens"
-    target "Volos"
-    id "E1810"
-]
-  edge [
-    source "Athens"
     target "Kalamata"
     id "E1889"
 ]
@@ -12502,11 +12155,6 @@ graph [
     source "Monein"
     target "Fago"
     id "E436"
-]
-  edge [
-    source "Monein"
-    target "Villeneuve-sur-Lot"
-    id "E2265"
 ]
   edge [
     source "Monein"
@@ -12582,16 +12230,6 @@ graph [
     source "Alcarras"
     target "Olocau del Rey"
     id "E1919"
-]
-  edge [
-    source "Alcarras"
-    target "Ger"
-    id "E2139"
-]
-  edge [
-    source "Alcarras"
-    target "Fago"
-    id "E2356"
 ]
   edge [
     source "Vobarno"
@@ -12710,11 +12348,6 @@ graph [
 ]
   edge [
     source "Isparta"
-    target "Alanya"
-    id "E1990"
-]
-  edge [
-    source "Isparta"
     target "Manavgat"
     id "E2028"
 ]
@@ -12772,11 +12405,6 @@ graph [
     source "Buinsk"
     target "Glotovka"
     id "E2221"
-]
-  edge [
-    source "Cork"
-    target "Galway"
-    id "E2258"
 ]
   edge [
     source "Cork"
@@ -12847,11 +12475,6 @@ graph [
     source "Staryy Oskol"
     target "Kursk"
     id "E1903"
-]
-  edge [
-    source "Staryy Oskol"
-    target "Pavlovsk"
-    id "E2420"
 ]
   edge [
     source "Starachowice"
@@ -13034,11 +12657,6 @@ graph [
     id "E1065"
 ]
   edge [
-    source "Exeter"
-    target "Saint Stephen"
-    id "E1606"
-]
-  edge [
     source "Poznan"
     target "Witkowo"
     id "E473"
@@ -13140,11 +12758,6 @@ graph [
 ]
   edge [
     source "Melitopol"
-    target "Chkalovo"
-    id "E1506"
-]
-  edge [
-    source "Melitopol"
     target "Berdyansk"
     id "E1639"
 ]
@@ -13152,11 +12765,6 @@ graph [
     source "Melitopol"
     target "Chistopolye"
     id "E1879"
-]
-  edge [
-    source "Melitopol"
-    target "Feodosiya"
-    id "E2109"
 ]
   edge [
     source "Melitopol"
@@ -13232,16 +12840,6 @@ graph [
     source "Shalazhi"
     target "Verkhniye Achaluki"
     id "E491"
-]
-  edge [
-    source "Shalazhi"
-    target "Chegem Vtoroy"
-    id "E2217"
-]
-  edge [
-    source "Shalazhi"
-    target "Makhachkala"
-    id "E2363"
 ]
   edge [
     source "Trikala"
@@ -13359,16 +12957,6 @@ graph [
     id "E2003"
 ]
   edge [
-    source "Odesa"
-    target "Kholmske"
-    id "E2118"
-]
-  edge [
-    source "Odesa"
-    target "Yevpatoriya"
-    id "E2360"
-]
-  edge [
     source "Split"
     target "Zadar"
     id "E1192"
@@ -13402,11 +12990,6 @@ graph [
     source "Londonderry County Borough"
     target "Belfast"
     id "E503"
-]
-  edge [
-    source "Londonderry County Borough"
-    target "Whitehaven"
-    id "E2340"
 ]
   edge [
     source "Galsa"
@@ -13634,11 +13217,6 @@ graph [
     id "E520"
 ]
   edge [
-    source "Almunecar"
-    target "Estepona"
-    id "E1391"
-]
-  edge [
     source "Rahachow"
     target "Svetlogorsk"
     id "E521"
@@ -13682,16 +13260,6 @@ graph [
     source "Pochinki"
     target "Glotovka"
     id "E2158"
-]
-  edge [
-    source "Pochinki"
-    target "Morgaushi"
-    id "E2430"
-]
-  edge [
-    source "Pochinki"
-    target "Nizhniy Novgorod"
-    id "E2448"
 ]
   edge [
     source "Oupeye"
@@ -13759,29 +13327,14 @@ graph [
     id "E1140"
 ]
   edge [
-    source "Tramutola"
-    target "Paola"
-    id "E1657"
-]
-  edge [
     source "Carpignano Salentino"
     target "Taranto"
     id "E534"
 ]
   edge [
     source "Carpignano Salentino"
-    target "Policoro"
-    id "E1461"
-]
-  edge [
-    source "Carpignano Salentino"
     target "Cutro"
     id "E1854"
-]
-  edge [
-    source "Carpignano Salentino"
-    target "Marina di Gioiosa Ionica"
-    id "E2459"
 ]
   edge [
     source "Van"
@@ -13822,16 +13375,6 @@ graph [
     source "Kineshma"
     target "Kovrov"
     id "E1971"
-]
-  edge [
-    source "Kineshma"
-    target "Suzdal'"
-    id "E2207"
-]
-  edge [
-    source "Kineshma"
-    target "Nizhniy Novgorod"
-    id "E2323"
 ]
   edge [
     source "Idar-Oberstein"
@@ -13959,11 +13502,6 @@ graph [
     id "E549"
 ]
   edge [
-    source "Verkhnyachka"
-    target "Sutysky"
-    id "E1838"
-]
-  edge [
     source "Sarajevo"
     target "Nevesinje"
     id "E550"
@@ -13977,11 +13515,6 @@ graph [
     source "Sarajevo"
     target "Teslic"
     id "E1368"
-]
-  edge [
-    source "Sarajevo"
-    target "Banja Luka"
-    id "E2077"
 ]
   edge [
     source "Jablon Dabrowa"
@@ -14195,11 +13728,6 @@ graph [
 ]
   edge [
     source "Ortaffa"
-    target "Montpellier"
-    id "E1431"
-]
-  edge [
-    source "Ortaffa"
     target "Tarascon-sur-Ariege"
     id "E1712"
 ]
@@ -14272,11 +13800,6 @@ graph [
     source "Nedryhailiv"
     target "Poltava"
     id "E2163"
-]
-  edge [
-    source "Nedryhailiv"
-    target "Chernihiv"
-    id "E2477"
 ]
   edge [
     source "Soeke"
@@ -14360,8 +13883,8 @@ graph [
 ]
   edge [
     source "Nesttun"
-    target "Kristiansand"
-    id "E2494"
+    target "Scalloway"
+    id "Non_labeled_4"
 ]
   edge [
     source "Yelets"
@@ -14377,11 +13900,6 @@ graph [
     source "Yelets"
     target "Prigorodka"
     id "E1554"
-]
-  edge [
-    source "Yelets"
-    target "Michurinsk"
-    id "E2053"
 ]
   edge [
     source "Yelets"
@@ -14417,11 +13935,6 @@ graph [
     source "Sovetskaya"
     target "Kalinovskaya"
     id "E1949"
-]
-  edge [
-    source "Sovetskaya"
-    target "Stavropol'"
-    id "E2498"
 ]
   edge [
     source "Stavropol'"
@@ -14604,11 +14117,6 @@ graph [
     id "E1667"
 ]
   edge [
-    source "Opole Lubelskie"
-    target "Przemysl"
-    id "E2283"
-]
-  edge [
     source "Oldenzaal"
     target "Terwolde"
     id "E606"
@@ -14642,11 +14150,6 @@ graph [
     source "Tolyatti"
     target "Samara"
     id "E608"
-]
-  edge [
-    source "Tolyatti"
-    target "Otradnyy"
-    id "E2022"
 ]
   edge [
     source "Kirklareli"
@@ -14737,11 +14240,6 @@ graph [
     source "Barakaldo"
     target "Berzosilla"
     id "E1540"
-]
-  edge [
-    source "Barakaldo"
-    target "Bera"
-    id "E1594"
 ]
   edge [
     source "Barakaldo"
@@ -14930,11 +14428,6 @@ graph [
 ]
   edge [
     source "Kostroma"
-    target "Rybinsk"
-    id "E1935"
-]
-  edge [
-    source "Kostroma"
     target "Neya"
     id "E2410"
 ]
@@ -14992,11 +14485,6 @@ graph [
     source "Espinho"
     target "Meadela"
     id "E1135"
-]
-  edge [
-    source "Espinho"
-    target "Obidos"
-    id "E2006"
 ]
   edge [
     source "Cluj-Napoca"
@@ -15129,11 +14617,6 @@ graph [
     id "E1677"
 ]
   edge [
-    source "Braila"
-    target "Husi"
-    id "E2245"
-]
-  edge [
     source "Homyel'"
     target "Svetlogorsk"
     id "E650"
@@ -15147,6 +14630,11 @@ graph [
     source "Homyel'"
     target "Mahilyow"
     id "E2334"
+]
+  edge [
+    source "Homyel'"
+    target "Dubrovka"
+    id "Non_labeled_5"
 ]
   edge [
     source "Khvastovichi"
@@ -15179,11 +14667,6 @@ graph [
     id "E2205"
 ]
   edge [
-    source "Smolensk"
-    target "Dubrovka"
-    id "E2226"
-]
-  edge [
     source "Arlon"
     target "Jumet"
     id "E1972"
@@ -15207,11 +14690,6 @@ graph [
     source "Sant Joan d'Alacant"
     target "Santa Eularia des Riu"
     id "E1941"
-]
-  edge [
-    source "Bury St Edmunds"
-    target "Folkestone"
-    id "E1372"
 ]
   edge [
     source "Barysaw"
@@ -15265,28 +14743,8 @@ graph [
 ]
   edge [
     source "Alanya"
-    target "Beykonak"
-    id "E1641"
-]
-  edge [
-    source "Alanya"
     target "Sarkikaraagac"
     id "E1918"
-]
-  edge [
-    source "Alanya"
-    target "Mersin"
-    id "E2313"
-]
-  edge [
-    source "Serres"
-    target "Xanthi"
-    id "E1720"
-]
-  edge [
-    source "Serres"
-    target "Volos"
-    id "E2068"
 ]
   edge [
     source "Serres"
@@ -15392,11 +14850,6 @@ graph [
     source "Belorechensk"
     target "Armavir"
     id "E1505"
-]
-  edge [
-    source "Belorechensk"
-    target "Novoukrainskiy"
-    id "E2140"
 ]
   edge [
     source "Sumy"
@@ -15547,11 +15000,6 @@ graph [
     source "Tarragona"
     target "Amposta"
     id "E677"
-]
-  edge [
-    source "Tarragona"
-    target "Olocau del Rey"
-    id "E2129"
 ]
   edge [
     source "Tarrega"
@@ -15749,11 +15197,6 @@ graph [
     id "E2242"
 ]
   edge [
-    source "Naro-Fominsk"
-    target "Tver"
-    id "E2342"
-]
-  edge [
     source "Sulecin"
     target "Chojna"
     id "E695"
@@ -15794,11 +15237,6 @@ graph [
     id "E1199"
 ]
   edge [
-    source "Mormanno"
-    target "Maida"
-    id "E1831"
-]
-  edge [
     source "Tovarnik"
     target "Lukavac"
     id "E699"
@@ -15812,11 +15250,6 @@ graph [
     source "Mont-de-Marsan"
     target "Villeneuve-sur-Lot"
     id "E1713"
-]
-  edge [
-    source "Mont-de-Marsan"
-    target "Saint-Romain-de-Benet"
-    id "E2113"
 ]
   edge [
     source "Crevecoeur-le-Grand"
@@ -15900,16 +15333,6 @@ graph [
 ]
   edge [
     source "Roevershagen"
-    target "Karlshagen"
-    id "E1558"
-]
-  edge [
-    source "Roevershagen"
-    target "Osterronfeld"
-    id "E1774"
-]
-  edge [
-    source "Roevershagen"
     target "Stendal"
     id "E2374"
 ]
@@ -15965,11 +15388,6 @@ graph [
 ]
   edge [
     source "Zamora"
-    target "Becedas"
-    id "E1876"
-]
-  edge [
-    source "Zamora"
     target "Verin"
     id "E2179"
 ]
@@ -15997,11 +15415,6 @@ graph [
     source "Toledo"
     target "Corral de Almaguer"
     id "E1080"
-]
-  edge [
-    source "Toledo"
-    target "Becedas"
-    id "E2194"
 ]
   edge [
     source "Toledo"
@@ -16077,11 +15490,6 @@ graph [
     source "Adrano"
     target "Modica"
     id "E1307"
-]
-  edge [
-    source "Adrano"
-    target "Marina di Gioiosa Ionica"
-    id "E1573"
 ]
   edge [
     source "Nigde"
@@ -16184,11 +15592,6 @@ graph [
     id "E2094"
 ]
   edge [
-    source "Sutysky"
-    target "Salkove"
-    id "E2133"
-]
-  edge [
     source "Turda"
     target "Husi"
     id "E2471"
@@ -16274,11 +15677,6 @@ graph [
     id "E1374"
 ]
   edge [
-    source "Dobrzen Wielki"
-    target "Legnica"
-    id "E1939"
-]
-  edge [
     source "Savignano sul Rubicone"
     target "Serra Sant'Abbondio"
     id "E734"
@@ -16339,6 +15737,11 @@ graph [
     id "E740"
 ]
   edge [
+    source "Leshukonskoye"
+    target "Vodnyy"
+    id "Non_labeled_6"
+]
+  edge [
     source "Wroclaw"
     target "Milicz"
     id "E741"
@@ -16352,11 +15755,6 @@ graph [
     source "Meadela"
     target "Obidos"
     id "E2417"
-]
-  edge [
-    source "Meadela"
-    target "Santiago de Compostela"
-    id "E2424"
 ]
   edge [
     source "Terwolde"
@@ -16377,16 +15775,6 @@ graph [
     source "Czestochowa"
     target "Kraszewice"
     id "E1523"
-]
-  edge [
-    source "Czestochowa"
-    target "Lowicz"
-    id "E2248"
-]
-  edge [
-    source "Stroud"
-    target "Briton Ferry"
-    id "E1718"
 ]
   edge [
     source "Tavsanli"
@@ -16424,11 +15812,6 @@ graph [
     id "E1179"
 ]
   edge [
-    source "Domat"
-    target "Evolene"
-    id "E2333"
-]
-  edge [
     source "Les Herbiers"
     target "Nantes"
     id "E748"
@@ -16442,11 +15825,6 @@ graph [
     source "Les Herbiers"
     target "Loudun"
     id "E750"
-]
-  edge [
-    source "Les Herbiers"
-    target "Missillac"
-    id "E1691"
 ]
   edge [
     source "Arguisuelas"
@@ -16579,11 +15957,6 @@ graph [
     id "E1492"
 ]
   edge [
-    source "Simferopol"
-    target "Rykove"
-    id "E2275"
-]
-  edge [
     source "Craiova"
     target "Gemeni"
     id "E763"
@@ -16659,11 +16032,6 @@ graph [
     id "E1514"
 ]
   edge [
-    source "Castricum"
-    target "Wemeldinge"
-    id "E1885"
-]
-  edge [
     source "Edirne"
     target "Simeonovgrad"
     id "E769"
@@ -16707,11 +16075,6 @@ graph [
     source "Pradl"
     target "Hopfgarten im Brixental"
     id "E773"
-]
-  edge [
-    source "Pradl"
-    target "St. Martin of Tennengebirge"
-    id "E2188"
 ]
   edge [
     source "Pradl"
@@ -16775,11 +16138,6 @@ graph [
 ]
   edge [
     source "Aleksandrow Kujawski"
-    target "Chojnice"
-    id "E1816"
-]
-  edge [
-    source "Aleksandrow Kujawski"
     target "Lowicz"
     id "E1839"
 ]
@@ -16797,11 +16155,6 @@ graph [
     source "Corund"
     target "Faragau"
     id "E778"
-]
-  edge [
-    source "Corund"
-    target "Beclean"
-    id "E1694"
 ]
   edge [
     source "Grasten"
@@ -16822,11 +16175,6 @@ graph [
     source "Grasten"
     target "Varde"
     id "E1077"
-]
-  edge [
-    source "Grasten"
-    target "Koge"
-    id "E1865"
 ]
   edge [
     source "Leninogorsk"
@@ -16874,11 +16222,6 @@ graph [
     id "E1738"
 ]
   edge [
-    source "St. Martin of Tennengebirge"
-    target "Linz"
-    id "E1770"
-]
-  edge [
     source "Dunavecse"
     target "Abony"
     id "E1205"
@@ -16919,11 +16262,6 @@ graph [
     id "E1728"
 ]
   edge [
-    source "Chistopolye"
-    target "Yalta"
-    id "E1976"
-]
-  edge [
     source "Auseu"
     target "Berettyoujfalu"
     id "E787"
@@ -16942,11 +16280,6 @@ graph [
     source "Knezmost"
     target "Litomerice"
     id "E1024"
-]
-  edge [
-    source "Knezmost"
-    target "Pribram"
-    id "E1767"
 ]
   edge [
     source "Knezmost"
@@ -17084,11 +16417,6 @@ graph [
     id "E2161"
 ]
   edge [
-    source "Sarapul"
-    target "Glazov"
-    id "E2484"
-]
-  edge [
     source "Dundee"
     target "Aberdeen"
     id "E799"
@@ -17097,11 +16425,6 @@ graph [
     source "Dundee"
     target "Newbiggin-by-the-Sea"
     id "E1822"
-]
-  edge [
-    source "Dundee"
-    target "Brampton"
-    id "E1825"
 ]
   edge [
     source "Dundee"
@@ -17137,11 +16460,6 @@ graph [
     source "Loperhet"
     target "Groix"
     id "E1069"
-]
-  edge [
-    source "Loperhet"
-    target "Saint-Cast-le-Guildo"
-    id "E1638"
 ]
   edge [
     source "Loperhet"
@@ -17264,11 +16582,6 @@ graph [
     id "E2346"
 ]
   edge [
-    source "Kharovsk"
-    target "Lyubim"
-    id "E2395"
-]
-  edge [
     source "AElmhult"
     target "Halmstad"
     id "E814"
@@ -17332,6 +16645,11 @@ graph [
     source "Vitebsk"
     target "Novopolotsk"
     id "E819"
+]
+  edge [
+    source "Vitebsk"
+    target "Ostashkov"
+    id "Non_labeled_7"
 ]
   edge [
     source "Tragano"
@@ -17434,6 +16752,11 @@ graph [
     id "E826"
 ]
   edge [
+    source "Chupa"
+    target "Petrozavodsk"
+    id "Non_labeled_8"
+]
+  edge [
     source "Kamskiye Polyany"
     target "Malmyzh"
     id "E827"
@@ -17495,11 +16818,6 @@ graph [
 ]
   edge [
     source "Mustafakemalpasa"
-    target "Corlu"
-    id "E1398"
-]
-  edge [
-    source "Mustafakemalpasa"
     target "Simav"
     id "E1780"
 ]
@@ -17532,11 +16850,6 @@ graph [
     source "Karnice"
     target "Karlshagen"
     id "E835"
-]
-  edge [
-    source "Karnice"
-    target "Wittenhagen"
-    id "E2409"
 ]
   edge [
     source "Teslic"
@@ -17577,11 +16890,6 @@ graph [
     source "Groix"
     target "Jard-sur-Mer"
     id "E2067"
-]
-  edge [
-    source "Kingston upon Hull"
-    target "Newbiggin-by-the-Sea"
-    id "E1895"
 ]
   edge [
     source "Birzai"
@@ -17754,6 +17062,11 @@ graph [
     id "E2411"
 ]
   edge [
+    source "Meydancik"
+    target "Sochi"
+    id "Non_labeled_9"
+]
+  edge [
     source "Tromso"
     target "Bogen"
     id "E855"
@@ -17784,11 +17097,6 @@ graph [
     id "E860"
 ]
   edge [
-    source "Kholmske"
-    target "Novosel'skoye"
-    id "E2461"
-]
-  edge [
     source "Ryazan'"
     target "Korablino"
     id "E861"
@@ -17807,11 +17115,6 @@ graph [
     source "Ryazan'"
     target "Vyksa"
     id "E2372"
-]
-  edge [
-    source "Ryazan'"
-    target "Michurinsk"
-    id "E2489"
 ]
   edge [
     source "Villanueva de Argecilla"
@@ -18004,11 +17307,6 @@ graph [
     id "E877"
 ]
   edge [
-    source "Es Castell"
-    target "Son Rapinya"
-    id "E1534"
-]
-  edge [
     source "Novodvinsk"
     target "Mirnyy"
     id "E878"
@@ -18027,11 +17325,6 @@ graph [
     source "Zilina"
     target "Liptovsky Mikulas"
     id "E881"
-]
-  edge [
-    source "Zilina"
-    target "Spisska Nova Ves"
-    id "E2050"
 ]
   edge [
     source "Korablino"
@@ -18112,16 +17405,6 @@ graph [
     source "Orihuela"
     target "Yecla"
     id "E888"
-]
-  edge [
-    source "Orihuela"
-    target "Santa Eularia des Riu"
-    id "E2315"
-]
-  edge [
-    source "Orihuela"
-    target "Almeria"
-    id "E2464"
 ]
   edge [
     source "Yoshkar-Ola"
@@ -18217,11 +17500,6 @@ graph [
     source "Vranje"
     target "Prokuplje"
     id "E896"
-]
-  edge [
-    source "Vranje"
-    target "Bor"
-    id "E2336"
 ]
   edge [
     source "Corral de Almaguer"
@@ -18404,11 +17682,6 @@ graph [
     id "E1045"
 ]
   edge [
-    source "Cutro"
-    target "Policoro"
-    id "E1375"
-]
-  edge [
     source "Slavuta"
     target "Volochysk"
     id "E909"
@@ -18494,11 +17767,6 @@ graph [
     id "E2010"
 ]
   edge [
-    source "Champdieu"
-    target "Domerat"
-    id "E2110"
-]
-  edge [
     source "Vyksa"
     target "Gus'-Khrustal'nyy"
     id "E918"
@@ -18552,11 +17820,6 @@ graph [
     source "Solotvyno"
     target "Stebnyk"
     id "E2213"
-]
-  edge [
-    source "Novate Mezzola"
-    target "Lavis"
-    id "E1943"
 ]
   edge [
     source "Campina"
@@ -18629,11 +17892,6 @@ graph [
     id "E1116"
 ]
   edge [
-    source "Kalininskaya"
-    target "Kushchyovskaya"
-    id "E2103"
-]
-  edge [
     source "Husi"
     target "Cimislia"
     id "E927"
@@ -18669,11 +17927,6 @@ graph [
     id "E2451"
 ]
   edge [
-    source "Lavis"
-    target "Treviso"
-    id "E1527"
-]
-  edge [
     source "Volochysk"
     target "Radekhiv"
     id "E2088"
@@ -18682,6 +17935,11 @@ graph [
     source "Volochysk"
     target "Kolomyia"
     id "E2108"
+]
+  edge [
+    source "Privodino"
+    target "Neya"
+    id "Non_labeled_10"
 ]
   edge [
     source "Soucy"
@@ -18754,11 +18012,6 @@ graph [
     id "E1922"
 ]
   edge [
-    source "Yesilova"
-    target "Yenifakili"
-    id "E2272"
-]
-  edge [
     source "Siena"
     target "Castiglione della Pescaia"
     id "E935"
@@ -18772,16 +18025,6 @@ graph [
     source "Olsztyn"
     target "Ostroleka"
     id "E1588"
-]
-  edge [
-    source "Olsztyn"
-    target "Augustow"
-    id "E2298"
-]
-  edge [
-    source "Olsztyn"
-    target "Chojnice"
-    id "E2468"
 ]
   edge [
     source "Burgos"
@@ -18917,11 +18160,6 @@ graph [
     source "Arhus"
     target "Sulsted"
     id "E1727"
-]
-  edge [
-    source "Arhus"
-    target "Varde"
-    id "E1881"
 ]
   edge [
     source "Balikesir"
@@ -19069,6 +18307,11 @@ graph [
     id "E963"
 ]
   edge [
+    source "Insjon"
+    target "Kemi"
+    id "Non_labeled_11"
+]
+  edge [
     source "Witkowo"
     target "Bydgoszcz"
     id "E964"
@@ -19132,11 +18375,6 @@ graph [
     source "Neya"
     target "Lyubim"
     id "E2434"
-]
-  edge [
-    source "Usinsk"
-    target "Vodnyy"
-    id "E971"
 ]
   edge [
     source "Polohy"
@@ -19229,11 +18467,6 @@ graph [
     id "E978"
 ]
   edge [
-    source "Porto Cristo"
-    target "Santa Eularia des Riu"
-    id "E1787"
-]
-  edge [
     source "Fitero"
     target "Fago"
     id "E1690"
@@ -19242,11 +18475,6 @@ graph [
     source "Fitero"
     target "Banastas"
     id "E1788"
-]
-  edge [
-    source "Saransk"
-    target "Kolyshley"
-    id "E2338"
 ]
   edge [
     source "Gusev"
@@ -19297,16 +18525,6 @@ graph [
     source "Prilep"
     target "Pogradec"
     id "E2396"
-]
-  edge [
-    source "Vaala"
-    target "Kemi"
-    id "E1803"
-]
-  edge [
-    source "Cormicy"
-    target "Thelus"
-    id "E2031"
 ]
   edge [
     source "Tunyogmatolcs"
@@ -19377,6 +18595,11 @@ graph [
     source "Kaluga"
     target "Desnogorsk"
     id "E2492"
+]
+  edge [
+    source "Fauske"
+    target "Trondheim"
+    id "Non_labeled_12"
 ]
   edge [
     source "Banastas"
@@ -19472,11 +18695,6 @@ graph [
     source "Marina di Gioiosa Ionica"
     target "Maida"
     id "E996"
-]
-  edge [
-    source "Marina di Gioiosa Ionica"
-    target "Capo d'Orlando"
-    id "E1460"
 ]
   edge [
     source "Tikhoretsk"

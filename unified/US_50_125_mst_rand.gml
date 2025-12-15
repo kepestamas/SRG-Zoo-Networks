@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "US_50_125_mst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "US"
   node [
@@ -307,13 +307,6 @@ graph [
     Latitude 45.52345
   ]
   node [
-    id "Hilo"
-    label "Hilo"
-    Internal 1
-    Longitude -155.09073
-    Latitude 19.72991
-  ]
-  node [
     id "Bend"
     label "Bend"
     Internal 1
@@ -367,11 +360,6 @@ graph [
 ]
   edge [
     source "Dallas"
-    target "Bolivar Peninsula"
-    id "E69"
-]
-  edge [
-    source "Dallas"
     target "San Antonio"
     id "E79"
 ]
@@ -406,16 +394,6 @@ graph [
     id "E5"
 ]
   edge [
-    source "Newark"
-    target "North Bel Air"
-    id "E59"
-]
-  edge [
-    source "Newark"
-    target "York Beach"
-    id "E66"
-]
-  edge [
     source "Nashville"
     target "Huntsville"
     id "E6"
@@ -434,16 +412,6 @@ graph [
     source "Nashville"
     target "Pineville"
     id "E90"
-]
-  edge [
-    source "Nashville"
-    target "Chicago"
-    id "E99"
-]
-  edge [
-    source "Nashville"
-    target "Bolivar Peninsula"
-    id "E108"
 ]
   edge [
     source "Nashville"
@@ -469,11 +437,6 @@ graph [
     source "Chicago"
     target "Saint Paul"
     id "E92"
-]
-  edge [
-    source "Chicago"
-    target "Omaha"
-    id "E105"
 ]
   edge [
     source "Albuquerque"
@@ -536,11 +499,6 @@ graph [
     id "E14"
 ]
   edge [
-    source "Cleveland"
-    target "North Bel Air"
-    id "E87"
-]
-  edge [
     source "Fountain Inn"
     target "Pineville"
     id "E15"
@@ -551,11 +509,6 @@ graph [
     id "E16"
 ]
   edge [
-    source "Fountain Inn"
-    target "Decatur"
-    id "E58"
-]
-  edge [
     source "Connellsville"
     target "Washington"
     id "E17"
@@ -564,16 +517,6 @@ graph [
     source "Connellsville"
     target "North Bel Air"
     id "E67"
-]
-  edge [
-    source "Connellsville"
-    target "Virginia Beach"
-    id "E71"
-]
-  edge [
-    source "Connellsville"
-    target "Detroit"
-    id "E77"
 ]
   edge [
     source "Connellsville"
@@ -607,16 +550,6 @@ graph [
 ]
   edge [
     source "Hialeah"
-    target "Orlando"
-    id "E70"
-]
-  edge [
-    source "Hialeah"
-    target "North Charleston"
-    id "E89"
-]
-  edge [
-    source "Hialeah"
     target "Bolivar Peninsula"
     id "E119"
 ]
@@ -636,11 +569,6 @@ graph [
     id "E107"
 ]
   edge [
-    source "Detroit"
-    target "Saint Paul"
-    id "E112"
-]
-  edge [
     source "San Mateo"
     target "Sacramento"
     id "E21"
@@ -649,21 +577,6 @@ graph [
     source "San Mateo"
     target "Sherman Oaks"
     id "E22"
-]
-  edge [
-    source "San Mateo"
-    target "Hilo"
-    id "E23"
-]
-  edge [
-    source "San Mateo"
-    target "San Diego"
-    id "E86"
-]
-  edge [
-    source "San Mateo"
-    target "Albany"
-    id "E91"
 ]
   edge [
     source "San Mateo"
@@ -684,11 +597,6 @@ graph [
     source "Sherman Oaks"
     target "Newport Beach"
     id "E26"
-]
-  edge [
-    source "Sherman Oaks"
-    target "San Diego"
-    id "E53"
 ]
   edge [
     source "Indianapolis"
@@ -737,11 +645,6 @@ graph [
 ]
   edge [
     source "Orlando"
-    target "Decatur"
-    id "E102"
-]
-  edge [
-    source "Orlando"
     target "Bolivar Peninsula"
     id "E114"
 ]
@@ -749,21 +652,6 @@ graph [
     source "Cheshire"
     target "Pawtucket"
     id "E32"
-]
-  edge [
-    source "Cheshire"
-    target "Somerville"
-    id "E55"
-]
-  edge [
-    source "Cheshire"
-    target "York Beach"
-    id "E56"
-]
-  edge [
-    source "Cheshire"
-    target "Philadelphia"
-    id "E62"
 ]
   edge [
     source "Virginia Beach"
@@ -807,18 +695,8 @@ graph [
 ]
   edge [
     source "Philadelphia"
-    target "Washington"
-    id "E54"
-]
-  edge [
-    source "Philadelphia"
     target "Pawtucket"
     id "E65"
-]
-  edge [
-    source "Viera West"
-    target "Jacksonville"
-    id "E61"
 ]
   edge [
     source "Viera West"
@@ -837,18 +715,8 @@ graph [
 ]
   edge [
     source "Bolivar Peninsula"
-    target "San Antonio"
-    id "E64"
-]
-  edge [
-    source "Bolivar Peninsula"
     target "Huntsville"
     id "E103"
-]
-  edge [
-    source "Bolivar Peninsula"
-    target "Decatur"
-    id "E110"
 ]
   edge [
     source "Bolivar Peninsula"
@@ -892,11 +760,6 @@ graph [
 ]
   edge [
     source "Athens"
-    target "Pineville"
-    id "E63"
-]
-  edge [
-    source "Athens"
     target "North Charleston"
     id "E72"
 ]
@@ -911,19 +774,9 @@ graph [
     id "E52"
 ]
   edge [
-    source "San Diego"
-    target "Henderson"
-    id "E82"
-]
-  edge [
     source "Newport Beach"
     target "Beaumont"
     id "E44"
-]
-  edge [
-    source "York Beach"
-    target "Pawtucket"
-    id "E51"
 ]
   edge [
     source "Jacksonville"
@@ -946,29 +799,14 @@ graph [
     id "E47"
 ]
   edge [
-    source "Decatur"
-    target "North Charleston"
-    id "E81"
-]
-  edge [
     source "Beaumont"
     target "Henderson"
     id "E68"
 ]
   edge [
-    source "Omaha"
-    target "Billings"
-    id "E122"
-]
-  edge [
     source "Portland"
     target "Bend"
     id "E57"
-]
-  edge [
-    source "Portland"
-    target "Billings"
-    id "E121"
 ]
   edge [
     source "Bend"

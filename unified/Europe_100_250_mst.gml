@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Europe_100_250_mst"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Europe"
   node [
@@ -766,16 +766,6 @@ graph [
     id "E175"
 ]
   edge [
-    source "London"
-    target "Amsterdam"
-    id "E178"
-]
-  edge [
-    source "London"
-    target "Dublin"
-    id "E201"
-]
-  edge [
     source "Saint Petersburg"
     target "Helsinki"
     id "E5"
@@ -802,28 +792,8 @@ graph [
 ]
   edge [
     source "Ankara"
-    target "Konya"
-    id "E118"
-]
-  edge [
-    source "Ankara"
-    target "Kayseri"
-    id "E125"
-]
-  edge [
-    source "Ankara"
     target "Umraniye"
     id "E146"
-]
-  edge [
-    source "Ankara"
-    target "Malatya"
-    id "E181"
-]
-  edge [
-    source "Ankara"
-    target "Erzurum"
-    id "E212"
 ]
   edge [
     source "Ankara"
@@ -849,11 +819,6 @@ graph [
     source "Berlin"
     target "Copenhagen"
     id "E177"
-]
-  edge [
-    source "Berlin"
-    target "Goeteborg"
-    id "E229"
 ]
   edge [
     source "Madrid"
@@ -917,11 +882,6 @@ graph [
 ]
   edge [
     source "Izmir"
-    target "Bahcelievler"
-    id "E115"
-]
-  edge [
-    source "Izmir"
     target "Bagcilar"
     id "E117"
 ]
@@ -957,8 +917,8 @@ graph [
 ]
   edge [
     source "Paris"
-    target "Koeln"
-    id "E226"
+    target "Zaragoza"
+    id "Non_labeled_0"
 ]
   edge [
     source "Gaziantep"
@@ -992,18 +952,8 @@ graph [
 ]
   edge [
     source "Bucharest"
-    target "Umraniye"
-    id "E197"
-]
-  edge [
-    source "Bucharest"
     target "Sevastopol"
     id "E230"
-]
-  edge [
-    source "Bucharest"
-    target "Pristina"
-    id "E239"
 ]
   edge [
     source "Hamburg"
@@ -1019,11 +969,6 @@ graph [
     source "Hamburg"
     target "Grosszschocher"
     id "E135"
-]
-  edge [
-    source "Hamburg"
-    target "Goeteborg"
-    id "E206"
 ]
   edge [
     source "Hamburg"
@@ -1111,11 +1056,6 @@ graph [
     id "E128"
 ]
   edge [
-    source "Warsaw"
-    target "Wroclaw"
-    id "E137"
-]
-  edge [
     source "Vienna"
     target "Prague"
     id "E33"
@@ -1154,11 +1094,6 @@ graph [
     source "Barcelona"
     target "Valencia"
     id "E114"
-]
-  edge [
-    source "Barcelona"
-    target "Turin"
-    id "E234"
 ]
   edge [
     source "Stockholm"
@@ -1204,16 +1139,6 @@ graph [
     source "Kharkiv"
     target "Donetsk"
     id "E120"
-]
-  edge [
-    source "Kharkiv"
-    target "Kryvyy Rih"
-    id "E141"
-]
-  edge [
-    source "Kharkiv"
-    target "Rostov-na-Donu"
-    id "E224"
 ]
   edge [
     source "Konya"
@@ -1266,11 +1191,6 @@ graph [
     id "E142"
 ]
   edge [
-    source "Antalya"
-    target "Athens"
-    id "E238"
-]
-  edge [
     source "Belgrade"
     target "Sarajevo"
     id "E46"
@@ -1299,11 +1219,6 @@ graph [
     source "Munich"
     target "Grosszschocher"
     id "E151"
-]
-  edge [
-    source "Munich"
-    target "Kleinzschocher"
-    id "E152"
 ]
   edge [
     source "Munich"
@@ -1342,11 +1257,6 @@ graph [
 ]
   edge [
     source "Nizhniy Novgorod"
-    target "Izhevsk"
-    id "E186"
-]
-  edge [
-    source "Nizhniy Novgorod"
     target "Voronezh"
     id "E191"
 ]
@@ -1379,11 +1289,6 @@ graph [
     source "Samara"
     target "Tolyatti"
     id "E55"
-]
-  edge [
-    source "Samara"
-    target "Ulyanovsk"
-    id "E109"
 ]
   edge [
     source "Samara"
@@ -1492,11 +1397,6 @@ graph [
 ]
   edge [
     source "Brussels"
-    target "Amsterdam"
-    id "E147"
-]
-  edge [
-    source "Brussels"
     target "Koeln"
     id "E155"
 ]
@@ -1516,16 +1416,6 @@ graph [
     id "E68"
 ]
   edge [
-    source "Odesa"
-    target "Zaporizhzhya"
-    id "E124"
-]
-  edge [
-    source "Odesa"
-    target "Lviv"
-    id "E195"
-]
-  edge [
     source "Volgograd"
     target "Saratov"
     id "E69"
@@ -1534,11 +1424,6 @@ graph [
     source "Volgograd"
     target "Makhachkala"
     id "E172"
-]
-  edge [
-    source "Volgograd"
-    target "Krasnodar"
-    id "E188"
 ]
   edge [
     source "Dnipro"
@@ -1566,19 +1451,9 @@ graph [
     id "E72"
 ]
   edge [
-    source "Koeln"
-    target "Stuttgart"
-    id "E130"
-]
-  edge [
     source "Naples"
     target "Palermo"
     id "E73"
-]
-  edge [
-    source "Naples"
-    target "Genoa"
-    id "E161"
 ]
   edge [
     source "Naples"
@@ -1636,11 +1511,6 @@ graph [
     id "E166"
 ]
   edge [
-    source "Marseille"
-    target "Valencia"
-    id "E241"
-]
-  edge [
     source "Liverpool"
     target "Manchester"
     id "E76"
@@ -1649,11 +1519,6 @@ graph [
     source "Liverpool"
     target "Glasgow"
     id "E77"
-]
-  edge [
-    source "Liverpool"
-    target "Sheffield"
-    id "E104"
 ]
   edge [
     source "Turin"
@@ -1671,19 +1536,9 @@ graph [
     id "E79"
 ]
   edge [
-    source "Saratov"
-    target "Makhachkala"
-    id "E207"
-]
-  edge [
     source "Malatya"
     target "Erzurum"
     id "E140"
-]
-  edge [
-    source "Malatya"
-    target "Cankaya"
-    id "E180"
 ]
   edge [
     source "Valencia"
@@ -1697,18 +1552,8 @@ graph [
 ]
   edge [
     source "Cankaya"
-    target "Eskisehir"
-    id "E112"
-]
-  edge [
-    source "Cankaya"
     target "Erzurum"
     id "E210"
-]
-  edge [
-    source "Cankaya"
-    target "Sevastopol"
-    id "E216"
 ]
   edge [
     source "Eskisehir"
@@ -1747,11 +1592,6 @@ graph [
 ]
   edge [
     source "Bagcilar"
-    target "Umraniye"
-    id "E101"
-]
-  edge [
-    source "Bagcilar"
     target "Athens"
     id "E222"
 ]
@@ -1784,11 +1624,6 @@ graph [
     source "Amsterdam"
     target "Sheffield"
     id "E194"
-]
-  edge [
-    source "Amsterdam"
-    target "Glasgow"
-    id "E249"
 ]
   edge [
     source "Lviv"
@@ -1842,33 +1677,13 @@ graph [
 ]
   edge [
     source "Frankfurt am Main"
-    target "Duesseldorf"
-    id "E111"
-]
-  edge [
-    source "Frankfurt am Main"
     target "Grosszschocher"
     id "E131"
-]
-  edge [
-    source "Frankfurt am Main"
-    target "Kleinzschocher"
-    id "E132"
-]
-  edge [
-    source "Palermo"
-    target "Genoa"
-    id "E185"
 ]
   edge [
     source "Izhevsk"
     target "Yaroslavl"
     id "E227"
-]
-  edge [
-    source "Chisinau"
-    target "Sevastopol"
-    id "E196"
 ]
   edge [
     source "Wroclaw"
@@ -1886,19 +1701,9 @@ graph [
     id "E133"
 ]
   edge [
-    source "Glasgow"
-    target "Sheffield"
-    id "E144"
-]
-  edge [
     source "Duesseldorf"
     target "Essen"
     id "E94"
-]
-  edge [
-    source "Duesseldorf"
-    target "Dortmund"
-    id "E102"
 ]
   edge [
     source "Duesseldorf"
@@ -1906,19 +1711,9 @@ graph [
     id "E157"
 ]
   edge [
-    source "Goeteborg"
-    target "Poznan"
-    id "E242"
-]
-  edge [
     source "Kleinzschocher"
     target "Grosszschocher"
     id "E95"
-]
-  edge [
-    source "Kleinzschocher"
-    target "Dresden"
-    id "E105"
 ]
   edge [
     source "Kleinzschocher"
@@ -1934,11 +1729,6 @@ graph [
     source "Essen"
     target "Dortmund"
     id "E97"
-]
-  edge [
-    source "Bahcelievler"
-    target "Umraniye"
-    id "E100"
 ]
   edge [
     source "Umraniye"

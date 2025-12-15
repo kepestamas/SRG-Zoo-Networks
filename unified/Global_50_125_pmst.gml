@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Global_50_125_pmst"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Global"
   node [
@@ -364,16 +364,6 @@ graph [
     id "E2"
 ]
   edge [
-    source "Shanghai"
-    target "Shenyang"
-    id "E3"
-]
-  edge [
-    source "Shanghai"
-    target "Taipei"
-    id "E4"
-]
-  edge [
     source "Beijing"
     target "Tianjin"
     id "E5"
@@ -387,11 +377,6 @@ graph [
     source "Beijing"
     target "Xi'an"
     id "E7"
-]
-  edge [
-    source "Beijing"
-    target "Chengdu"
-    id "E8"
 ]
   edge [
     source "Beijing"
@@ -412,11 +397,6 @@ graph [
     source "Shenzhen"
     target "Foshan"
     id "E12"
-]
-  edge [
-    source "Shenzhen"
-    target "Hangzhou"
-    id "E13"
 ]
   edge [
     source "Shenzhen"
@@ -447,11 +427,6 @@ graph [
     source "Kinshasa"
     target "Dar es Salaam"
     id "E19"
-]
-  edge [
-    source "Kinshasa"
-    target "Abidjan"
-    id "E20"
 ]
   edge [
     source "Kinshasa"
@@ -490,11 +465,6 @@ graph [
 ]
   edge [
     source "Lagos"
-    target "Dar es Salaam"
-    id "E28"
-]
-  edge [
-    source "Lagos"
     target "London"
     id "E29"
 ]
@@ -515,11 +485,6 @@ graph [
 ]
   edge [
     source "Chengdu"
-    target "Foshan"
-    id "E33"
-]
-  edge [
-    source "Chengdu"
     target "Hanoi"
     id "E34"
 ]
@@ -527,11 +492,6 @@ graph [
     source "Chengdu"
     target "Delhi"
     id "E35"
-]
-  edge [
-    source "Chengdu"
-    target "Lahore"
-    id "E36"
 ]
   edge [
     source "Lahore"
@@ -557,11 +517,6 @@ graph [
     source "Lahore"
     target "Moscow"
     id "E41"
-]
-  edge [
-    source "Lahore"
-    target "Shenyang"
-    id "E42"
 ]
   edge [
     source "Mumbai"
@@ -595,11 +550,6 @@ graph [
 ]
   edge [
     source "Mexico City"
-    target "New York City"
-    id "E49"
-]
-  edge [
-    source "Mexico City"
     target "Lima"
     id "E50"
 ]
@@ -617,16 +567,6 @@ graph [
     source "Karachi"
     target "Bengaluru"
     id "E53"
-]
-  edge [
-    source "Karachi"
-    target "Baghdad"
-    id "E54"
-]
-  edge [
-    source "Karachi"
-    target "Cairo"
-    id "E55"
 ]
   edge [
     source "Karachi"
@@ -694,16 +634,6 @@ graph [
     id "E68"
 ]
   edge [
-    source "Wuhan"
-    target "Dongguan"
-    id "E69"
-]
-  edge [
-    source "Wuhan"
-    target "Foshan"
-    id "E70"
-]
-  edge [
     source "Moscow"
     target "Tehran"
     id "E71"
@@ -717,11 +647,6 @@ graph [
     source "Moscow"
     target "Baghdad"
     id "E73"
-]
-  edge [
-    source "Dhaka"
-    target "Bengaluru"
-    id "E74"
 ]
   edge [
     source "Dhaka"
@@ -760,11 +685,6 @@ graph [
 ]
   edge [
     source "Dongguan"
-    target "Foshan"
-    id "E82"
-]
-  edge [
-    source "Dongguan"
     target "Hangzhou"
     id "E83"
 ]
@@ -772,11 +692,6 @@ graph [
     source "Cairo"
     target "Baghdad"
     id "E84"
-]
-  edge [
-    source "Cairo"
-    target "London"
-    id "E85"
 ]
   edge [
     source "Cairo"
@@ -830,11 +745,6 @@ graph [
 ]
   edge [
     source "Foshan"
-    target "Hong Kong"
-    id "E96"
-]
-  edge [
-    source "Foshan"
     target "Chongqing"
     id "E97"
 ]
@@ -864,16 +774,6 @@ graph [
     id "E102"
 ]
   edge [
-    source "London"
-    target "New York City"
-    id "E103"
-]
-  edge [
-    source "New York City"
-    target "New York City"
-    id "E104"
-]
-  edge [
     source "New York City"
     target "Bogota"
     id "E105"
@@ -882,21 +782,6 @@ graph [
     source "Jakarta"
     target "Singapore"
     id "E106"
-]
-  edge [
-    source "Jakarta"
-    target "Hanoi"
-    id "E107"
-]
-  edge [
-    source "Jakarta"
-    target "Taipei"
-    id "E108"
-]
-  edge [
-    source "Jakarta"
-    target "Bengaluru"
-    id "E109"
 ]
   edge [
     source "Bengaluru"
@@ -924,24 +809,9 @@ graph [
     id "E114"
 ]
   edge [
-    source "Taipei"
-    target "Hong Kong"
-    id "E115"
-]
-  edge [
-    source "Taipei"
-    target "Shenyang"
-    id "E116"
-]
-  edge [
     source "Lima"
     target "Bogota"
     id "E117"
-]
-  edge [
-    source "Lima"
-    target "Rio de Janeiro"
-    id "E118"
 ]
   edge [
     source "Bogota"

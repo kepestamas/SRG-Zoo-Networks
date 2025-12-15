@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "US_50_125_pmst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "US"
   node [
@@ -355,11 +355,6 @@ graph [
 ]
   edge [
     source "New Baltimore"
-    target "Xenia"
-    id "E1"
-]
-  edge [
-    source "New Baltimore"
     target "West Mifflin"
     id "E2"
 ]
@@ -370,18 +365,8 @@ graph [
 ]
   edge [
     source "New Baltimore"
-    target "Chicago"
-    id "E4"
-]
-  edge [
-    source "New Baltimore"
     target "Madison"
     id "E5"
-]
-  edge [
-    source "New Baltimore"
-    target "High Point"
-    id "E6"
 ]
   edge [
     source "Portland"
@@ -404,11 +389,6 @@ graph [
     id "E10"
 ]
   edge [
-    source "Hamden"
-    target "Beverly"
-    id "E11"
-]
-  edge [
     source "Bel Air North"
     target "Philadelphia"
     id "E12"
@@ -417,11 +397,6 @@ graph [
     source "Bel Air North"
     target "Baileys Crossroads"
     id "E13"
-]
-  edge [
-    source "Bel Air North"
-    target "Richmond Hill"
-    id "E14"
 ]
   edge [
     source "Bel Air North"
@@ -445,28 +420,8 @@ graph [
 ]
   edge [
     source "Richmond Hill"
-    target "Ludlow"
-    id "E19"
-]
-  edge [
-    source "Richmond Hill"
     target "Beverly"
     id "E20"
-]
-  edge [
-    source "Richmond Hill"
-    target "Chester"
-    id "E21"
-]
-  edge [
-    source "Richmond Hill"
-    target "Raleigh"
-    id "E22"
-]
-  edge [
-    source "Dothan"
-    target "Columbus"
-    id "E23"
 ]
   edge [
     source "Dothan"
@@ -475,23 +430,8 @@ graph [
 ]
   edge [
     source "Dothan"
-    target "Riverview"
-    id "E25"
-]
-  edge [
-    source "Dothan"
-    target "Lehigh Acres"
-    id "E26"
-]
-  edge [
-    source "Dothan"
     target "New South Memphis"
     id "E27"
-]
-  edge [
-    source "Dothan"
-    target "Needville"
-    id "E28"
 ]
   edge [
     source "Dothan"
@@ -512,11 +452,6 @@ graph [
     source "San Angelo"
     target "Canadian"
     id "E32"
-]
-  edge [
-    source "San Angelo"
-    target "Aurora"
-    id "E33"
 ]
   edge [
     source "San Angelo"
@@ -554,6 +489,11 @@ graph [
     id "E40"
 ]
   edge [
+    source "Aurora"
+    target "Tri-Cities"
+    id "Non_labeled_0"
+]
+  edge [
     source "Raleigh"
     target "High Point"
     id "E41"
@@ -589,11 +529,6 @@ graph [
     id "E47"
 ]
   edge [
-    source "Needville"
-    target "Sunrise"
-    id "E48"
-]
-  edge [
     source "Phoenix"
     target "San Marcos"
     id "E49"
@@ -602,11 +537,6 @@ graph [
     source "Phoenix"
     target "Tracy"
     id "E50"
-]
-  edge [
-    source "San Antonio"
-    target "Houston"
-    id "E51"
 ]
   edge [
     source "San Antonio"
@@ -629,19 +559,9 @@ graph [
     id "E55"
 ]
   edge [
-    source "San Marcos"
-    target "Santa Clara"
-    id "E56"
-]
-  edge [
     source "Tallahassee"
     target "Riverview"
     id "E57"
-]
-  edge [
-    source "Tallahassee"
-    target "Columbus"
-    id "E58"
 ]
   edge [
     source "New South Memphis"
@@ -652,16 +572,6 @@ graph [
     source "New South Memphis"
     target "Springfield"
     id "E60"
-]
-  edge [
-    source "New South Memphis"
-    target "Columbus"
-    id "E61"
-]
-  edge [
-    source "New South Memphis"
-    target "Lufkin"
-    id "E62"
 ]
   edge [
     source "New South Memphis"
@@ -700,23 +610,8 @@ graph [
 ]
   edge [
     source "Charlotte"
-    target "Columbus"
-    id "E70"
-]
-  edge [
-    source "Charlotte"
     target "Riverview"
     id "E71"
-]
-  edge [
-    source "Sunrise"
-    target "Riverview"
-    id "E72"
-]
-  edge [
-    source "High Point"
-    target "Dunean"
-    id "E73"
 ]
   edge [
     source "High Point"
@@ -734,11 +629,6 @@ graph [
     id "E76"
 ]
   edge [
-    source "High Point"
-    target "Riverview"
-    id "E77"
-]
-  edge [
     source "Houston"
     target "Lufkin"
     id "E78"
@@ -747,16 +637,6 @@ graph [
     source "Houston"
     target "Dallas"
     id "E79"
-]
-  edge [
-    source "Houston"
-    target "Monroe"
-    id "E80"
-]
-  edge [
-    source "Riverview"
-    target "Columbus"
-    id "E81"
 ]
   edge [
     source "Brea"
@@ -800,13 +680,13 @@ graph [
 ]
   edge [
     source "Tri-Cities"
-    target "San Francisco"
-    id "E90"
+    target "Tracy"
+    id "E91"
 ]
   edge [
     source "Tri-Cities"
-    target "Tracy"
-    id "E91"
+    target "Madison"
+    id "Non_labeled_1"
 ]
   edge [
     source "Cuba"
@@ -835,11 +715,6 @@ graph [
 ]
   edge [
     source "Chicago"
-    target "Madison"
-    id "E97"
-]
-  edge [
-    source "Chicago"
     target "Springfield"
     id "E98"
 ]
@@ -847,11 +722,6 @@ graph [
     source "Chicago"
     target "Xenia"
     id "E99"
-]
-  edge [
-    source "York Beach"
-    target "Ludlow"
-    id "E100"
 ]
   edge [
     source "York Beach"
@@ -872,11 +742,6 @@ graph [
     source "Madison"
     target "Des Moines"
     id "E104"
-]
-  edge [
-    source "Madison"
-    target "Batavia"
-    id "E105"
 ]
   edge [
     source "Dallas"
@@ -920,23 +785,18 @@ graph [
 ]
   edge [
     source "Columbus"
-    target "Dunean"
-    id "E114"
+    target "Columbus"
+    id "E115"
 ]
   edge [
     source "Columbus"
-    target "Columbus"
-    id "E115"
+    target "Dunean"
+    id "Non_labeled_0"
 ]
   edge [
     source "Tracy"
     target "San Francisco"
     id "E116"
-]
-  edge [
-    source "Tracy"
-    target "Moreno Valley"
-    id "E117"
 ]
   edge [
     source "Springfield"
@@ -947,11 +807,6 @@ graph [
     source "Springfield"
     target "Xenia"
     id "E119"
-]
-  edge [
-    source "Philadelphia"
-    target "Baileys Crossroads"
-    id "E120"
 ]
   edge [
     source "West Mifflin"

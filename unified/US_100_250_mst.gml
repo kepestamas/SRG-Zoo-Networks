@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "US_100_250_mst"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "US"
   node [
@@ -433,13 +433,6 @@ graph [
     Latitude 39.72943
   ]
   node [
-    id "Honolulu"
-    label "Honolulu"
-    Internal 1
-    Longitude -157.85833
-    Latitude 21.30694
-  ]
-  node [
     id "Anaheim"
     label "Anaheim"
     Internal 1
@@ -536,13 +529,6 @@ graph [
     Internal 1
     Longitude -96.66696
     Latitude 40.8
-  ]
-  node [
-    id "Anchorage"
-    label "Anchorage"
-    Internal 1
-    Longitude -149.90028
-    Latitude 61.21806
   ]
   node [
     id "Ironville"
@@ -756,16 +742,6 @@ graph [
     id "E6"
 ]
   edge [
-    source "Brooklyn"
-    target "Jersey City"
-    id "E101"
-]
-  edge [
-    source "Brooklyn"
-    target "Philadelphia"
-    id "E122"
-]
-  edge [
     source "Chicago"
     target "Milwaukee"
     id "E7"
@@ -832,21 +808,6 @@ graph [
 ]
   edge [
     source "Queens"
-    target "Jersey City"
-    id "E108"
-]
-  edge [
-    source "Queens"
-    target "Philadelphia"
-    id "E124"
-]
-  edge [
-    source "Queens"
-    target "South Boston"
-    id "E154"
-]
-  edge [
-    source "Queens"
     target "Virginia Beach"
     id "E183"
 ]
@@ -864,11 +825,6 @@ graph [
     source "Phoenix"
     target "Chandler"
     id "E109"
-]
-  edge [
-    source "Phoenix"
-    target "Tucson"
-    id "E146"
 ]
   edge [
     source "Phoenix"
@@ -892,16 +848,6 @@ graph [
 ]
   edge [
     source "Philadelphia"
-    target "Jersey City"
-    id "E131"
-]
-  edge [
-    source "Philadelphia"
-    target "Washington"
-    id "E134"
-]
-  edge [
-    source "Philadelphia"
     target "Virginia Beach"
     id "E163"
 ]
@@ -914,11 +860,6 @@ graph [
     source "Manhattan"
     target "Jersey City"
     id "E99"
-]
-  edge [
-    source "Manhattan"
-    target "Newark"
-    id "E104"
 ]
   edge [
     source "San Antonio"
@@ -937,11 +878,6 @@ graph [
 ]
   edge [
     source "San Antonio"
-    target "Fort Worth"
-    id "E196"
-]
-  edge [
-    source "San Antonio"
     target "Lubbock"
     id "E239"
 ]
@@ -956,24 +892,9 @@ graph [
     id "E19"
 ]
   edge [
-    source "San Diego"
-    target "Long Beach"
-    id "E126"
-]
-  edge [
     source "The Bronx"
     target "South Boston"
     id "E20"
-]
-  edge [
-    source "The Bronx"
-    target "Newark"
-    id "E110"
-]
-  edge [
-    source "The Bronx"
-    target "Boston"
-    id "E152"
 ]
   edge [
     source "Dallas"
@@ -984,16 +905,6 @@ graph [
     source "Dallas"
     target "Arlington"
     id "E22"
-]
-  edge [
-    source "Dallas"
-    target "Fort Worth"
-    id "E115"
-]
-  edge [
-    source "Dallas"
-    target "Austin"
-    id "E172"
 ]
   edge [
     source "San Jose"
@@ -1016,19 +927,9 @@ graph [
     id "E151"
 ]
   edge [
-    source "San Jose"
-    target "Long Beach"
-    id "E229"
-]
-  edge [
     source "Austin"
     target "Fort Worth"
     id "E25"
-]
-  edge [
-    source "Austin"
-    target "Plano"
-    id "E182"
 ]
   edge [
     source "Jacksonville"
@@ -1047,18 +948,8 @@ graph [
 ]
   edge [
     source "Jacksonville"
-    target "St. Petersburg"
-    id "E174"
-]
-  edge [
-    source "Jacksonville"
     target "Raleigh"
     id "E215"
-]
-  edge [
-    source "Jacksonville"
-    target "West Raleigh"
-    id "E216"
 ]
   edge [
     source "Jacksonville"
@@ -1172,21 +1063,6 @@ graph [
 ]
   edge [
     source "San Francisco"
-    target "Honolulu"
-    id "E36"
-]
-  edge [
-    source "San Francisco"
-    target "Sacramento"
-    id "E129"
-]
-  edge [
-    source "San Francisco"
-    target "Long Beach"
-    id "E205"
-]
-  edge [
-    source "San Francisco"
     target "Portland"
     id "E248"
 ]
@@ -1197,11 +1073,6 @@ graph [
 ]
   edge [
     source "Seattle"
-    target "Anchorage"
-    id "E38"
-]
-  edge [
-    source "Seattle"
     target "Tri-Cities"
     id "E170"
 ]
@@ -1209,16 +1080,6 @@ graph [
     source "Denver"
     target "Aurora"
     id "E39"
-]
-  edge [
-    source "Denver"
-    target "Colorado Springs"
-    id "E125"
-]
-  edge [
-    source "Denver"
-    target "Albuquerque"
-    id "E233"
 ]
   edge [
     source "Washington"
@@ -1234,11 +1095,6 @@ graph [
     source "Washington"
     target "Pittsburgh"
     id "E42"
-]
-  edge [
-    source "Washington"
-    target "Virginia Beach"
-    id "E144"
 ]
   edge [
     source "Washington"
@@ -1269,11 +1125,6 @@ graph [
     source "Nashville"
     target "St. Louis"
     id "E203"
-]
-  edge [
-    source "Nashville"
-    target "Meads"
-    id "E210"
 ]
   edge [
     source "Nashville"
@@ -1322,11 +1173,6 @@ graph [
 ]
   edge [
     source "Detroit"
-    target "Fort Wayne"
-    id "E158"
-]
-  edge [
-    source "Detroit"
     target "Buffalo"
     id "E185"
 ]
@@ -1339,11 +1185,6 @@ graph [
     source "Boston"
     target "South Boston"
     id "E52"
-]
-  edge [
-    source "Boston"
-    target "Newark"
-    id "E178"
 ]
   edge [
     source "Portland"
@@ -1371,19 +1212,9 @@ graph [
     id "E236"
 ]
   edge [
-    source "New South Memphis"
-    target "Kansas City"
-    id "E247"
-]
-  edge [
     source "Memphis"
     target "St. Louis"
     id "E197"
-]
-  edge [
-    source "Memphis"
-    target "New Orleans"
-    id "E201"
 ]
   edge [
     source "Memphis"
@@ -1412,11 +1243,6 @@ graph [
 ]
   edge [
     source "Las Vegas"
-    target "Riverside"
-    id "E181"
-]
-  edge [
-    source "Las Vegas"
     target "Bakersfield"
     id "E190"
 ]
@@ -1436,16 +1262,6 @@ graph [
     id "E58"
 ]
   edge [
-    source "Milwaukee"
-    target "Saint Paul"
-    id "E214"
-]
-  edge [
-    source "Baltimore"
-    target "Newark"
-    id "E166"
-]
-  edge [
     source "Baltimore"
     target "Pittsburgh"
     id "E179"
@@ -1454,11 +1270,6 @@ graph [
     source "Baltimore"
     target "Buffalo"
     id "E211"
-]
-  edge [
-    source "Baltimore"
-    target "Cleveland"
-    id "E222"
 ]
   edge [
     source "South Boston"
@@ -1486,24 +1297,9 @@ graph [
     id "E226"
 ]
   edge [
-    source "Albuquerque"
-    target "Gilbert"
-    id "E227"
-]
-  edge [
     source "Tucson"
     target "Chandler"
     id "E61"
-]
-  edge [
-    source "Tucson"
-    target "Gilbert"
-    id "E137"
-]
-  edge [
-    source "Tucson"
-    target "Mesa"
-    id "E140"
 ]
   edge [
     source "Tucson"
@@ -1556,11 +1352,6 @@ graph [
     id "E234"
 ]
   edge [
-    source "Atlanta"
-    target "Ironville"
-    id "E235"
-]
-  edge [
     source "Omaha"
     target "Lincoln"
     id "E66"
@@ -1596,16 +1387,6 @@ graph [
     id "E68"
 ]
   edge [
-    source "Raleigh"
-    target "Greensboro"
-    id "E128"
-]
-  edge [
-    source "Raleigh"
-    target "Orlando"
-    id "E245"
-]
-  edge [
     source "Kansas City"
     target "Lincoln"
     id "E69"
@@ -1636,16 +1417,6 @@ graph [
     id "E111"
 ]
   edge [
-    source "Long Beach"
-    target "Irvine"
-    id "E112"
-]
-  edge [
-    source "Long Beach"
-    target "Bakersfield"
-    id "E148"
-]
-  edge [
     source "Mesa"
     target "Gilbert"
     id "E73"
@@ -1654,11 +1425,6 @@ graph [
     source "Mesa"
     target "Chandler"
     id "E100"
-]
-  edge [
-    source "Mesa"
-    target "Henderson"
-    id "E204"
 ]
   edge [
     source "Staten Island"
@@ -1696,19 +1462,14 @@ graph [
     id "E188"
 ]
   edge [
-    source "Tulsa"
-    target "Lubbock"
-    id "E249"
-]
-  edge [
     source "Minneapolis"
     target "Saint Paul"
     id "E78"
 ]
   edge [
     source "Minneapolis"
-    target "Madison"
-    id "E193"
+    target "Tri-Cities"
+    id "Non_labeled_0"
 ]
   edge [
     source "Wichita"
@@ -1719,11 +1480,6 @@ graph [
     source "New Orleans"
     target "Plano"
     id "E224"
-]
-  edge [
-    source "New Orleans"
-    target "Corpus Christi"
-    id "E230"
 ]
   edge [
     source "New Orleans"
@@ -1761,14 +1517,14 @@ graph [
     id "E156"
 ]
   edge [
-    source "Anaheim"
-    target "Santa Ana"
-    id "E83"
+    source "Aurora"
+    target "Tri-Cities"
+    id "Non_labeled_1"
 ]
   edge [
     source "Anaheim"
-    target "Irvine"
-    id "E107"
+    target "Santa Ana"
+    id "E83"
 ]
   edge [
     source "Anaheim"
@@ -1779,16 +1535,6 @@ graph [
     source "West Raleigh"
     target "Durham"
     id "E84"
-]
-  edge [
-    source "West Raleigh"
-    target "Greensboro"
-    id "E127"
-]
-  edge [
-    source "West Raleigh"
-    target "Norfolk"
-    id "E162"
 ]
   edge [
     source "Santa Ana"
@@ -1826,16 +1572,6 @@ graph [
     id "E89"
 ]
   edge [
-    source "Lexington"
-    target "Cincinnati"
-    id "E132"
-]
-  edge [
-    source "Lexington"
-    target "Meads"
-    id "E142"
-]
-  edge [
     source "St. Louis"
     target "Madison"
     id "E223"
@@ -1851,11 +1587,6 @@ graph [
     id "E91"
 ]
   edge [
-    source "Lexington-Fayette"
-    target "Ironville"
-    id "E141"
-]
-  edge [
     source "Cincinnati"
     target "Ironville"
     id "E147"
@@ -1864,11 +1595,6 @@ graph [
     source "Cincinnati"
     target "Fort Wayne"
     id "E160"
-]
-  edge [
-    source "Orlando"
-    target "St. Petersburg"
-    id "E138"
 ]
   edge [
     source "Stockton"
@@ -1901,16 +1627,6 @@ graph [
     id "E184"
 ]
   edge [
-    source "Henderson"
-    target "Chula Vista"
-    id "E208"
-]
-  edge [
-    source "Henderson"
-    target "Reno"
-    id "E242"
-]
-  edge [
     source "Greensboro"
     target "Winston-Salem"
     id "E94"
@@ -1934,11 +1650,6 @@ graph [
     source "Toledo"
     target "Fort Wayne"
     id "E97"
-]
-  edge [
-    source "Chula Vista"
-    target "Irvine"
-    id "E123"
 ]
   edge [
     source "Chandler"

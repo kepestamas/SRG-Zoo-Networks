@@ -2,7 +2,7 @@ graph [
   multigraph 1
   Network "Europe_50_125_pmst_rand"
   Source "generated"
-  SourceFormat "generated"
+  SourceFormat "unified"
   GeoExtent "Continent+"
   GeoLocation "Europe"
   node [
@@ -387,23 +387,18 @@ graph [
 ]
   edge [
     source "Schnelsen"
-    target "Cowpen"
-    id "E6"
-]
-  edge [
-    source "Schnelsen"
     target "Thornliebank"
     id "E7"
 ]
   edge [
     source "Schnelsen"
-    target "Czestochowa"
-    id "E8"
+    target "Saint Petersburg"
+    id "E9"
 ]
   edge [
     source "Schnelsen"
-    target "Saint Petersburg"
-    id "E9"
+    target "Berlin"
+    id "Non_labeled_0"
 ]
   edge [
     source "Obarsia-Closani"
@@ -462,11 +457,6 @@ graph [
 ]
   edge [
     source "Afyonkarahisar"
-    target "Bahcelievler"
-    id "E21"
-]
-  edge [
-    source "Afyonkarahisar"
     target "Antalya"
     id "E22"
 ]
@@ -487,18 +477,8 @@ graph [
 ]
   edge [
     source "Denizli"
-    target "Bahcelievler"
-    id "E26"
-]
-  edge [
-    source "Denizli"
     target "Bursa"
     id "E27"
-]
-  edge [
-    source "Denizli"
-    target "Motta Montecorvino"
-    id "E28"
 ]
   edge [
     source "Czestochowa"
@@ -514,11 +494,6 @@ graph [
     source "Czestochowa"
     target "Saint Petersburg"
     id "E31"
-]
-  edge [
-    source "Czestochowa"
-    target "Jelenia Gora"
-    id "E32"
 ]
   edge [
     source "Czestochowa"
@@ -552,11 +527,6 @@ graph [
 ]
   edge [
     source "Newport"
-    target "Lowestoft"
-    id "E39"
-]
-  edge [
-    source "Newport"
     target "Thornliebank"
     id "E40"
 ]
@@ -569,11 +539,6 @@ graph [
     source "Budapest"
     target "Gyor"
     id "E42"
-]
-  edge [
-    source "Budapest"
-    target "Inzenhof"
-    id "E43"
 ]
   edge [
     source "Budapest"
@@ -596,24 +561,9 @@ graph [
     id "E47"
 ]
   edge [
-    source "Sarapul"
-    target "Volgograd"
-    id "E48"
-]
-  edge [
     source "Sancraiu de Mures"
     target "Bahcelievler"
     id "E49"
-]
-  edge [
-    source "Sancraiu de Mures"
-    target "Izmir"
-    id "E50"
-]
-  edge [
-    source "Sancraiu de Mures"
-    target "Ankara"
-    id "E51"
 ]
   edge [
     source "Sovetskoye"
@@ -626,19 +576,9 @@ graph [
     id "E53"
 ]
   edge [
-    source "Sovetskoye"
-    target "Izhevsk"
-    id "E54"
-]
-  edge [
     source "Saint Petersburg"
     target "Izhevsk"
     id "E55"
-]
-  edge [
-    source "Saint Petersburg"
-    target "Volgograd"
-    id "E56"
 ]
   edge [
     source "Grabiszynek"
@@ -694,11 +634,6 @@ graph [
     source "Jelenia Gora"
     target "Inzenhof"
     id "E67"
-]
-  edge [
-    source "Jelenia Gora"
-    target "Schwetzingen"
-    id "E68"
 ]
   edge [
     source "Bursa"
@@ -771,11 +706,6 @@ graph [
     id "E82"
 ]
   edge [
-    source "Cadiz"
-    target "Brest"
-    id "E83"
-]
-  edge [
     source "Berlin"
     target "Bad Steben"
     id "E84"
@@ -802,11 +732,6 @@ graph [
 ]
   edge [
     source "Motta Montecorvino"
-    target "Senago"
-    id "E89"
-]
-  edge [
-    source "Motta Montecorvino"
     target "Palma"
     id "E90"
 ]
@@ -814,11 +739,6 @@ graph [
     source "Motta Montecorvino"
     target "Izmir"
     id "E91"
-]
-  edge [
-    source "Motta Montecorvino"
-    target "Antalya"
-    id "E92"
 ]
   edge [
     source "Gaziantep"
@@ -836,11 +756,6 @@ graph [
     id "E95"
 ]
   edge [
-    source "Gaziantep"
-    target "Volgograd"
-    id "E96"
-]
-  edge [
     source "Valkenswaard"
     target "Lowestoft"
     id "E97"
@@ -851,19 +766,9 @@ graph [
     id "E98"
 ]
   edge [
-    source "Valkenswaard"
-    target "Schwetzingen"
-    id "E99"
-]
-  edge [
     source "Izhevsk"
     target "Saratov"
     id "E100"
-]
-  edge [
-    source "Antalya"
-    target "Izmir"
-    id "E101"
 ]
   edge [
     source "Schwetzingen"
@@ -927,23 +832,8 @@ graph [
 ]
   edge [
     source "Beziers"
-    target "Monnetier-Mornex"
-    id "E114"
-]
-  edge [
-    source "Beziers"
-    target "Brest"
-    id "E115"
-]
-  edge [
-    source "Beziers"
     target "Turin"
     id "E116"
-]
-  edge [
-    source "Beziers"
-    target "Senago"
-    id "E117"
 ]
   edge [
     source "Palma"
@@ -964,11 +854,6 @@ graph [
     source "Stadskanaal"
     target "Lowestoft"
     id "E121"
-]
-  edge [
-    source "Thornliebank"
-    target "Lowestoft"
-    id "E122"
 ]
   edge [
     source "Monnetier-Mornex"
